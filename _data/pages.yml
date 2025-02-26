@@ -1,0 +1,15 @@
+pages:
+- title: Home
+  url: /
+- title: Research
+  url: /research
+- title: Publications
+  url: /publications
+- title: People
+  url: /people
+- title: Education
+  url: /education
+- title: Other
+  url: /other
+- title: Contact
+  url: /contact

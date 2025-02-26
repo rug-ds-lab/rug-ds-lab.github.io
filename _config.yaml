@@ -1,0 +1,4 @@
+sass:
+  load_paths:
+    - _sass
+    - vendor/bundle/ruby/**/gems/bootstrap-5.3.3/assets/stylesheets
