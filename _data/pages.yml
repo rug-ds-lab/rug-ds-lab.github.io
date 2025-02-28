@@ -9,7 +9,7 @@ pages:
   url: /people
 - title: Education
   url: /education
-- title: Other
-  url: /other
-- title: Contact
-  url: /contact
+- title: News
+  url: /news
+- title: Reach Us
+  url: /reach-us
