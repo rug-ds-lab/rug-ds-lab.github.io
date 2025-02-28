@@ -9,8 +9,15 @@
     {% include header.html %}
     {% include nav.html %}
     <main>
-      <div class="container">
-        {{ content }}
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-3">
+            {% include sidebar.html %}
+          </div>
+          <div class="col-9">
+            {{ content }}
+          </div>
+        </div>
       </div>
     </main>
 
