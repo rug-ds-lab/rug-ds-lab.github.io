@@ -1,4 +1,16 @@
+collections:
+  people:
+    output: true
+
 sass:
+  style: compressed
   load_paths:
     - _sass
     - vendor/bundle/**/bootstrap-5.3.3/assets/stylesheets
+
+exclude:
+  - fetch_bibtex.py
+  - README.md
+
+plugins:
+  - jekyll-scholar
