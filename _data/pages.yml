@@ -9,6 +9,8 @@ pages:
   url: /people
 - title: Education
   url: /education
+- title: Projects
+  url: /projects
 - title: News
   url: /news
 - title: Reach Us
