@@ -1,0 +1,28 @@
+---
+---
+
+{% assign id = key | replace: ":", "-" %}
+{% assign ref = reference %}
+
+{% if entry.doi and entry.doi != "" %}
+    {% assign doi = '<a target="_blank" href="https://doi.org/' | append: entry.doi | append: '">' | append: entry.doi | append: '</a>' %}
+    {% assign ref = ref | replace: entry.doi, doi %}
+{% endif %}
+
+{% if entry.url and entry.url != "" %}
+    {% assign url = '<a target="_blank" href="' | append: entry.url | append: '">' | append: entry.url | append: '</a>' %}
+    {% assign ref = ref | replace: entry.url, url %}
+{% endif %}
+
+{% if entry.pdf and entry.pdf != "" %}
+    {% assign pdf = '<a target="_blank" href="' | append: entry.pdf | append: '">' | append: entry.pdf | append: '</a>' %}
+    {% assign ref = ref | replace: entry.pdf, pdf %}
+{% endif %}
+
+{% if entry.title and entry.title != "" %}
+    {% assign title = '<b>' | append: entry.title | append: '</b>' %}
+    {% assign ref = ref | replace: entry.title, title %}
+{% endif %}
+
+{% assign i = "[" | append: index | append: "]" %}
+{{ ref | replace: i, ""}}

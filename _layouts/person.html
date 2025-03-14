@@ -1,0 +1,47 @@
+---
+layout: headers
+---
+
+{% include header.html %}
+{% include nav.html %}
+<main>
+  <div class="site-nav bg-light">
+
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        {% include sidebar.html %}
+      </div>
+      <div class="col-9">
+        <h1 id="page-header" class="w-100 p-3 bg-white shadow-sm">{{ page.prefix }} {{ page.name }}</h1>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              {% if page.academic_status %} <p class="fst-italic">{{ page.academic_status }}</p> {% endif %}
+              <ul>
+                {% if page.room%} <li>Room number: {{ page.room }} </li> {% endif %}
+                {% if page.email %} <li>Email: {{ page.email }} </li> {% endif %}
+                {% if page.website %} <li>Personal website: <a href="{{ page.website }}">{{ page.name }}</a></li> {%
+                endif %}
+              </ul>
+              <h2>Research</h2>
+              <ul class="list-group pb-4">
+                {% for research in page.research %} <li class="list-group-item">{{ research }}</li> {% endfor %}
+              </ul>
+            </div>
+            <div class="col-6 position-relative">
+              {% if page.picture %} <img class="rounded position-absolute top-0 end-0" src="{{ page.picture }}"
+                alt="{{ page.name }}"> {% endif %}
+            </div>
+          </div>
+          <h2>Recent publications</h2>
+          {% assign last_name = page.name | split: " " | last %}
+          {% bibliography --max 5 -q @*[author ^= {{ last_name }}] %}
+        </div>
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</main>

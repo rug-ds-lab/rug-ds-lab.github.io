@@ -1,4 +1,16 @@
 ---
-layout: default
+layout: publication
 title: Publications
+filter: ""
 ---
+<h2>Filters</h2>
+<div class="dropdown mb-4">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        People
+    </button>
+    <div class="dropdown-menu">
+        {% for person in site.people %}
+        <li><a class="dropdown-item" href="/publications/{{ person.name | downcase | replace: ' ', '-' }}">{{ person.name }}</a></li>
+        {% endfor %}
+    </div>
+</div>

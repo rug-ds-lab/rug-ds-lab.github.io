@@ -2,3 +2,82 @@
 layout: default
 title: Education
 ---
+
+{% assign course_years = "" %}
+
+{% for course in site.courses %}
+    {% assign year = course.year %}
+    {% if course_years contains year %}
+    {% else %}
+        {% assign course_years = course_years | append: year | append: ", " %}
+    {% endif %}
+{% endfor %}
+
+{% assign course_years = course_years | split: ", " | sort | reverse %}
+{% assign current_year = course_years | first %}
+{% assign prev_years = course_years | shift %}
+
+<div class="mb-3">
+    <h3>Teaching {{ current_year }}</h3>
+    <hr>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Course Title</th>
+                <th scope="col">Level</th>
+                <th scope="col">Coordinator</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for course in site.courses %}
+                {% if course.year == current_year %}
+                    <tr>
+                        <td>
+                            {% if course.course_code %}
+                            <a href="https://ocasys.rug.nl/{{ course.year }}/catalog/course/{{ course.course_code }}">
+                                {{ course.title }}
+                            </a>
+                            {% else %}
+                                {{ course.title }}
+                            {% endif %}
+                        </td>
+                        <td>{{ course.level }}</td>
+                        <td>{{ course.instructor }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+<div class="mb-3 mt-3"><a data-bs-toggle="collapse" href="#previousYears" style="text-decoration: underline !important;">Previous years</a></div>
+<div class="collapse" id="previousYears">
+    {% for year in prev_years %}
+        <h3>Teaching {{ year }}</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Course Title</th>
+                    <th scope="col">Level</th>
+                    <th scope="col">Coordinator</th>
+                </tr>
+            </thead>
+            {% for course in site.courses %}
+                {% if course.year == year %}
+                    <tr>
+                        <td>
+                            {% if course.course_code %}
+                            <a href="https://ocasys.rug.nl/{{ year }}/catalog/course/{{ course.course_code }}">
+                                {{ course.title }}
+                            </a>
+                            {% else %}
+                                {{ course.title }}
+                            {% endif %}
+                        </td>
+                        <td>{{ course.level }}</td>
+                        <td>{{ course.instructor }}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </table>
+    {% endfor %}
+</div>

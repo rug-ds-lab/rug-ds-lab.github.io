@@ -1,0 +1,104 @@
+---
+layout: default
+title: Publications
+---
+
+<!-- Buttons -->
+<h3>Filters</h3>
+<div class="d-flex flex-row justify-content-start gap-2 mb-3 overflow-visible h-auto">
+    <div class="dropdown overflow-visible">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            People
+        </button>
+        <ul class="dropdown-menu overflow-visible">
+    
+            {% assign sorted_filters = site.filters | sort: "filter_author" %}
+            {% for filter in sorted_filters %}
+                {% if filter.filter_author and filter.filter_author != "" %}
+                    <li><a href="{{ filter.filter_author | downcase | split: ' ' | join: '-' }} " class="dropdown-item">{{ filter.filter_author }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Year
+        </button>
+        <ul class="dropdown-menu">
+    
+            {% assign sorted_filters = site.filters | sort: "filter_author" %}
+            {% for filter in sorted_filters %}
+                {% if filter.filter_year and filter.filter_year != "" %}
+                    <li><a href="{{ filter.filter_year }}" class="dropdown-item">{{ filter.filter_year }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
+        </button>
+        <ul class="dropdown-menu">
+    
+            {% assign sorted_filters = site.filters | sort: "filter_author" %}
+            {% for filter in sorted_filters %}
+                {% if filter.filter_category and filter.filter_category != "" %}
+                    <li><a href="{{ filter.filter_category }}" class="dropdown-item">{{ filter.filter_category | capitalize }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<!-- Content -->
+{% assign currentyear = "now" | date: '%Y' | to_integer %}
+{% assign years = (2007..currentyear) | reverse %}
+
+{% if page.filter_year and page.filter_year != "" %}
+    <hr>
+    {% bibliography -q @*[year = {{ page.filter_year }} ] %}
+{% elsif page.filter_category and page.filter_category != "" %}
+    {% for year in years %}
+        {% capture year_count_str %}{% bibliography_count -q @{{page.filter_category}}[year = {{ year }}] %}{% endcapture %}
+        {% assign year_count = year_count_str | to_integer %}
+        {% if year_count > 0 %}
+            <div>
+                <h1>{{ year }}</h1>
+                <hr>
+                {% bibliography -q @{{page.filter_category}}[year = {{ year }}] %}
+            </div>
+        {% endif %}
+    {% endfor %}
+{% elsif page.filter_author and page.filter_author != "" %}
+    {% assign filter_author_parts = page.filter_author | split: " " %}
+    {% assign filter_author_last = filter_author_parts | last %}
+
+    {% for year in years %}
+        {% capture year_count_str %}{% bibliography_count -q @*[year = {{year}} && author ^= {{ filter_author_last }}] %}{% endcapture %}
+        {% assign year_count = year_count_str | to_integer %}
+        {% if year_count > 0 %}
+            <div>
+                <h1>{{ year }}</h1>
+                <hr>
+                {% bibliography -q @*[year = {{ year }} && author ^= {{ filter_author_last }}] %}
+            </div>
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% for year in years %}
+        {% capture year_count_str %}{% bibliography_count -q @*[year = {{year}} && {{ page.filter }}] %}{% endcapture %}
+        {% assign year_count = year_count_str | to_integer %}
+
+        {% if year_count > 0 %}
+            <div>
+                <h1>{{ year }}</h1>
+                <hr>
+
+                {% bibliography -q @*[year = {{year}}] %}
+            </div>
+        {% endif %}
+
+    {% endfor %}
+{% endif %}

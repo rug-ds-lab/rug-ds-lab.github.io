@@ -1,4 +1,37 @@
 ---
 layout: default
-title: Research
+title: Research Areas
 ---
+
+<p>Distributed Information Systems are concerned with the delocalization of computation on several hosts and their
+    coordination via message passing. Looking at today's information systems, one notices that most of them, if not all,
+    have some form of distribution. The key issues that emerge for research become those of addressing heterogeneity,
+    scalability, and run-time adaptation. 
+</p>
+
+<p>In the context of distributed systems, the group focuses on a number of sub-areas: </p>
+<ul>
+    <li>Service-Oriented and Cloud Computing</li>
+    <li>Pervasive Computing</li>
+    <li>Middleware for Pervasive Computing and Adaptive Communications</li>
+    <li>Network-centric Real-time Analytics, and</li>
+    <li>Sensor Networks</li>
+</ul>
+
+<p>While interesting applications areas for the group are</p>
+<ul class="pb-3">
+    <li>Healthcare</li>
+    <li>Domitcs</li>
+    <li>Smart Energy Systems</li>
+</ul>
+
+{% for research in site.research %}
+
+    {% assign contact = site.people | find_exp:"person", "person.name == research.contact" %}
+
+    <div class="research">
+        <h2>{{ research.title }}</h2>
+        <p>{{ research.description }}</p>
+        <a href="{{ contact.url }}">{{ contact.name }}</a>
+    </div>
+{% endfor %}

@@ -1,12 +1,23 @@
 collections:
   people:
     output: true
+  research:
+    output: true
+  filters:
+    output: true
+    permalink: /publications/:name
+  news:
+    output: true
+  courses:
+    output: false
+  projects:
+    output: false
 
 sass:
   style: compressed
   load_paths:
     - _sass
-    - vendor/bundle/**/bootstrap-5.3.3/assets/stylesheets
+    # - vendor/bundle/**/bootstrap-5.3.3/assets/stylesheets
   silence_deprecations: [
     "mixed-decls",
     "color-functions",
@@ -22,10 +33,10 @@ plugins:
   - jekyll-scholar
 
 scholar:
-  type: dependent/ieee-transactions-on-software-engineering
-  bibliography: _bibliography/*.bib
+  type: apa
+  bibliography: /*.bib
   sort_by: year, type, month
   order: descending, descending, descending
   type_order: [book, phdthesis, proceedings, booklet, inbook, article, incollection, inproceedings, techreport, manual, masterthesis, unpublished, misc]
   bibtex_filters: latex
-  bibliography_template: bib
+  bibliography_template: bib_entry
