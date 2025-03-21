@@ -11,7 +11,7 @@ collections:
   courses:
     output: false
   projects:
-    output: false
+    output: true
 
 sass:
   style: compressed

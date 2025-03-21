@@ -3,123 +3,81 @@ layout: default
 title: Projects
 ---
 
-{% assign spp_projects = site.projects | where: "type", "spp" %}
-{% assign bachelor_projects = site.projects | where: "type", "bachelor" %}
-{% assign master_projects = site.projects | where: "type", "master" %}
-{% assign student_colloquia = site.projects | where: "type", "colloquium" %}
-{% assign research_internships = site.projects | where: "type", "internship" %}
+{% assign all_types = "" %}
+{% for project in site.data.projects %}
+    {% for type in project.type %}
+        {% assign all_types = all_types | append: type | append: ", " %}
+    {% endfor %}
+{% endfor %}
+{% assign all_types = all_types | split: ", " | uniq | sort %}
 
-<div class="accordion" id="projectAccordion">
-    <div class="accordion-item">
-        <h2 class="accordion-header"> <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#sppCollapse" aria-expanded="false" aria-controls="sppCollapse">
-                Short Programming Projects
-            </button>
-        </h2>
-        <div class="accordion-collapse collapse p-3" id="sppCollapse" data-bs-parent="#projectAccordion">
-            {% for spp_project in spp_projects %}
-            <h4 class="m-0">{{ spp_project.title }}</h4>
-            <p class="m-0"><strong>Supervisors: </strong> {{ spp_project.supervisors | join: ", " }}</p>
-            <p class="m-0"><strong>Date: </strong>{{ spp_project.date | date_to_string }}</p>
-            <p class="m-0"><strong>Available: </strong>{% if spp_project.available == true %} Yes {% else %} No {% endif %}
-            </p>
-            <p class="m-0">{{ spp_project.content }}</p>
+{% assign supervisors = "" %}
+{% for project in site.data.projects %}
+    {% for supervisor in project.supervisors %}
+        {% assign supervisors = supervisors | append: supervisor | append: "," %}
+    {% endfor %}
+{% endfor %}
+{% assign supervisors = supervisors | split: "," %}
+
+<div class="d-flex flex-row gap-3 mb-3">
+    <div class="dropdown overflow-visible">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Select type
+        </button>
+        <ul class="dropdown-menu overflow-visible">
+            {% assign types = site.projects %}
+            <li><a href="/projects" class="dropdown-item">All</a></li>
+            {% for type in all_types %}
+            <li><a href="/projects/{{ type }}" class="dropdown-item">{{ type | capitalize }}</a></li>
             {% endfor %}
-        </div>
+        </ul>
     </div>
-
-    <div class="accordion-item">
-        <h2 class="accordion-header"> <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#bachelorCollapse" aria-expanded="false" aria-controls="bachelorCollapse">
-                Bachelor Projects
-            </button>
-        </h2>
-        <div class="accordion-collapse collapse p-3" id="bachelorCollapse" data-bs-parent="#projectAccordion">
-            {% for bachelor_project in bachelor_projects %}
-            <h4 class="m-0">{{ bachelor_project.title }}</h4>
-            <p class="m-0"><strong>Supervisors: </strong> {{ bachelor_project.supervisors | join: ", " }}</p>
-            <p class="m-0"><strong>Date: </strong>{{ bachelor_project.date | date_to_string }}</p>
-            <p class="m-0"><strong>Available: </strong>{% if bachelor_project.available == true %} Yes {% else %} No {% endif %}
-            </p>
-            <p class="m-0">{{ bachelor_project.content }}</p>
+    
+    <div class="dropdown overflow-visible">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Select supervisor
+        </button>
+        <ul class="dropdown-menu overflow-visible">
+            <li><a href="/projects" class="dropdown-item">All</a></li>
+            {% for supervisor in supervisors %}
+            <li><a href="/projects/{{ supervisor | downcase | replace: ' ', '_' }}" class="dropdown-item">{{ supervisor | capitalize }}</a></li>
             {% endfor %}
-        </div>
+        </ul>
     </div>
-
-    <div class="accordion-item">
-        <h2 class="accordion-header"> <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#masterCollapse" aria-expanded="false" aria-controls="masterCollapse">
-                Master Projects
-            </button>
-        </h2>
-        <div class="accordion-collapse collapse p-3" id="masterCollapse" data-bs-parent="#projectAccordion">
-            {% for master_project in master_projects %}
-            <h4 class="m-0">{{ master_project.title }}</h4>
-            <p class="m-0"><strong>Supervisors: </strong> {{ master_project.supervisors | join: ", " }}</p>
-            <p class="m-0"><strong>Date: </strong>{{ master_project.date | date_to_string }}</p>
-            <p class="m-0"><strong>Available: </strong>{% if master_project.available == true %} Yes {% else %} No {% endif %}</p>
-            <p class="m-0">{{ master_project.content }}</p>
-            {% endfor %}
-        </div>
-    </div>
-
-    <div class="accordion-item">
-        <h2 class="accordion-header"> <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#colloquiumCollapse" aria-expanded="false" aria-controls="colloquiumCollapse">
-                Student Colloquia
-            </button>
-        </h2>
-        <div class="accordion-collapse collapse p-3" id="colloquiumCollapse" data-bs-parent="#projectAccordion">
-            {% for colloquium in student_colloquia %}
-            <h4 class="m-0">{{ colloquium.title }}</h4>
-            <p class="m-0"><strong>Supervisors: </strong> {{ colloquium.supervisors | join: ", " }}</p>
-            <p class="m-0"><strong>Date: </strong>{{ colloquium.date | date_to_string }}</p>
-            <p class="m-0"><strong>Available: </strong>{% if colloquium.available == true %} Yes {% else %} No {% endif %}</p>
-            <p class="m-0">{{ colloquium.content }}</p>
-            {% endfor %}
-        </div>
-    </div>
-
-    <div class="accordion-item">
-        <h2 class="accordion-header"> <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#internshipCollapse" aria-expanded="false" aria-controls="internshipCollapse">
-                Research Internships
-            </button>
-        </h2>
-        <div class="accordion-collapse collapse p-3" id="internshipCollapse" data-bs-parent="#projectAccordion">
-            {% for internship in research_internships %}
-            <h4 class="m-0">{{ internship.title }}</h4>
-            <p class="m-0"><strong>Supervisors: </strong> {{ internship.supervisors | join: ", " }}</p>
-            <p class="m-0"><strong>Date: </strong>{{ internship.date | date_to_string }}</p>
-            <p class="m-0"><strong>Available: </strong>{% if internship.available == true %} Yes {% else %} No {% endif %}</p>
-            <p class="m-0">{{ internship.content }}</p>
-            {% endfor %}
-        </div>
-    </div>
-
-    <!-- <div class="accordion-item mb-5">
-        <h2 class="accordion-header mb-3">Bachelor Projects</h2>
-        <hr>
-        {% for spp_project in bachelor_projects %}
-        <h4 class="m-0">{{ spp_project.title }}</h4>
-        <p class="m-0"><strong>Supervisors: </strong> {{ spp_project.supervisors | join: ", " }}</p>
-        <p class="m-0"><strong>Date: </strong>{{ spp_project.date | date_to_string }}</p>
-        <p class="m-0"><strong>Available: </strong>{% if spp_project.available == true %} Yes {% else %} No {% endif %}
-        </p>
-        <p class="m-0">{{ spp_project.content }}</p>
-        {% endfor %}
-    </div>
-
-    <div class="accordion-item mb-5">
-        <h2 class="accordion-header mb-3">Master Projects</h2>
-        <hr>
-        {% for master_project in master_projects %}
-        <h4 class="m-0">{{ spp_project.title }}</h4>
-        <p class="m-0"><strong>Supervisors: </strong> {{ master_project.supervisors | join: ", " }}</p>
-        <p class="m-0"><strong>Date: </strong>{{ master_project.date | date_to_string }}</p>
-        <p class="m-0"><strong>Available: </strong>{% if master_project.available == true %} Yes {% else %} No {% endif
-            %} </p>
-        <p class="m-0">{{ master_project.content }}</p>
-        {% endfor %}
-    </div> -->
 </div>
+
+
+{% for project in site.data.projects %}
+    <h2>{{ project.title }}</h2>
+    <p class="pb-0 mb-1"><strong>Supervisors:</strong> 
+        {% assign supervisor_links = "" %}
+        {% for supervisor in project.supervisors %}
+            {% assign isLast = forloop.last %}
+            <a href="/people/{{ supervisor | downcase | split: ' ' | join: '_'}}">{{supervisor}}</a>{% if isLast == false %}, {% endif %}
+        {% endfor %}<br>
+    <strong>Date:</strong> {{ project.date }}<br>
+    <strong>Type:</strong> {{ project.type | join: '/' }}<br>
+    <strong>Description:</strong></p>
+    <div class="card card-body p-1 mb-3">
+        {{ project.description }}
+    </div>
+{% endfor %}
+
+{% assign spp_projects = site.data.projects | where: "type", "spp" %}
+
+{% for project in spp_projects %}
+    <h2>{{ project.title }}</h2>
+    <p class="pb-0 mb-1"><strong>Supervisors:</strong> 
+        {% assign supervisor_links = "" %}
+        {% for supervisor in project.supervisors %}
+            {% assign isLast = forloop.last %}
+            <a href="/people/{{ supervisor | downcase | split: ' ' | join: '_'}}">{{supervisor}}</a>
+            {% if isLast == false %},{% endif %}
+        {% endfor %}<br>
+    <strong>Date:</strong> {{ project.date }}<br>
+    <strong>Type:</strong> {{ project.type | join: '/' }}<br>
+    <strong>Description:</strong></p>
+    <div class="card card-body p-1 mb-3">
+        {{ project.description }}
+    </div>
+{% endfor %}

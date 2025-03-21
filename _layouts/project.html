@@ -1,0 +1,46 @@
+---
+layout: default
+title: Projects
+---
+
+{% assign all_types = "" %}
+{% for project in site.data.projects %}
+    {% for type in project.type %}
+        {% assign all_types = all_types | append: type | append: ", " %}
+    {% endfor %}
+{% endfor %}
+{% assign all_types = all_types | split: ", " | uniq | sort %}
+
+<div class="dropdown overflow-visible mb-5">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Select type
+    </button>
+    <ul class="dropdown-menu overflow-visible">
+        {% assign types = site.projects %}
+        <li><a href="/projects" class="dropdown-item">All</a></li>
+        {% for type in all_types %}
+        <li><a href="/projects/{{ type }}" class="dropdown-item">{{ type | capitalize }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% assign all_projects = site.data.projects %}
+{% if page.type && page.type != "" %}
+{% assign page_projects = all_projects | where: "type", page.type %}
+{% endif %}
+
+{% for project in page_projects %}
+    <h2>{{ project.title }}</h2>
+    <p class="pb-0 mb-1"><strong>Supervisors:</strong> 
+        {% assign supervisor_links = "" %}
+        {% for supervisor in project.supervisors %}
+            {% assign isLast = forloop.last %}
+            <a href="/people/{{ supervisor | downcase | split: ' ' | join: '_'}}">{{supervisor}}</a>{% if isLast == false %}, {% endif %}
+        {% endfor %}<br>
+    <strong>Date:</strong> {{ project.date }}<br>
+    <strong>Type:</strong> {{ project.type | join: '/' }}<br>
+    <strong>Description:</strong></p>
+    <div class="card card-body p-1 mb-3">
+        {{ project.description }}
+    </div>
+{% endfor %}
