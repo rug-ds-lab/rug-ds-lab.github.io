@@ -1,0 +1,21 @@
+---
+layout: default
+title: News
+---
+{% assign sorted_news = site.news | sort: 'date' | reverse %}
+{% if site.news %}
+    {% for news in sorted_news %}
+        <div class="d-flex flex-column w-100 p-3 mb-5 shadow-sm position-relative">
+            <div class="m-0 p-0 pb-1 d-flex flex-row justify-content-between">
+                <h3 class="mb-1">{{ news.title }}</h3>
+                <p class="text-nowrap">{{ news.date | date: '%B %d, %Y' }}</p>
+            </div>
+            <div class="m-0 p-0 overflow-hidden">
+                {{ news.content | truncatewords: "30" }}
+            </div>
+            <a href="{{ news.url }}" class="stretched-link hidden"></a>
+        </div>
+    {% endfor %}
+{% else %}
+    <p>No news available.</p>
+{% endif %}

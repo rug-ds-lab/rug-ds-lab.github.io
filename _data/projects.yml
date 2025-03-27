@@ -1,0 +1,22 @@
+- title: "FAKE: DL Jobs Generator"
+  supervisors: ["Heerko Groefsema", "Alexander Lazovik"]
+  available: false
+  date: 2024-11-01
+  type: [ "spp", "bachelor", "master", "colloquium", "internship" ]
+  output: true
+  description: |
+    In this project you will implement a job generator process. As an input, a JSON configuration (JSON) file and jobs generation rate (jobs per unit time) will be provided. The configuration file contains metadata about different Deep learning jobs, such as the path to the executable file and required arguments. Your task is to design and implement a generator which works as follows: Randomly select a job from the JSON file, use the metadata of the selected job to prepare a YAML/Batch script, a script template will be provided, and submit the prepared script to another process using an RPC protocol. The rate at which a job is sampled and submitted should be equal to the given generation rate. In addition, an implementation of an RPC protocol is required, the description of the protocol will be provided. You may choose any programming language for coding, but advisably to use Python. You will be provided with a supplementary code with helper functions, RPC protocol description and script/configuration files description. 
+- title: "Implementation of Hardware Monitoring APIs"
+  supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
+  available: true
+  date: 2024-11-01
+  type: [ "spp", "bachelor", "master", "colloquium", "internship" ]
+  description: |
+    In this project we are developing a resource manager framework, part of this framework is to design monitoring APIs functionalities, which gathers hardware metrics upon invocation. You will be given a code template and your task is to fill in the code for some API functionalities. Supplementary programs and helper functions will be provided to be able to test your implementation. A documentation for the required API functions including their input and output parameters will be provided. This project requires C and Python programming as well as basic operating systems knowledge. 
+- title: "Mining sensors data for anomaly detection"
+  supervisors: ["Dilek Dustegor", "Revin Naufal Alief"]
+  available: true
+  date: 2024-10-28
+  type: [ "bachelor", "master", "colloquium", "internship" ]
+  description: |
+    In collaboration with an industrial partner, we have access to sensor data collected from various machines. We need a curious student to look at the dataset from multiple possible angles and see if datamining / data science techniques can identify any pattern. This is an ideal project if you want to learn about datamining / data science techniques.

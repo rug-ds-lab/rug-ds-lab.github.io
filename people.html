@@ -1,0 +1,118 @@
+---
+layout: default
+title: People
+---
+<h1>Faculty</h1>
+<hr />
+<div class="container">
+    <div class="row">
+        {% for person in site.people %}
+        {% if person.level == "faculty" and person.role == "chair" %}
+        <div class="col-md-3 mb-3">
+            <a href="{{ person.url }}">
+                <div class="card">
+                    <img src="{{ person.picture }}" class="card-img-top" alt="{{ person.name }}">
+                    <div class="card-body">
+                        <h4 class="card-title p-0 m-0">{{ person.name }}</h4>
+                        <p class="card-text p-0 m-0">{{ person.academic_status }}</p>
+                        {% if person.role %} <p class="card-text p-0 m-0">{{ person.role }}</p> {% endif %}
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endif %}
+        
+        {% endfor %}
+    </div>
+    <div class="row">
+        {% for person in site.people %}
+        {% if person.level == "faculty" and person.role != "chair"  %}
+        <div class="col-md-3 mb-3">
+            <a href="{{ person.url }}">
+                <div class="card">
+                    <img src="{{ person.picture }}" class="card-img-top" alt="{{ person.name }}">
+                    <div class="card-body">
+                        <h4 class="card-title p-0 m-0">{{ person.name }}</h4>
+                        <p class="card-text p-0 m-0">{{ person.academic_status }}</p>
+                        {% if person.role %} <p class="card-text p-0 m-0">{{ person.role }}</p> {% endif %}
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endif %}
+        
+        {% endfor %}
+    </div>
+</div>
+
+<h1>PhD Students</h1>
+<hr />
+<div class="container">
+    <div class="row">
+        {% for person in site.people %}
+        {% if person.level == "student" %}
+        <div class="col-md-3 mb-3">
+            <a href="{{ person.url }}">
+                <div class="card">
+                    <img src="{{ person.picture }}" class="card-img-top" alt="{{ person.name }}">
+                    <div class="card-body">
+                        <h4 class="card-title p-0 m-0">{{ person.name }}</h4>
+                        <p class="card-text p-0 m-0">{{ person.academic_status }}</p>
+                        <p class="card-text p-0 m-0">{{ person.role }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endif %}
+        
+        {% endfor %}
+    </div>
+</div>
+
+<h1>Affiliated Members</h1>
+<hr />
+<div class="container">
+    <div class="row">
+        {% for person in site.people %}
+        {% if person.level == "affiliated" %}
+        <div class="col-md-4 mb-4">
+            <a href="{{ person.url }}">
+                <div class="card">
+                    <img src="{{ person.picture }}" class="card-img-top" alt="{{ person.name }}">
+                    <div class="card-body">
+                        <h4 class="card-title p-0 m-0">{{ person.name }}</h4>
+                        <p class="card-text p-0 m-0">{{ person.academic_status }}</p>
+                        <p class="card-text p-0 m-0">{{ person.role }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endif %}
+        
+        {% endfor %}
+    </div>
+</div>
+
+<h1>Alumni</h1>
+<hr />
+<div class="container">
+    <div class="row">
+        {% for person in site.people %}
+        {% if person.level == "alumni" %}
+        <div class="col-md-4 mb-4">
+            <a href="{{ person.url }}">
+                <div class="card">
+                    <img src="{{ person.picture }}" class="card-img-top" alt="{{ person.name }}">
+                    <div class="card-body">
+                        <h4 class="card-title p-0 m-0">{{ person.name }}</h4>
+                        <p class="card-text p-0 m-0">{{ person.academic_status }}</p>
+                        <p class="card-text p-0 m-0">{{ person.role }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endif %}
+        
+        {% endfor %}
+    </div>
+</div>

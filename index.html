@@ -1,0 +1,30 @@
+---
+layout: default
+title: Home
+---
+<p>
+    The research and educational activities of the distributed systems group at the University of Groningen cover all aspects of distributed and network-centric information systems with particular emphasis on
+</p>
+<ul class="pb-3">
+    <li>Service-Oriented and Cloud Computing</li>
+    <li>Pervasive Computing and Smart Environments</li>
+    <li>Network Centric Real-time Analytics</li>
+    <li>Energy Distribution Infrastructures</li>
+    <li>Adaptive Communication Middleware</li>
+</ul>
+<img class="pb-2" src="assets/images/group-call.png" alt="group picture">
+<h1>News</h2>
+
+{% assign latest_news = site.news | sort: 'date' | reverse | limit: 3 %}
+{% for news in latest_news %}
+    <div class="d-flex flex-column w-100 p-3 mb-5 shadow-sm position-relative">
+        <div class="m-0 p-0 pb-1 d-flex flex-row justify-content-between">
+            <h3 class="mb-1">{{ news.title }}</h3>
+            <p class="text-nowrap">{{ news.date | date: '%B %d, %Y' }}</p>
+        </div>
+        <div class="m-0 p-0 overflow-hidden">
+            {{ news.content | truncatewords: "30" }}
+        </div>
+        <a href="{{ news.url }}" class="stretched-link hidden"></a>
+    </div>
+{% endfor %}
