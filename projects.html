@@ -28,7 +28,7 @@ title: Projects
             {% assign types = site.projects %}
             <li><a href="/projects" class="dropdown-item">All</a></li>
             {% for type in all_types %}
-            <li><a href="/projects/{{ type }}" class="dropdown-item">{{ type | capitalize }}</a></li>
+            <li><a href="/projects/types/{{ type }}" class="dropdown-item">{{ type | capitalize }}</a></li>
             {% endfor %}
         </ul>
     </div>
@@ -40,7 +40,7 @@ title: Projects
         <ul class="dropdown-menu overflow-visible">
             <li><a href="/projects" class="dropdown-item">All</a></li>
             {% for supervisor in supervisors %}
-            <li><a href="/projects/{{ supervisor | downcase | replace: ' ', '_' }}" class="dropdown-item">{{ supervisor | capitalize }}</a></li>
+            <li><a href="/projects/supervisors/{{ supervisor | downcase | replace: ' ', '_' }}" class="dropdown-item">{{ supervisor | capitalize }}</a></li>
             {% endfor %}
         </ul>
     </div>
