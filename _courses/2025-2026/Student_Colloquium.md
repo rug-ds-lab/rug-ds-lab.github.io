@@ -1,7 +1,7 @@
 ---
 title: "Student Colloquium (Computing Science)"
 level: "Master CS"
-instructor: "prof A. Lazovik"
+instructor: "A. Lazovik (coordinator), Dirk Pleiter, Dan Frumin"
 course_code: WMCS019-05
 year: 2025-2026
 ---
