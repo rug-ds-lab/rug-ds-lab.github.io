@@ -1,7 +1,7 @@
 ---
 title: "Data Challenges in AI Systems"
 level: "Master CS"
-Instructor: "D. Düstegör"
+instructor: "D. Düstegör"
 course_code: WMCS048-05
 year: 2025-2026
 ---
