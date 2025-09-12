@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Computing Science"
 level: "Bachelor CS"
-Tutor: "D. Düstegör"
+Instructor: "D. Düstegör"
 course_code: WBCS005-05
 year: 2025-2026
 ---
