@@ -1,7 +1,7 @@
 ---
-title: "Advanced Algorithms and Data Structures"
+title: "Software Defined Networking"
 level: "Bachelor CS"
-instructor: "K. Bunte (coordinator), V. Degeler"
-course_code: WBCS009-05
-year: 2021-2022
+instructor: "B. Koldehofe (coordinator)"
+course_code: WMCS023-05
+year: 2022-2023
 ---
