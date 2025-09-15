@@ -1,7 +1,7 @@
 ---
-title: "Advanced Algorithms and Data Structures"
-level: "Bachelor CS"
-instructor: "K. Bunte (coordinator), V. Degeler"
-course_code: WBCS009-05
-year: 2021-2022
+title: "Web and Cloud Computing"
+level: "Master CS"
+instructor: "V. Andrikopoulos (coordinator), A. Lazovik"
+course_code: WMCS005-05
+year: 2022-2023
 ---
