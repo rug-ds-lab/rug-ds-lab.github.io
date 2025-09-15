@@ -1,7 +1,7 @@
 ---
-title: "Advanced Algorithms and Data Structures"
+title: "Network Centric Systems"
 level: "Bachelor CS"
-instructor: "K. Bunte (coordinator), V. Degeler"
-course_code: WBCS009-05
+instructor: "B. Koldehofe (coordinator), M. Riveni"
+course_code: WBCS031-05
 year: 2021-2022
 ---
