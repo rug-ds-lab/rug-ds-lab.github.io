@@ -1,7 +1,7 @@
 ---
-title: "Advanced Algorithms and Data Structures"
-level: "Bachelor CS"
-instructor: "K. Bunte (coordinator), V. Degeler"
-course_code: WBCS009-05
+title: "Fundamentals of Distributed Systems"
+level: "Master CS"
+instructor: "B. Koldehofe (coordinator), V. Degeler"
+course_code: WMCS022-05
 year: 2021-2022
 ---
