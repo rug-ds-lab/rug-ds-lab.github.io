@@ -1,7 +1,7 @@
 ---
-title: "Advanced Algorithms and Data Structures"
+title: "Advanced Object-Oriented Programming"
 level: "Bachelor CS"
-instructor: "K. Bunte (coordinator), V. Degeler"
-course_code: WBCS009-05
-year: 2021-2022
+instructor: " D. Feitosa (coordinator), A. Lazovik"
+course_code: WBCS001-05
+year: 2022-2023
 ---
