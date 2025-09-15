@@ -1,6 +1,6 @@
 ---
 layout: person
-name: Dilek Dustegor
+name: Dilek Düştegör
 room: 0578
 email: d.dustegor@rug.nl
 website: https://ddustegor.github.io/
