@@ -2,35 +2,35 @@
   supervisors: ["Huy Truong", "Andrés Tello"]
   available: true
   date: 2025-08-25
-  type: [ "spp" ]
+  type: [ "bi" ]
   description: |  
     Have you ever managed a large dataset? This project provides an opportunity to handle a dataset with over 8,000 downloads each month. You will reorganize the dataset by task, document it thoroughly, and create a user-friendly interface and leaderboard. The project also involves working with HPC clusters, Hugging Face libraries, and GitHub Pages for documentation. Basic Python skills and familiarity with Linux commands are required.
 - title: "DL Jobs Generator"
   supervisors: ["Kawsar Haghshenas", " Mahmoud Alasmar"]
   available: true
   date: 2024-11-01
-  type: [ "spp" ]
+  type: [ "bi" ]
   description: |
     In this project you will implement a job generator process. As an input, a JSON configuration (JSON) file and jobs generation rate (jobs per unit time) will be provided. The configuration file contains metadata about different Deep learning jobs, such as the path to the executable file and required arguments. Your task is to design and implement a generator which works as follows: Randomly select a job from the JSON file, use the metadata of the selected job to prepare a YAML/Batch script, a script template will be provided, and submit the prepared script to another process using an RPC protocol. The rate at which a job is sampled and submitted should be equal to the given generation rate. In addition, an implementation of an RPC protocol is required, the description of the protocol will be provided. You may choose any programming language for coding, but advisably to use Python. You will be provided with a supplementary code with helper functions, RPC protocol description and script/configuration files description.
 - title: "Implementation of Hardware Monitoring APIs"
   supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
   available: true
   date: 2024-11-01
-  type: [ "spp" ]
+  type: [ "bi" ]
   description: |
     In this project we are developing a resource manager framework, part of this framework is to design monitoring APIs functionalities, which gathers hardware metrics upon invocation. You will be given a code template and your task is to fill in the code for some API functionalities. Supplementary programs and helper functions will be provided to be able to test your implementation. A documentation for the required API functions including their input and output parameters will be provided. This project requires C and Python programming as well as basic operating systems knowledge. 
 - title: "Mining sensors data for anomaly detection (with industrial partner)"
   supervisors: ["Dilek Dustegor", "Revin Naufal Alief"]
   available: true
   date: 2024-10-28
-  type: [ "spp" ]
+  type: [ "bi" ]
   description: |
     In collaboration with an industrial partner, we have access to sensor data collected from various machines. We need a curious student to look at the dataset from multiple possible angles and see if datamining / data science techniques can identify any pattern. This is an ideal project if you want to learn about datamining / data science techniques.
 - title: "Research packages for the formal specification and verification of process compositions"
   supervisors: ["Heerko Groefsema"]
   available: true
   date: 2024-10-21
-  type: [ "spp" ]
+  type: [ "bi" ]
   description: |  
     For our research we implemented and use a number of Java packages that allow us to specify, unfold, and verify process compositions such as business process models and service compositions. These packages require some work, including new functionality, replacing old dependencies, adding different output formats, replacing log functionality, refactoring to use certain programming patterns, and more. In this project, we would like a number of students to improve, refactor, and add functionality. This project is available for up to 5 students, which will work on separate sub-projects such as:
       - Adding rich Event Log generation from random executions of annotated Petri net models.
@@ -38,3 +38,37 @@
       - Adding functionality for colored Petri nets.
       - Implementing improved Prime Event Structures (PES) representations of processes and unfolding (i.e., creation of PES) from Petri nets.
       - Replacing old dependencies and refactoring.
+- title: "In-Network Atomic Multicast Protocol Validation and Verification."
+  supervisors: ["Bochra Boughzala"]
+  available: true
+  date: 2024-10-29
+  type: [ "bi" ]
+  description: |
+    This project involves creating a high-performance networking application using the Intel Data Plane Development Kit (DPDK). The application will receive network packets over a high-speed interface, inspect the packet header fields, and validate the protocol properties for correctness and consistency guarantees. The tool will verify protocol correctness by making sure that all receiving nodes receive the same set of packets in the exact order, guaranteeing total order and consistent state across all nodes.<br />**Prerequisites:** C/C++ programming language - Networking libraries and tools for protocol analysis - Logging library for error reporting.
+- title: "In-Network Data Stream Processing Serialization."
+  supervisors: ["Bochra Boughzala"]
+  available: true
+  date: 2024-10-29
+  type: [ "bi" ]
+  description: |
+  	This project involves creating a high-performance networking application using the Intel Data Plane Development Kit (DPDK). The application will read entries from a specified database, convert these entries into JSON format, and send the JSON entries as packets over a high-speed network. The focus is on achieving low-latency and high-throughput performance.<br />**Prerequisites:** C/C++ programming language - Database Management (e.g., PostgreSQL databases).
+- title: "Automated Dataset Generator for Wastewater System Simulations"
+  supervisors: ["Dilek Dustegor", "Revin Alief"]
+  available: true
+  date: 2025-01-21
+  type: [ "bachelor" ]
+  description: |
+	Automating dataset generation is essential for streamlining the preprocessing pipeline, enabling faster iterations and ensuring scalability as wastewater systems become increasingly complex. This project involves designing and implementing a program to automate dataset generation for wastewater simulations. The program will take inputs such as simulation parameters, geographic data, and network structures (e.g., pipe diameters and node connections) and output datasets compatible with Graph Neural Network (GNN) models. The student will focus on creating a flexible, user-friendly interface for defining input parameters, ensuring compatibility with graph-based models and simulation outputs, and testing the tool across multiple simulation scenarios. The expected outcome is a reusable dataset generation tool that significantly enhances the efficiency of wastewater simulation workflows.<br />
+References:<br />
+<a href="https://help.autodesk.com/view/IWICMS/2025/ENU/?guid=Innovyze_Exchange_Introduction_ICM_networks_html">Infoworks ICM Exchange</a><br />
+<a href="https://github.com/modelcreate/infoworks-ruby-scripts">Infoworks Ruby Scripts</a>
+- title: "Optimizing Graph Neural Networks for Water Level Estimation"
+  supervisors: ["Dilek Dustegor", "Revin Alief"]
+  available: true
+  date: 2025-01-21
+  type: [ "bachelor" ]
+  description: |
+	Optimizing Graph Neural Networks (GNNs) is critical for enhancing the accuracy and efficiency of water level predictions, which directly influences the reliability of wastewater management systems. This project focuses on refining specific aspects of GNNs for predicting water levels at nodes in wastewater networks. The student will explore hyperparameter tuning, feature engineering, and advanced GNN variants such as Graph Attention Networks (GAT). Key tasks include studying the impact of different GNN architectures and parameters on performance, experimenting with incorporating edge features (e.g., pipe diameters), and evaluating models on datasets generated by ICM. The expected outcome is a comprehensive analysis of optimization techniques for GNNs in the wastewater domain.<br />
+References:<br />
+<a href="https://www.sciencedirect.com/science/article/pii/S0043135424010418">Zhang, Z., Tian, W., Lu, C., Liao, Z., & Yuan, Z. (2024). Graph neural network-based surrogate modelling for real-time hydraulic prediction of urban drainage networks. Water Research, 263, 122142. https://doi.org/10.1016/j.watres.2024.122142</a><br />
+<a href="https://www.sciencedirect.com/science/article/pii/S2210670724007017">Li, M., Shi, X., Lu, Z., & Kapelan, Z. (2024). Predicting the urban stormwater drainage system state using the Graph-WaveNet. Sustainable Cities and Society, 115, 105877. https://doi.org/10.1016/j.scs.2024.105877</a>
