@@ -124,4 +124,158 @@
     <a href="https://arxiv.org/pdf/2104.13619.pdf">Hajgató, Gergely, Bálint Gyires-Tóth, and György Paál. "Reconstructing nodal pressures in water distribution systems with graph neural networks." arXiv preprint arXiv:2104.13619 (2021).</a>
     <a href="https://arxiv.org/pdf/2111.06377.pdf">He, Kaiming, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, and Ross Girshick. "Masked autoencoders are scalable vision learners." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 16000-16009. 2022.</a>
 
+- title: Conditional planning an overview of approaches
+  supervisors: ["Heerko Groefsema"]
+  available: true
+  date: 2025-02-05
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="https://www.sciencedirect.com/science/article/pii/B9780080499444500276">Peot, M. A., & Smith, D. E. (1992, January). Conditional nonlinear planning. In Artificial Intelligence Planning Systems (pp. 189-197). Morgan Kaufmann.</a>
+    <a href="https://link.springer.com/chapter/10.1007/3-540-48317-9_4">Blythe, J. (1999). An overview of planning under uncertainty. Artificial intelligence today, 85-110.</a>
+    <a href="https://www.jair.org/index.php/jair/article/view/10230">Rintanen, J. (1999). Constructing conditional plans by a theorem-prover. Journal of Artificial Intelligence Research, 10, 323-352.</a>
+    <a href="https://dl.acm.org/doi/abs/10.5555/1642090.1642149">Karlsson, L. (2001, January). Conditional progressive planning under uncertainty. In IJCAI (pp. 431-438).</a>
+
+- title: Verifying the data perspective of business processes
+  supervisors: ["Heerko Groefsema"]
+  available: true
+  date: 2025-02-05
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="https://doi.org/10.1007/978-3-031-16171-1_2">Groefsema, H., Beest, N.R.T.P.v., Governatori, G. (2022). On the Use of the Conformance and Compliance Keywords During Verification of Business Processes. In: Business Process Management Forum. BPM 2022. Lecture Notes in Business Information Processing, vol 458. Springer.</a>
+    <a href="https://doi.org/10.1016/j.compind.2019.103181">H. Groefsema, N.R.T.P. van Beest, A. Armas-Cervantes, Efficient conditional compliance checking of business process models, Computers in Industry, Volume 115, 2020.</a>
+    <a href="https://doi.org/10.1145/1514894.1514924">Alin Deutsch, Richard Hull, Fabio Patrizi, and Victor Vianu. 2009. Automatic verification of data-centric business processes. In Proceedings of the 12th International Conference on Database Theory (ICDT '09).</a>
+    <a href="https://doi.org/10.1109/TSE.2023.3319086">N. van Beest, H. Groefsema, A. Cryer, G. Governatori, S. C. Tosatto and H. Burke, Cross-Instance Regulatory Compliance Checking of Business Process Event Logs, in IEEE Transactions on Software Engineering, vol. 49, no. 11, pp. 4917-4931, Nov. 2023.</a>
+
+- title: Explaining Graph Neural Networks
+  supervisors: ["Andrés Tello"]
+  available: true
+  date: 2025-02-01
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="https://openreview.net/pdf?id=WIzzXCVYiH">Wang, X., & Shen, H. W. GNNBoundary: Towards Explaining Graph Neural Networks through the Lens of Decision Boundaries. In The Twelfth International Conference on Learning Representations.</a>
+    <a href="https://openreview.net/pdf?id=IjMUGuUmBI">Müller, P., Faber, L., Martinkus, K., & Wattenhofer, R. (2024). GraphChef: Decision-Tree Recipes to Explain Graph Neural Networks. In The Twelfth International Conference on Learning Representations.</a>
+    <a href="https://openreview.net/pdf?id=2Q8TZWAHv4">Lu, S., Mills, K. G., He, J., Liu, B., & Niu, D. (2024). GOAt: Explaining graph neural networks via graph output attribution. arXiv preprint arXiv:2401.14578.</a>
+    <a href="https://arxiv.org/pdf/2209.07924">Wang, X., & Shen, H. W. (2022). Gnninterpreter: A probabilistic generative model-level explanation for graph neural networks. arXiv preprint arXiv:2209.07924.</a>
+
+- title: Generalization in Graph Neural Networks
+  supervisors: ["Andrés Tello"]
+  available: true
+  date: 2025-02-01
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="https://openreview.net/pdf?id=qaJxPhkYtD">Kanatsoulis, C., & Ribeiro, A. Counting Graph Substructures with Graph Neural Networks. In The Twelfth International Conference on Learning Representations.</a>
+    <a href="https://openreview.net/pdf?id=4IT2pgc9v6">Liu, H., Feng, J., Kong, L., Liang, N., Tao, D., Chen, Y., & Zhang, M. (2023). One for all: Towards training one graph model for all classification tasks. arXiv preprint arXiv:2310.00149.</a>
+    <a href="https://openreview.net/pdf?id=EYjfLeJL4l">Lee, H., Yoon, K., 2023. Towards better generalization with flexible representation of multi-module graph neural networks. Transactions on Machine Learning Research.</a>
+    <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Mind_the_Label_Shift_of_Augmentation-Based_Graph_OOD_Generalization_CVPR_2023_paper.pdf">Yu, J., Liang, J., & He, R. (2023). Mind the Label Shift of Augmentation-based Graph OOD Generalization. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 11620-11630).</a>
+
+- title: Multimodality Graph Foundation Models
+  supervisors: ["Huy Truong"]
+  available: true
+  date: 2025-01-21
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="https://www.researchgate.net/publication/371786545_Otter-Knowledge_benchmarks_of_multimodal_knowledge_graph_representation_learning_from_different_sources_for_drug_discovery">Lam, Hoang Thanh, et al. "Otter-Knowledge: benchmarks of multimodal knowledge graph representation learning from different sources for drug discovery." *arXiv preprint arXiv:2306.12802* (2023).</a>
+    <a href="https://aclanthology.org/2024.findings-emnlp.132/">Xia, Lianghao, Ben Kao, and Chao Huang. "Opengraph: Towards open graph foundation models." *arXiv preprint arXiv:2403.01121* (2024).</a>
+    <a href="https://www.nature.com/articles/s42256-023-00624-6">Ektefaie, Yasha, et al. "Multimodal learning with graphs." *Nature Machine Intelligence* 5.4 (2023): 340-350.</a>
+
+- title: Test-Time Training
+  supervisors: ["Huy Truong"]
+  available: true
+  date: 2025-01-21
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="http://proceedings.mlr.press/v119/sun20b/sun20b.pdf">Sun, Yu, et al. "Test-time training with self-supervision for generalization under distribution shifts." International conference on machine learning. PMLR, 2020.</a>
+    <a href="https://proceedings.neurips.cc/paper/2021/hash/b618c3210e934362ac261db280128c22-Abstract.html">Liu, Yuejiang, et al. "Ttt++: When does self-supervised test-time training fail or thrive?." Advances in Neural Information Processing Systems 34 (2021): 21808-21820.</a>
+    <a href="https://link.springer.com/article/10.1007/s11263-024-02181-w">Liang, Jian, Ran He, and Tieniu Tan. "A comprehensive survey on test-time adaptation under distribution shifts." *International Journal of Computer Vision* (2024): 1-34.</a>
+    <a href="https://arxiv.org/abs/2501.00663">Behrouz, Ali, Peilin Zhong, and Vahab Mirrokni. "Titans: Learning to Memorize at Test Time." arXiv preprint arXiv:2501.00663 (2024).</a>
+
+- title: Cluster Scheduling for DLT workloads
+  supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
+  available: true
+  date: 2025-01-27
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="https://www.usenix.org/conference/osdi18/presentation/xiao">Wencong Xiao, Romil Bhardwaj, Ramachandran Ramjee, Muthian Sivathanu, Nipun Kwatra, Zhenhua Han, Pratyush Patel et al. "Gandiva: Introspective Cluster Scheduling for Deep Learning." In 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18), pp. 595-610. 2018.</a>
+    <a href="https://www.usenix.org/conference/atc23/presentation/weng">Weng, Q., Yang, L., Yu, Y., Wang, W., Tang, X., Yang, G., & Zhang, L. (2023). Beware of Fragmentation: Scheduling {GPU-Sharing} Workloads with Fragmentation Gradient Descent. In 2023 USENIX Annual Technical Conference (USENIX ATC 23) (pp. 995-1008).</a>
+    <a href="https://arxiv.org/abs/2408.08586">Zhang, X., Zhao, H., Xiao, W., Jia, X., Xu, F., Li, Y., ... & Liu, F. (2024). Rubick: Exploiting Job Reconfigurability for Deep Learning Cluster Scheduling. arXiv preprint arXiv:2408.08586.</a>
+    <a href="https://www.usenix.org/conference/nsdi23/presentation/lai-fan">Lai, F., Dai, Y., Madhyastha, H. V., & Chowdhury, M. (2023). {ModelKeeper}: Accelerating {DNN} training via automated training warmup. In 20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23) (pp. 769-785).</a>
+
+- title: Enhancing Wastewater System Monitoring through Graph Neural Networks
+  supervisors: ["Dilek Düstegör", "Revin Alief"]
+  available: true
+  date: 2025-01-21
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="https://doi.org/10.3390/w13121681">Belghaddar, Y.; Chahinian, N.; Seriai, A.; Begdouri, A.; Abdou, R.; Delenne, C. Graph Convolutional Networks: Application to Database Completion of Wastewater Networks. Water 2021, 13, 1681. https://doi.org/10.3390/w13121681.</a>
+    <a href="https://doi.org/10.1145/3678717.3695761">Q. Guo and W. Wang. 2024. HydroNet: A Spatio-temporal Graph Neural Network for Modeling Hydraulic Dependencies in Urban Wastewater Systems. In Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL '24). Association for Computing Machinery, New York, NY, USA, 717–718.</a>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0043135423014586">Z. Li, H. Liu, C. Zhang, and G. Fu, “Real-time water quality prediction in water distribution networks using graph neural networks with sparse monitoring data,” Water Research, vol. 250, p. 121018, 2024.</a>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0043135424012958">A. Garzon, Z. Kapelan, J. Langeveld, and R. Taormina, “Transferable and data-efficient metamodeling of storm water system nodal depths using auto-regressive graph neural networks,” Water Research, vol. 266, p. 122396, 2024.</a>
+
+- title: Federated Learning Approaches for Distributed Decision-Making in Wastewater System Management
+  supervisors: ["Dilek Düstegör", "Revin Alief"]
+  available: true
+  date: 2025-01-21
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="https://arxiv.org/abs/2202.07256">R. Liu, P. Xing, Z. Deng, A. Li, C. Guan, and H. Yu, “Federated graph neural networks: Overview, techniques and challenges,” 2022.</a>
+    <a href="https://www.sciencedirect.com/science/article/pii/S1944398624020241">D. Narayanan, M. Bhat, N. Samuel Paul, N. Khatri, and A. Saroliya, “Artificial intelligence-driven advances in wastewater treatment: Evaluating techniques for sustainability and efficacy in global facilities,” Desalination and Water Treatment, vol. 320, p. 100618, 2024.</a>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0043135424010418">Z. Zhang, W. Tian, C. Lu, Z. Liao, and Z. Yuan, “Graph neural network-based surrogate modelling for real-time hydraulic prediction of urban drainage networks,” Water Research, vol. 263, p. 122142, 2024.</a>
+
+- title: Estimating Deep Learning GPU Memory Consumption
+  supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
+  available: true
+  date: 2023-12-11
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="https://dl.acm.org/doi/abs/10.1145/3368089.3417050">Yanjie Gao, Yu Liu, Hongyu Zhang, Zhengxian Li, Yonghao Zhu, Haoxiang Lin, and Mao Yang. "Estimating GPU memory consumption of deep learning models." In Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, pp. 1342-1352. 2020.</a>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9755116">Haiyi Liu, Shaoying Liu, Chenglong Wen, and W. Eric Wong. "TBEM: Testing-Based GPU-Memory Consumption Estimation for Deep Learning." IEEE Access, 10, pp.39674-39680. 2022.</a>
+    <a href="https://arxiv.org/abs/2205.12095">Lu Bai, Weixing Ji, Qinyuan Li, Xilai Yao, Wei Xin, and Wanyi Zhu. "Dnnabacus: Toward accurate computational cost prediction for deep neural netw." arXiv preprint arXiv:2205.12095. 2022.</a>
+    <a href="https://ieeexplore.ieee.org/abstract/document/10172674">Yanjie Gao, Xianyu Gu, Hongyu Zhang, Haoxiang Lin, and Mao Yang. "Runtime performance prediction for deep learning models with graph neural network." In IEEE/ACM 45th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP), pp. 368-380. 2023.</a>
+
+- title: Distributed Digital Twin
+  supervisors: ["Dilek Düstegör"]
+  available: true
+  date: 2023-11-30
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="https://doi.org/10.1016/j.cie.2023.109534">Aboelhassan, Ayman; Sakr, Ahmed H.; Yacout, Soumaya, "General purpose digital twin framework using digital shadow and distributed system concepts," Computers and Industrial Engineering VOLUME 183, 2023, https://doi.org/10.1016/j.cie.2023.109534.</a>
+    <a href="https://link.springer.com/article/10.1007/s12599-022-00751-1">Hasse, H; van der Valk, H; Möller, F; Otto, B, "Design Principles for Shared Digital Twins in Distributed Systems," Business and Information Systems Engineering, 64-6 (751-772), 2022, https://link.springer.com/article/10.1007/s12599-022-00751-1.</a>
+    <a href="https://doi.org/10.3390/computers11050067">Azeroual Mohamed, Tijani Lamhamdi, Hassan El Moussaoui and Hassane El Markhi, "IoTwins: Toward Implementation of Distributed Digital Twins in Industry 4.0 Settings," Computers, Vol: 11, Issue: 5, 2022, https://doi.org/10.3390/computers11050067.</a>
+    <a href="https://doi.org/10.1145/3507909">Ricci, A; Croatti, A; Mariani, S; ; Montagna, S; Picone, M, "Web of Digital Twins," ACM Transactions on Internet Technology, Vol: 22, Issue: 4, https://doi.org/10.1145/3507909.</a>
+
+- title: Digital Twin for Water Network
+  supervisors: ["Dilek Düstegör"]
+  available: true
+  date: 2023-11-30
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="https://doi.org/10.3390/w14071001">Wei, YY; Law, AWK; Yang, C; Tang, D, "Combined Anomaly Detection Framework for Digital Twins of Water Treatment Facilities," Water VOLUME 14, Issue 7, 2022, https://doi.org/10.3390/w14071001.</a>
+    <a href="https://doi.org/10.3390/w14223591">Wei, YY; Law, AWK; Yang, C, "Real-Time Data-Processing Framework with Model Updating for Digital Twins of Water Treatment Facilities," Water, 14 (22):3591, 2022, https://doi.org/10.3390/w14223591.</a>
+    <a href="https://doi.org/10.1016/j.ress.2023.109416">Liu, WT; He, SD; Mou, JP; Xue, T; Chen, HT; Xiong, WL, "Digital twins-based process monitoring for wastewater treatment processes," Reliability Engineering and System Safety 238, 2023, https://doi.org/10.1016/j.ress.2023.109416.</a>
+    <a href="https://doi.org/10.1002/awwa.1414">Rand, Honey, "Digital Twins: The Next Generation of Water Treatment Technology," Journal American Water Works Association, Volume: 111, Issue: 12, 2019, https://doi.org/10.1002/awwa.1414.</a>
+
+- title: Data Driven Methods for Leakage Detection in Water Network
+  supervisors: ["Dilek Düstegör"]
+  available: true
+  date: 2023-11-30
+  type: ["coloquium"]
+  description: |
+    References:<br />
+    <a href="https://doi.org/110.2166/ws.2023.220">Romero-Ben, L; Alves, D; Blesa, J; Cembrano, G; Puig, V; Duviella, E, "Leak detection and localization in water distribution networks: Review and perspective," Annual Reviews in control 55, pp 392–419, 2023, https://doi.org/0.1016/j.arcontrol.2023.03.012.</a>
+    <a href="https://doi.org/10.1016/j.arcontrol.2023.03.012">Zhang, XQ; Wu, XW; Yuan, YQ; Long, ZH; Yu, TC, "Burst detection based on multi-time monitoring data from multiple pressure sensors in district metering areas," Water Supply, 2023, https://doi.org/10.2166/ws.2023.220.</a>
+    <a href="https://doi.org/10.3390/w15152710">Tyagi, V; Pandey, P; Jain, S; Ramachandran, P, "A Two-Stage Model for Data-Driven Leakage Detection and Localization in Water Distribution Networks," Water, 2023, https://doi.org/10.3390/w15152710.</a>
+    <a href="https://ascelibrary.org/doi/10.1061/JWRMD5.WRENG-6001">Wan, X; Farmani, R; Keedwell, E, "Gradual Leak Detection in Water Distribution Networks Based on Multistep Forecasting Strategy," JOURNAL OF WATER RESOURCES PLANNING AND MANAGEMENT, 2023, https://doi.org/10.3390/w15152710.</a>
+
 
