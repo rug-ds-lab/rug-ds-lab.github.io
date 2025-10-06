@@ -23,13 +23,21 @@
     In this project we are developing a resource manager framework, part of this framework is to design monitoring APIs functionalities, which gathers hardware metrics upon invocation. You will be given a code template and your task is to fill in the code for some API functionalities. Supplementary programs and helper functions will be provided to be able to test your implementation. A documentation for the required API functions including their input and output parameters will be provided. This project requires C and Python programming as well as basic operating systems knowledge.
 
 - title: "Mining sensors data for anomaly detection (with industrial partner)"
-  supervisors: ["Dilek Düştegör", "Revin Naufal Alief"]
+  supervisors: ["Dilek Düştegör", "Revin Alief"]
   available: true
   date: 2024-10-28
   type: ["bi"]
   description: |
     In collaboration with an industrial partner, we have access to sensor data collected from various machines. We need a curious student to look at the dataset from multiple possible angles and see if datamining / data science techniques can identify any pattern. This is an ideal project if you want to learn about datamining / data science techniques.
 
+- title: "Mining sales data to identify patterns (with industrial partner)"
+  supervisors: ["Dilek Düştegör", "Revin Alief"]
+  available: true
+  date: 2024-10-28
+  type: ["bi"]
+  description: |
+    In collaboration with an industrial partner, we have access to their sales data. We need a curious student to look at the dataset from multiple possible angles and see if data mining / data science techniques can identify any pattern. This is an ideal project if you want to learn about datamining / data science techniques.
+    
 - title: "Research packages for the formal specification and verification of process compositions"
   supervisors: ["Heerko Groefsema"]
   available: true
@@ -115,4 +123,5 @@
     <a href="https://arxiv.org/pdf/2010.01179.pdf">Abboud, Ralph, Ismail Ilkan Ceylan, Martin Grohe, and Thomas Lukasiewicz. "The surprising power of graph neural networks with random node initialization." arXiv preprint arXiv:2010.01179 (2020).</a>
     <a href="https://arxiv.org/pdf/2104.13619.pdf">Hajgató, Gergely, Bálint Gyires-Tóth, and György Paál. "Reconstructing nodal pressures in water distribution systems with graph neural networks." arXiv preprint arXiv:2104.13619 (2021).</a>
     <a href="https://arxiv.org/pdf/2111.06377.pdf">He, Kaiming, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, and Ross Girshick. "Masked autoencoders are scalable vision learners." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 16000-16009. 2022.</a>
+
 
