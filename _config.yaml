@@ -43,3 +43,9 @@ scholar:
   type_order: [book, phdthesis, proceedings, booklet, inbook, article, incollection, inproceedings, techreport, manual, masterthesis, unpublished, misc]
   bibtex_filters: latex
   bibliography_template: bib_entry
+
+encoding: utf-8 # Make sure the encoding is right
+lang: en-GB # Set the site language
+title: "Distributed Systems" # Site name or title, also used in jekyll-seo-tag
+description: "Distributed Systems research group, Computing Science, Bernoulli Institute, Faculty of Science and Engineering, University of Groningen, Groningen, The Netherlands" # Site description and default description, also used in jekyll-seo-tag
+header: "Distributed Systems" # Header displayed above the menu, different from title because that should be overriden
