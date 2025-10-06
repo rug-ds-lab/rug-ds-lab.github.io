@@ -128,7 +128,7 @@
   supervisors: ["Heerko Groefsema"]
   available: true
   date: 2025-02-05
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="https://www.sciencedirect.com/science/article/pii/B9780080499444500276">Peot, M. A., & Smith, D. E. (1992, January). Conditional nonlinear planning. In Artificial Intelligence Planning Systems (pp. 189-197). Morgan Kaufmann.</a>
@@ -140,7 +140,7 @@
   supervisors: ["Heerko Groefsema"]
   available: true
   date: 2025-02-05
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="https://doi.org/10.1007/978-3-031-16171-1_2">Groefsema, H., Beest, N.R.T.P.v., Governatori, G. (2022). On the Use of the Conformance and Compliance Keywords During Verification of Business Processes. In: Business Process Management Forum. BPM 2022. Lecture Notes in Business Information Processing, vol 458. Springer.</a>
@@ -152,7 +152,7 @@
   supervisors: ["Andrés Tello"]
   available: true
   date: 2025-02-01
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="https://openreview.net/pdf?id=WIzzXCVYiH">Wang, X., & Shen, H. W. GNNBoundary: Towards Explaining Graph Neural Networks through the Lens of Decision Boundaries. In The Twelfth International Conference on Learning Representations.</a>
@@ -164,7 +164,7 @@
   supervisors: ["Andrés Tello"]
   available: true
   date: 2025-02-01
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="https://openreview.net/pdf?id=qaJxPhkYtD">Kanatsoulis, C., & Ribeiro, A. Counting Graph Substructures with Graph Neural Networks. In The Twelfth International Conference on Learning Representations.</a>
@@ -176,7 +176,7 @@
   supervisors: ["Huy Truong"]
   available: true
   date: 2025-01-21
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="https://www.researchgate.net/publication/371786545_Otter-Knowledge_benchmarks_of_multimodal_knowledge_graph_representation_learning_from_different_sources_for_drug_discovery">Lam, Hoang Thanh, et al. "Otter-Knowledge: benchmarks of multimodal knowledge graph representation learning from different sources for drug discovery." *arXiv preprint arXiv:2306.12802* (2023).</a>
@@ -187,7 +187,7 @@
   supervisors: ["Huy Truong"]
   available: true
   date: 2025-01-21
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="http://proceedings.mlr.press/v119/sun20b/sun20b.pdf">Sun, Yu, et al. "Test-time training with self-supervision for generalization under distribution shifts." International conference on machine learning. PMLR, 2020.</a>
@@ -199,7 +199,7 @@
   supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
   available: true
   date: 2025-01-27
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="https://www.usenix.org/conference/osdi18/presentation/xiao">Wencong Xiao, Romil Bhardwaj, Ramachandran Ramjee, Muthian Sivathanu, Nipun Kwatra, Zhenhua Han, Pratyush Patel et al. "Gandiva: Introspective Cluster Scheduling for Deep Learning." In 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18), pp. 595-610. 2018.</a>
@@ -211,7 +211,7 @@
   supervisors: ["Dilek Düstegör", "Revin Alief"]
   available: true
   date: 2025-01-21
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="https://doi.org/10.3390/w13121681">Belghaddar, Y.; Chahinian, N.; Seriai, A.; Begdouri, A.; Abdou, R.; Delenne, C. Graph Convolutional Networks: Application to Database Completion of Wastewater Networks. Water 2021, 13, 1681. https://doi.org/10.3390/w13121681.</a>
@@ -223,7 +223,7 @@
   supervisors: ["Dilek Düstegör", "Revin Alief"]
   available: true
   date: 2025-01-21
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="https://arxiv.org/abs/2202.07256">R. Liu, P. Xing, Z. Deng, A. Li, C. Guan, and H. Yu, “Federated graph neural networks: Overview, techniques and challenges,” 2022.</a>
@@ -234,7 +234,7 @@
   supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
   available: true
   date: 2023-12-11
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="https://dl.acm.org/doi/abs/10.1145/3368089.3417050">Yanjie Gao, Yu Liu, Hongyu Zhang, Zhengxian Li, Yonghao Zhu, Haoxiang Lin, and Mao Yang. "Estimating GPU memory consumption of deep learning models." In Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, pp. 1342-1352. 2020.</a>
@@ -246,7 +246,7 @@
   supervisors: ["Dilek Düstegör"]
   available: true
   date: 2023-11-30
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="https://doi.org/10.1016/j.cie.2023.109534">Aboelhassan, Ayman; Sakr, Ahmed H.; Yacout, Soumaya, "General purpose digital twin framework using digital shadow and distributed system concepts," Computers and Industrial Engineering VOLUME 183, 2023, https://doi.org/10.1016/j.cie.2023.109534.</a>
@@ -258,7 +258,7 @@
   supervisors: ["Dilek Düstegör"]
   available: true
   date: 2023-11-30
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="https://doi.org/10.3390/w14071001">Wei, YY; Law, AWK; Yang, C; Tang, D, "Combined Anomaly Detection Framework for Digital Twins of Water Treatment Facilities," Water VOLUME 14, Issue 7, 2022, https://doi.org/10.3390/w14071001.</a>
@@ -270,12 +270,13 @@
   supervisors: ["Dilek Düstegör"]
   available: true
   date: 2023-11-30
-  type: ["coloquium"]
+  type: ["colloquium"]
   description: |
     References:<br />
     <a href="https://doi.org/110.2166/ws.2023.220">Romero-Ben, L; Alves, D; Blesa, J; Cembrano, G; Puig, V; Duviella, E, "Leak detection and localization in water distribution networks: Review and perspective," Annual Reviews in control 55, pp 392–419, 2023, https://doi.org/0.1016/j.arcontrol.2023.03.012.</a>
     <a href="https://doi.org/10.1016/j.arcontrol.2023.03.012">Zhang, XQ; Wu, XW; Yuan, YQ; Long, ZH; Yu, TC, "Burst detection based on multi-time monitoring data from multiple pressure sensors in district metering areas," Water Supply, 2023, https://doi.org/10.2166/ws.2023.220.</a>
     <a href="https://doi.org/10.3390/w15152710">Tyagi, V; Pandey, P; Jain, S; Ramachandran, P, "A Two-Stage Model for Data-Driven Leakage Detection and Localization in Water Distribution Networks," Water, 2023, https://doi.org/10.3390/w15152710.</a>
     <a href="https://ascelibrary.org/doi/10.1061/JWRMD5.WRENG-6001">Wan, X; Farmani, R; Keedwell, E, "Gradual Leak Detection in Water Distribution Networks Based on Multistep Forecasting Strategy," JOURNAL OF WATER RESOURCES PLANNING AND MANAGEMENT, 2023, https://doi.org/10.3390/w15152710.</a>
+
 
 
