@@ -81,4 +81,37 @@
     <a href="https://www.sciencedirect.com/science/article/pii/S0043135424010418">Zhang, Z., Tian, W., Lu, C., Liao, Z., & Yuan, Z. (2024). Graph neural network-based surrogate modelling for real-time hydraulic prediction of urban drainage networks. Water Research, 263, 122142. https://doi.org/10.1016/j.watres.2024.122142</a>
     <a href="https://www.sciencedirect.com/science/article/pii/S2210670724007017">Li, M., Shi, X., Lu, Z., & Kapelan, Z. (2024). Predicting the urban stormwater drainage system state using the Graph-WaveNet. Sustainable Cities and Society, 115, 105877. https://doi.org/10.1016/j.scs.2024.105877</a>
 
+- title: "Benchmarking AI Workloads on GPU Cluster"
+  supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
+  available: true
+  date: 2025-01-21
+  type: ["bachelor"]
+  description: |
+    Understanding the characteristics of AI workloads is essential for effective resource allocation and fault tolerance mechanisms. This project focuses on benchmarking various deep neural network (DNN) models on GPUs using different profiling and monitoring tools. You will observe and analyze their runtime behavior, identify the factors affecting model performance, and propose metrics that effectively quantify their runtime characteristics. The outcome of this project is to deliver a comprehensive study on profiling DNN models with minimal overhead and maximum accuracy.<br />
+    References:<br />
+    <a href="https://arxiv.org/abs/1808.08512">Gao, Wanling, et al. "Data motifs: A lens towards fully understanding big data and ai workloads." Proceedings of the 27th International Conference on Parallel Architectures and Compilation Techniques. 2018., https://arxiv.org/abs/1808.08512</a>
+    <a href="https://www.usenix.org/conference/osdi18/presentation/xiao">Xiao, Wencong, et al. "Gandiva: Introspective cluster scheduling for deep learning." 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18). 2018., https://www.usenix.org/conference/osdi18/presentation/xiao</a>
+    <a href="https://arxiv.org/abs/2009.05257">Yang, Charlene, et al. "Hierarchical roofline performance analysis for deep learning applications." Intelligent Computing: Proceedings of the 2021 Computing Conference, Volume 2. Springer International Publishing, 2021., https://arxiv.org/abs/2009.05257</a>
 
+- title: "DiTEC project- Unsupervised Learning for Customer Profiles in Water Distribution Networks"
+  supervisors: ["Huy Truong", "Dilek Düstegör"]
+  available: true
+  date: 2025-01-21
+  type: ["bachelor"]
+  description: |
+    Researchers studying drinking water distribution networks often rely on large-scale synthesized datasets. However, the current simulation generating these datasets faces limitations in retrieving metadata that enhances dataset accessibility. Moreover, this missing metadata, including customer profiles at each node in the network, plays a crucial role in classifying customer types and estimating their demand, particularly during peak seasons. To address this gap, the student could apply unsupervised clustering algorithms such as K-NN, K-means, or DBSCAN to identify and retrieve these customer profiles. This project requires a candidate with a solid background in Machine Learning and interest in building robust data pipelines. They will be eventually employed to extract the missing metadata for a large-scale dataset, enabling water experts to analyze water network and benchmark customer behavior efficiently.<br />
+    References:<br />
+    <a href="https://doi.org/10.3390/engproc2024069050">Tello, A., Truong, H., Lazovik, A., & Degeler, V. (2024). Large-scale multipurpose benchmark datasets for assessing data-driven deep learning approaches for water distribution networks. Engineering Proceedings, 69(1), 50. https://doi.org/10.3390/engproc2024069050.</a>
+
+- title: "Node masking in Graph Neural Networks"
+  supervisors: ["Huy Truong", "Dilek Düstegör"]
+  available: true
+  date: 2025-01-21
+  type: ["bachelor"]
+  description: |
+    Working with data in the real world often leads to missing information problems, which can negatively affect the performance of deep learning models. However, in proper ways, it can boost the expressiveness of Graph Neural Network (GNN) models in node representation learning through a technique known as Node Masking. In particular, it hides arbitrary nodal features in a graph and instructs the GNN to recover the missing parts. The student can explore diverse masking strategies, such as zero masking, random node replacement, mean-neighbor substitution, shared learnable embedding, and nodal permutation. These options above should be compared and evaluated in a graph reconstruction task that applies to a water distribution network. This study will focus on finding a generative technique that effectively enhances the performance of GNN models in semi-supervised transductive learning. Students interested in joining this project should possess a machine-learning background and a deep-learning framework.<br />
+    References:<br />
+    <a href="https://arxiv.org/pdf/2205.10803.pdf">Hou, Zhenyu, Xiao Liu, Yuxiao Dong, Chunjie Wang, and Jie Tang. "GraphMAE: Self-Supervised Masked Graph Autoencoders." arXiv preprint arXiv:2205.10803(2022).</a>
+    <a href="https://arxiv.org/pdf/2010.01179.pdf">Abboud, Ralph, Ismail Ilkan Ceylan, Martin Grohe, and Thomas Lukasiewicz. "The surprising power of graph neural networks with random node initialization." arXiv preprint arXiv:2010.01179 (2020).</a>
+    <a href="https://arxiv.org/pdf/2104.13619.pdf">Hajgató, Gergely, Bálint Gyires-Tóth, and György Paál. "Reconstructing nodal pressures in water distribution systems with graph neural networks." arXiv preprint arXiv:2104.13619 (2021).</a>
+    <a href="https://arxiv.org/pdf/2111.06377.pdf">He, Kaiming, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, and Ross Girshick. "Masked autoencoders are scalable vision learners." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 16000-16009. 2022.</a>
