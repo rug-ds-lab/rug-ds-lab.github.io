@@ -278,5 +278,70 @@
     <a href="https://doi.org/10.3390/w15152710">Tyagi, V; Pandey, P; Jain, S; Ramachandran, P, "A Two-Stage Model for Data-Driven Leakage Detection and Localization in Water Distribution Networks," Water, 2023, https://doi.org/10.3390/w15152710.</a>
     <a href="https://ascelibrary.org/doi/10.1061/JWRMD5.WRENG-6001">Wan, X; Farmani, R; Keedwell, E, "Gradual Leak Detection in Water Distribution Networks Based on Multistep Forecasting Strategy," JOURNAL OF WATER RESOURCES PLANNING AND MANAGEMENT, 2023, https://doi.org/10.3390/w15152710.</a>
 
+- title: Large Language Model to extract from digitized archives
+  supervisors: ["Dilek Dustegor"]
+  available: true
+  date: 2025-04-11
+  type: ["internship"]
+  description: |
+    This project aims to conduct a pilot study utilizing Large Language Models (LLMs) to extract and analyze data on historical tortoiseshell trade from the Dutch East India Company archives. The intern is expected to build an LLM solution to extract all information related to marine life, including but not limited to location, quantity, date, type. This solution would involve dealing with large machine-translated files, serving LLM, prompt engineering, and documentation of the process. This is part of a larger project, where the extracted data will be analyzed within the framework of historical ecology, focusing on quantities, temporal patterns, and geographic distribution (in collaboration with Willemien de Kock (Faculty of Arts) and Emin Tatar (CIT)). 
+    <br />References:<br />
+    <a href="https://www.huygens.knaw.nl/en/5-million-scans-voc-archives-online-and-searchable/">5 million scans VOC archives online and searchable.</a>
+
+- title: DiTEC project- Building a collection of Graph Self-Supervised Learning tasks
+  supervisors: ["Huy Truong"]
+  available: true
+  date: 2025-04-03
+  type: ["internship"]
+  description: |
+    Self-supervised learning (SSL) has shown great potential in enhancing the capabilities of large foundation models, but its application to graph modalities remains underexplored. This project aims to investigate popular SSL tasks across node-level, link-level, and graph-level challenges, as well as more complex graph representation learning approaches. As a researcher of the project, the candidate will develop a framework that enables users to train deep learning models using these tasks on independent datasets. The final deliverables will include the implementation code and a report detailing the problem and the proposed solution. The ideal candidate should have a background in machine learning, and experience with at least one deep learning framework.
+    <br />References:<br />
+    <a href="https://ieeexplore.ieee.org/document/9770382/">Liu, Yixin, et al. "Graph self-supervised learning: A survey." *IEEE transactions on knowledge and data engineering* 35.6 (2022): 5879-5900.</a>
+    <a href="https://ieeexplore.ieee.org/document/9632431/">Wu, Lirong, et al. "Self-supervised learning on graphs: Contrastive, generative, or predictive." *IEEE Transactions on Knowledge and Data Engineering* 35.4 (2021): 4216-4235.</a>
+
+- title: DiTEC project- Inverse problem in Water Distribution Networks
+  supervisors: ["Huy Truong"]
+  available: true
+  date: 2025-04-03
+  type: ["internship"]
+  description: |
+    Water researchers have relied on simulations to monitor the behavior of Water Distribution Networks. These simulations require a comprehensive set of parameters- such as elevation, demand, and pipe diameters-to determine hydraulic states accurately. This increases labor cost, time consumption and, therefore, poses a significant challenge. But what if we could reverse the process and let AI infer the missing pieces? Building on this idea, the project explores an innovative approach: leveraging data-driven deep learning methods to predict initial input conditions based on available output states. As a researcher on this project, the candidate will select and train a cutting-edge Graph Neural Network on a massive dataset. As a result, the model should be able to predict initial conditions while considering the structural and physical constraints. The candidate will submit the implementation code and a report detailing the problem and the proposed solution. The ideal candidate should have a background in machine learning and be familiar with at least one deep-learning framework.
+    <br />References:<br />
+    <a href="https://arxiv.org/abs/2503.17167">Truong, Huy, et al. "DiTEC-WDN: A Large-Scale Dataset of Hydraulic Scenarios across Multiple Water Distribution Networks." (2025).</a>
+
+- title: DiTEC project- Bio-inspired Water Network Design
+  supervisors: ["Huy Truong"]
+  available: true
+  date: 2025-04-03
+  type: ["internship"]
+  description: |
+    Designing Water Distribution Networks (WDN) has been portrayed as a complex, labor, and time-consuming process. To alleviate this, the project aims to automate the design using Evolution Strategy (ES). In particular, these algorithms should search and optimize values of hydraulic parameters, such as nodal elevation, pump speed, and pipe length, to construct a complete simulation configuration. This configuration should follow the local, structural, and physical restrictions (i.e., multi-objective optimization). As a researcher on this project, the candidate will explore an ES framework to develop the optimization algorithm and apply it to a water distribution domain. As such, the candidate should be familiar with machine-learning experiments. As deliverables, the candidate should submit the report and implementation code that generates optimized configurations. These configurations will help water researchers simulate, analyze, and understand the WDN’s behavior and enhance the monitoring capability of these systems in practice.
+    <br />References:<br />
+    <a href="https://link.springer.com/article/10.1007/s11042-023-17167-y">Gad, Ahmed Fawzy. "Pygad: An intuitive genetic algorithm python library." *Multimedia tools and applications* 83.20 (2024): 58029-58042.</a>
+    <a href="https://arxiv.org/abs/2302.12600">Toklu, Nihat Engin, et al. "Evotorch: Scalable evolutionary computation in python." *arXiv preprint arXiv:2302.12600* (2023).</a>
+    <a href="https://dl.acm.org/doi/abs/10.1145/3583133.3590733">Lange, Robert Tjarko. "evosax: Jax-based evolution strategies, 2022." *URL http://github.com/RobertTLange/evosax* 7 (2022).</a>
+
+- title: Can we train a Neural Network with Forward-Forward “harmoniously”?
+  supervisors: ["Huy Truong"]
+  available: true
+  date: 2025-04-03
+  type: ["internship"]
+  description: |
+    Back Propagation(BP) is a de facto approach to training neural network models. Nevertheless, it is biologically implausible and requires complete knowledge (i.e., tracks the entire flow of information from start to end of a model) to perform a backward pass. Instead, an alternative approach called Forward-Forward(FF) can replace the backward pass with an additional forward one and update the model weights in an unsupervised fashion. In particular, FF performs forward passes using positive and negative inputs, respectively, and, therefore, employs the difference between the two activation versions at each layer in the neural network to compute the loss and update weights. Here, the project studies the behavior of FF employing different losses: (1) cross-entropy and (2) harmonic loss. Also, it is valuable to study the relevance between harmonic loss and FF in terms of distance metrics or geometric properties in an embedding space. As a deliverable, the candidate should submit a detailed report and implementation code. For primary requirements, the candidate should be familiar with one of the deep learning frameworks and have experience in setting up machine learning experiments.
+    <br />References:<br />
+    <a href="https://arxiv.org/abs/2212.13345">Hinton, Geoffrey. "The forward-forward algorithm: Some preliminary investigations." *arXiv preprint arXiv:2212.13345* (2022).</a>
+    <a href="https://arxiv.org/html/2502.01628v1">Baek, David D., et al. "Harmonic Loss Trains Interpretable AI Models." *arXiv preprint arXiv:2502.01628* (2025).</a>
+
+- title: Leveraging Structural Similarity for Performance Estimation of Deep Learning Training Jobs
+  supervisors: ["Mahmoud Alasmar"]
+  available: true
+  date: 2025-04-04
+  type: ["internship"]
+  description: |
+    Deep learning (DL) workload-aware schedulers make decisions based on performance data collected through a process called profiling. However, profiling each job individually is computationally expensive, reducing the practicality of such approaches. Fortunately, DL models exhibit structural similarities that can be leveraged to develop alternative methods for performance estimation. One promising approach involves representing DL models as graphs and measuring their similarity using Graph Edit Distance (GED) [1]. By analyzing the structural similarities between models, we can potentially predict the performance of one model based on the known performance of another, reducing the need for extensive profiling. In this project, you will: Study and implement the similarity matching mechanism proposed in [2], compare runtime performance of similar DL models, focusing on key metrics such as GPU utilization and power consumption, and investigate the relationship between model similarity and performance predictability, trying to answer the following question: Given two similar DL models and the performance of one, what can we infer about the performance of the other? You will work with a selected set of DL training models, and performance metrics will be collected using Nvidia's GPU profiling tools, such as DCGM.
+    <br />References:<br />
+    <a href="https://doi.org/10.1145/2882903.2915236">Fei Bi, Lijun Chang, Xuemin Lin, Lu Qin, and Wenjie Zhang. 2016. Efficient Subgraph Matching by Postponing Cartesian Products. In Proceedings of the 2016 International Conference on Management of Data (SIGMOD '16). Association for Computing Machinery, New York, NY, USA, 1199–1214</a>
+    <a href="https://www.usenix.org/conference/nsdi23/presentation/lai-fan">Lai, F., Dai, Y., Madhyastha, H. V., & Chowdhury, M. (2023). {ModelKeeper}: Accelerating {DNN} training via automated training warmup. In 20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23) (pp. 769-785).</a>
+
 
 
