@@ -44,14 +44,14 @@
   date: 2024-10-29
   type: [ "bi" ]
   description: |
-    This project involves creating a high-performance networking application using the Intel Data Plane Development Kit (DPDK). The application will receive network packets over a high-speed interface, inspect the packet header fields, and validate the protocol properties for correctness and consistency guarantees. The tool will verify protocol correctness by making sure that all receiving nodes receive the same set of packets in the exact order, guaranteeing total order and consistent state across all nodes.<br />**Prerequisites:** C/C++ programming language - Networking libraries and tools for protocol analysis - Logging library for error reporting.
+    This project involves creating a high-performance networking application using the Intel Data Plane Development Kit (DPDK). The application will receive network packets over a high-speed interface, inspect the packet header fields, and validate the protocol properties for correctness and consistency guarantees. The tool will verify protocol correctness by making sure that all receiving nodes receive the same set of packets in the exact order, guaranteeing total order and consistent state across all nodes.<br />Prerequisites: C/C++ programming language - Networking libraries and tools for protocol analysis - Logging library for error reporting.
 - title: "In-Network Data Stream Processing Serialization."
   supervisors: ["Bochra Boughzala"]
   available: true
   date: 2024-10-29
   type: [ "bi" ]
   description: |
-  	This project involves creating a high-performance networking application using the Intel Data Plane Development Kit (DPDK). The application will read entries from a specified database, convert these entries into JSON format, and send the JSON entries as packets over a high-speed network. The focus is on achieving low-latency and high-throughput performance.<br />**Prerequisites:** C/C++ programming language - Database Management (e.g., PostgreSQL databases).
+  	This project involves creating a high-performance networking application using the Intel Data Plane Development Kit (DPDK). The application will read entries from a specified database, convert these entries into JSON format, and send the JSON entries as packets over a high-speed network. The focus is on achieving low-latency and high-throughput performance.<br />Prerequisites: C/C++ programming language - Database Management (e.g., PostgreSQL databases).
 - title: "Automated Dataset Generator for Wastewater System Simulations"
   supervisors: ["Dilek Dustegor", "Revin Alief"]
   available: true
