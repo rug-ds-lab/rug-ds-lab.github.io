@@ -23,7 +23,7 @@
     In this project we are developing a resource manager framework, part of this framework is to design monitoring APIs functionalities, which gathers hardware metrics upon invocation. You will be given a code template and your task is to fill in the code for some API functionalities. Supplementary programs and helper functions will be provided to be able to test your implementation. A documentation for the required API functions including their input and output parameters will be provided. This project requires C and Python programming as well as basic operating systems knowledge.
 
 - title: "Mining sensors data for anomaly detection (with industrial partner)"
-  supervisors: ["Dilek Dustegor", "Revin Naufal Alief"]
+  supervisors: ["Dilek Düştegör", "Revin Naufal Alief"]
   available: true
   date: 2024-10-28
   type: ["bi"]
@@ -60,7 +60,7 @@
     This project involves creating a high-performance networking application using the Intel Data Plane Development Kit (DPDK). The application will read entries from a specified database, convert these entries into JSON format, and send the JSON entries as packets over a high-speed network. The focus is on achieving low-latency and high-throughput performance.<br />Prerequisites: C/C++ programming language - Database Management (e.g., PostgreSQL databases).
 
 - title: "Automated Dataset Generator for Wastewater System Simulations"
-  supervisors: ["Dilek Dustegor", "Revin Alief"]
+  supervisors: ["Dilek Düştegör", "Revin Alief"]
   available: true
   date: 2025-01-21
   type: ["bachelor"]
@@ -71,7 +71,7 @@
     <a href="https://github.com/modelcreate/infoworks-ruby-scripts">Infoworks Ruby Scripts</a>
 
 - title: "Optimizing Graph Neural Networks for Water Level Estimation"
-  supervisors: ["Dilek Dustegor", "Revin Alief"]
+  supervisors: ["Dilek Düştegör", "Revin Alief"]
   available: true
   date: 2025-01-21
   type: ["bachelor"]
@@ -94,7 +94,7 @@
     <a href="https://arxiv.org/abs/2009.05257">Yang, Charlene, et al. "Hierarchical roofline performance analysis for deep learning applications." Intelligent Computing: Proceedings of the 2021 Computing Conference, Volume 2. Springer International Publishing, 2021., https://arxiv.org/abs/2009.05257</a>
 
 - title: "DiTEC project- Unsupervised Learning for Customer Profiles in Water Distribution Networks"
-  supervisors: ["Huy Truong", "Dilek Düstegör"]
+  supervisors: ["Huy Truong", "Dilek Düştegör"]
   available: true
   date: 2025-01-21
   type: ["bachelor"]
@@ -115,3 +115,4 @@
     <a href="https://arxiv.org/pdf/2010.01179.pdf">Abboud, Ralph, Ismail Ilkan Ceylan, Martin Grohe, and Thomas Lukasiewicz. "The surprising power of graph neural networks with random node initialization." arXiv preprint arXiv:2010.01179 (2020).</a>
     <a href="https://arxiv.org/pdf/2104.13619.pdf">Hajgató, Gergely, Bálint Gyires-Tóth, and György Paál. "Reconstructing nodal pressures in water distribution systems with graph neural networks." arXiv preprint arXiv:2104.13619 (2021).</a>
     <a href="https://arxiv.org/pdf/2111.06377.pdf">He, Kaiming, Xinlei Chen, Saining Xie, Yanghao Li, Piotr Dollár, and Ross Girshick. "Masked autoencoders are scalable vision learners." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 16000-16009. 2022.</a>
+
