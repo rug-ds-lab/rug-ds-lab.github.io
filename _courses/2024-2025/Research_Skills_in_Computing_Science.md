@@ -1,7 +1,7 @@
 ---
 title: "Research Skills in Computing Science"
 level: "Bachelor CS"
-instructor: "J. Kosinka (coordinator), D. Düstegör"
+instructor: "D. Düstegör"
 course_code: 	WBCS026-05
 year: 2024-2025
 ---
