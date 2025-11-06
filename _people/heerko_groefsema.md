@@ -3,7 +3,7 @@ layout: person
 prefix: "Dr."
 name: Heerko Groefsema
 room: 591
-email: h.groefsema [at] rug.nl
+email: h.groefsema@rug.nl
 website: https://hgroefsema.nl/
 picture: /assets/images/profile/heerko_groefsema.jpg
 level: faculty
@@ -15,3 +15,4 @@ research:
     - "Variability Management"
 
 ---
+
