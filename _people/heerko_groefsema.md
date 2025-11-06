@@ -3,7 +3,7 @@ layout: person
 prefix: "Dr."
 name: Heerko Groefsema
 room: 591
-email: h.groefsema@rug.nl
+email: h.groefsema [at] rug.nl
 website: https://hgroefsema.nl/
 picture: /assets/images/profile/heerko_groefsema.jpg
 level: faculty
@@ -13,4 +13,5 @@ research:
     - "Service Oriented Architecture"
     - "Business Process Management"
     - "Variability Management"
+
 ---
