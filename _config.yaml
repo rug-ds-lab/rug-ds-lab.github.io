@@ -42,7 +42,6 @@ scholar:
   order: descending, descending, descending
   type_order: [book, phdthesis, proceedings, booklet, inbook, article, incollection, inproceedings, techreport, manual, masterthesis, unpublished, misc]
   bibtex_filters: latex
-  raw_bibtex_filters: uniq!
   bibliography_template: bib_entry
 
 encoding: utf-8 # Make sure the encoding is right
