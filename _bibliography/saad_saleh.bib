@@ -1,3 +1,127 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Please use the following STRICT format:
+%
+% @type{key,
+%	title = "...",
+%	abstract = "...",
+%	author = "...",
+%	year = "",
+%	month = ,
+%	day = "",
+%	language = "English",
+%	doi = "",
+%	url = "",
+%	pdf = "",
+% }
+%
+% 1. For the key use the last name of the first author followed by the
+%    year, a colon, and the acronym of the venue, all in lowercase,
+%    e.g.: "lazovik2000:ictai".
+% 2. For author and editor use the format "A. Lazovik and E. Lazovik".
+% 3. The doi, url, and pdf fields are optional but adviced. For url,
+%    use the research.rug.nl link unless otherwise provided.
+% 4. The month and day fields are optional but adviced because they
+%    are used to order our publications. Ordering happens by year,
+%    then type, month, day, author. Entries without the month field
+%    will appear below those with a month field. The same holds for
+%    the day field.
+% 5. The month field must be either a number, a lowercase three
+%    letter month code, or a capitalized month WITHOUT quotation
+%    marks, e.g.: 3 or mar or March.
+% 6. Use all other required fields for the type of publication.
+% 7. UTF-8 is supported, as well as SOME LaTeX escaped characters,
+%    e.g.: G{\"a}rtner or Gärtner.
+% 8. In case two group members co-author a publication and each
+%    include it in their bib file, they MUST use the same entry with
+%    the same EXACT key.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PhdThesis{Saleh25PhDdissertation,
+  author    = {Saad Saleh},
+  school    = {University of Groningen},
+  title     = {{Methods and Design for Analog Computing Architectures: Memristors for Enhancing Expressiveness and Energy-Efficiency of Packet Processors}},
+  year      = {2025},
+  abstract  = {The Internet heavily relies on packet processors for establishing the communication links between senders and receivers of network traffic. Despite their promising performance, the current generation of packet processors consume a huge amount of energy and provide limited support for more expressive functions like brain-inspired cognitive computing models. The major reason is the underlying transistor-based technology, which builds on digital computations and requires energy intensive data movements between storage and computational units inside these components. In this research, we show that the recent emerging technologies from the analog domain, especially Memristors, have a huge potential for increasing energy efficiency and supporting cognitive functions in packet processors.This thesis proposes an analog architecture for packet processors in order to support energy-efficient and cognitive functions in computer networks. Central to this design is a novel analog memory abstraction called Probabilistic Content Addressable Memory (pCAM). It provides both digital and analog outputs for supporting more expressive functions in packet processors. In order to support traditional digital operations, we propose a novel memristor-based TCAM memory. Building on analog computations, we further propose a congestion control mechanism, called derivative-based active queue management (dAQM), for better management of network traffic. The performance of the proposed analog architecture was analyzed over a physically fabricated Nb doped SrTiO3 memristor chip. The results showed that analog processing consumes up to 50 times less energy than digital processing. Moreover, the analog dAQM function provides up to 39.7% better performance than the state-of-the-art algorithms.},
+  doi       = {10.33612/diss.1157857827},
+  language  = {English},
+  pages     = {212},
+  publisher = {University of Groningen},
+}
+
+@Article{saleh2025:advancedmaterials,
+  title     = {Modulating trapping in low dimensional lead-tin halides for energy-efficient neuromorphic electronics},
+  author    = {L. Chen and S. Saleh and F. Tavormina and L. Mario and J. Li and Z. Xie and N. Masciocchi and C. Brabec and B. Koldehofe and M. A. Loi},
+  journal   = {Advanced Materials},
+  publisher = {Wiley-VCH},
+  year      = {2025},
+  month     = {mar},
+  day       = {},
+  volumeX    = {},    
+  pages     = {},
+  language  = {English},
+  doi       = {},
+  url       = {},
+}
+
+@InProceedings{saleh2024:infocom,
+  title     = {{Analog In-Network Computing through Memristor-based Match-Compute Processing}},
+  author    = {S. Saleh and A. S. Goossens and S. Shu and T. Banerjee and B. Koldehofe},
+  booktitle = {Proceedings of the 43rd International Conference on Computer Communications (INFOCOM 2024)},
+  publisher = {IEEE},
+  year      = {2024},
+  month     = {june},
+  url       = {https://hdl.handle.net/11370/bae8a4e6-61c6-46c6-b8a3-c9d054610009},
+  language  = "English",
+  note      = {In Press},
+}
+
+@InProceedings{saleh2024:networking,
+  title     = {{dAQM: Derivative-based Active Queue Management}},
+  author    = {S. Saleh and S. Shu and B. Koldehofe},
+  booktitle = {Proceedings of the 23rd IFIP Networking Conference (NETWORKING 2024)},
+  publisher = {IFIP},
+  year      = {2024},
+  month     = {june},
+  url       = {https://hdl.handle.net/11370/70f406a6-c56f-4968-9f41-fb91eecea7a8},
+  language  = "English",
+  note      = {In Press},
+}
+
+@InProceedings{saleh2024:noms,
+  title     = {{Adaptive In-Network Queue Management using Derivatives of Sojourn Time and Buffer Size}},
+  author    = {S. Saleh and S. Shu and B. Koldehofe},
+  booktitle = {Proceedings of the 37th Network Operations and Management Symposium (NOMS 2024) },
+  publisher = {IEEE},
+  year      = {2024},
+  month     = {may},
+  url       = {https://hdl.handle.net/11370/54af0761-645c-4bce-8c0a-c3bbd8c90358},
+  language  = "English",
+  note      = {In Press},
+}
+
+@conference{saleh2024:ict.open,
+  title     = {{Beyond Digital! Memristor-based Energy Efficient Analog Network Functions}},
+  author    = {S. Saleh and B. Koldehofe},
+  booktitle = {ICT.OPEN - CompSys Research for a Responsibly Digitalised Society},
+  publisher = {NWO ICT.OPEN},
+  year      = {2024},
+  month     = {apr},
+  language  = "English",
+  url       = {https://www.cs.rug.nl/ds/Publications/Publications},
+}
+
+@conference{saleh2024:appis,
+  title     = {{Towards Analog In-Network Computing for Supporting Cognitive and Energy-Efficient Network Functions}},
+  author    = {S. Saleh and B. Koldehofe},
+  booktitle = {6th International Conference on Applications of Intelligent Systems (APPIS 2024)},
+  publisher = {University of Las Palmas de Gran Canaria, Spain},
+  year      = {2024},
+  month     = {jan},
+  language  = "English",
+  url       = {https://www.cs.rug.nl/ds/Publications/Publications},
+}
+
 @InProceedings{saleh2023:hotnets,
   title     = {{The Future is Analog: Energy-Efficient Cognitive Network Functions over Memristor-Based Analog Computations}},
   author    = {S. Saleh and B. Koldehofe},

@@ -1,3 +1,41 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Please use the following STRICT format:
+%
+% @type{key,
+%	title = "...",
+%	abstract = "...",
+%	author = "...",
+%	year = "",
+%	month = ,
+%	day = "",
+%	language = "English",
+%	doi = "",
+%	url = "",
+%	pdf = "",
+% }
+%
+% 1. For the key use the last name of the first author followed by the
+%    year, a colon, and the acronym of the venue, all in lowercase,
+%    e.g.: "lazovik2000:ictai".
+% 2. For author and editor use the format "A. Lazovik and E. Lazovik".
+% 3. The doi, url, and pdf fields are optional but adviced. For url,
+%    use the research.rug.nl link unless otherwise provided.
+% 4. The month and day fields are optional but adviced because they
+%    are used to order our publications. Ordering happens by year,
+%    then type, month, day, author. Entries without the month field
+%    will appear below those with a month field. The same holds for
+%    the day field.
+% 5. The month field must be either a number, a lowercase three
+%    letter month code, or a capitalized month WITHOUT quotation
+%    marks, e.g.: 3 or mar or March.
+% 6. Use all other required fields for the type of publication.
+% 7. UTF-8 is supported, as well as SOME LaTeX escaped characters,
+%    e.g.: G{\"a}rtner or Gärtner.
+% 8. In case two group members co-author a publication and each
+%    include it in their bib file, they MUST use the same entry with
+%    the same EXACT key.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 @inproceedings{LotfianDelouee2022:MSN,
   title     = "Towards adaptive quality-aware Complex Event Processing in the Internet of Things",
@@ -38,4 +76,43 @@ and discuss how to integrate pattern-level privacy protection in event-based sys
   booktitle = {The 17th {ACM} International Conference on Distributed and Event-Based Systems (DEBS 2023)},
 	url = "https://research.rug.nl/en/publications/towards-pattern-level-privacy-protection-in-distributed-complex-e",
   publisher = "{ACM press}"
+ }
+
+@inproceedings{LotfianDelouee2024:ICISSPAPPCEP,
+	title = "APP-CEP: Adaptive Pattern-level Privacy Protection in Complex Event Processing Systems",
+	abstract = "Although privacy-preserving mechanisms endeavor to safeguard sensitive information at the attribute level,
+detected event patterns can still disclose privacy-sensitive knowledge in distributed complex event processing
+systems (DCEP). Events might not be inherently sensitive, but their aggregation into a pattern could still breach
+privacy. In this paper, we study in the context of APP-CEP the problem of integrating pattern-level privacy in
+event-based systems by selective assignment of obfuscation techniques to conceal private information. Compared
+to state-of-the-art techniques, we seek to enforce privacy independent of the actual events in streams.
+To support this, we acquire queries and privacy requirements using CEP-like patterns. The protection of privacy
+is accomplished through generating pattern dependency graphs, leading to dynamically appointing those
+techniques that have no consequences on detecting other sensitive patterns, as well as non-sensitive patterns
+required to provide acceptable Quality of Service. Besides, we model the knowledge that might be possessed
+by potential adversaries to violate privacy and its impacts on the obfuscation procedure. We assessed the
+performance of APP-CEP in a real-world scenario involving an online retailer’s transactions. Our evaluation
+results demonstrate that APP-CEP successfully provides a privacy-utility trade-off. Modeling the background
+knowledge also effectively prevents adversaries from realizing the modifications in the input streams.",
+	author = "M. {Lotfian Delouee} and V. Degeler  and P. Amthor and B. Koldehofe",
+	year = "2024",
+	month = February,
+	day = "26",
+	language = "English",
+  booktitle = {The 10th International Conference on Information Systems Security and Privacy (ICISSP 2024).},
+	url = "https://research.rug.nl/en/publications/app-cep-adaptive-pattern-level-privacy-protection-in-complex-even",
+  publisher = "{SCITEPRESS}"
+ }
+
+@inproceedings{LotfianDelouee2024:MedComNetDriving,
+	title = "Driving Towards Efficiency: Adaptive Resource-aware Clustered Federated Learning in Vehicular Networks",
+	abstract = "Guaranteeing precise perception for fully autonomous driving in diverse driving conditions requires continuous improvement and training. In vehicular networks, federated learning (FL) facilitates this by enabling model training without sharing raw sensory data. As an extension, clustered FL reduces communication overhead and aligns well with the dynamic nature of these networks. However, current literature on this topic does not consider critical dimensions of FL, including (1) the correlation between perception performance and the networking overhead, (2) the limited vehicle storage, (3) the need for training with freshly captured data, and (4) the impact of non-IID data and varying traffic densities. To fill these research gaps, we introduce AR-CFL, an Adaptive Resource-aware Clustered Federated Learning framework. AR-CFL utilizes clustered FL to collectively model the environment of connected vehicles, integrating models from all vehicles and ensuring universal accessibility to the refined model. AR-CFL dynamically enhances system efficiency by adaptively adjusting the number of clusters and specific in-cluster participant selection strategies. Using AR-CFL, we systematically study the scenario of online car detection model training on non-IID data across varied conditions. The evaluation results highlight the robust detection performance exhibited by the trained model employing the clustered FL approach, despite the constraints posed by limited vehicle storage capacity. Furthermore, our investigation unveils superior training performance with clustered FL in comparison to specific classical FL scenarios, increasing the training efficiency in terms of participating nodes by up to 25% and reducing cellular communication by 33%.",
+	author = "A. Khalil and M. {Lotfian Delouee} and V. Degeler and T. Meuser and A. Fernandez Anta, B. Koldehofe",
+	year = "2024",
+	month = June,
+	day = "11",
+	language = "English",
+  booktitle = {The 22nd Mediterranean Communication and Computer Networking Conference (MedComNet’24).},
+	url = "https://research.rug.nl/en/publications/driving-towards-efficiency-adaptive-resource-aware-clustered-fede",
+  publisher = "{IEEE}"
  }
