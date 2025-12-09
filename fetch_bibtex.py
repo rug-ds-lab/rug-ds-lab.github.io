@@ -169,7 +169,7 @@ if __name__ == "__main__":
         # Get the list of works from a member
         name = get_member_name(member, api_key)
         print(name)
-        work_codes = get_member_works(member, api_key, rug_filter=False)
+        work_codes = get_member_works(member, api_key, rug_filter=True)
         citations = get_bibtex(member, "/works/", work_codes, api_key)
         txt_arr: list[str] = []
 
