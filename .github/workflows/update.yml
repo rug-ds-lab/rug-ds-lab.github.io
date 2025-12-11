@@ -1,4 +1,4 @@
-name: Update
+name: Update Bibliography using ORCID
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
