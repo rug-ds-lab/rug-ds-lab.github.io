@@ -1,8 +1,8 @@
 ---
 layout: person
-name: Dr. Talko Dijkhuis
-level: affiliated
-academic_status: PhD Student (external)
+name: Talko Dijkhuis
+level: alumni
+academic_status: PhD Graduate
 picture: /assets/images/profile/talko.jpg
 email: t.b.dijkhuis [at] pl.hanze.nl
 # room: N/A
