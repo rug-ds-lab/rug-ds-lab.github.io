@@ -1,8 +1,8 @@
 ---
 layout: person
 name: Majid Lotfian Delouee
-level: student
-academic_status: PhD Student
+level: alumni
+academic_status: PhD Graduate
 picture: /assets/images/profile/majid.jpg
 email: m.lotfian.delouee [at] rug.nl
 room: 496
