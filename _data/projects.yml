@@ -342,3 +342,51 @@
     <br />References:<br />
     <a href="https://doi.org/10.1145/2882903.2915236">Fei Bi, Lijun Chang, Xuemin Lin, Lu Qin, and Wenjie Zhang. 2016. Efficient Subgraph Matching by Postponing Cartesian Products. In Proceedings of the 2016 International Conference on Management of Data (SIGMOD '16). Association for Computing Machinery, New York, NY, USA, 1199–1214</a>
     <a href="https://www.usenix.org/conference/nsdi23/presentation/lai-fan">Lai, F., Dai, Y., Madhyastha, H. V., & Chowdhury, M. (2023). {ModelKeeper}: Accelerating {DNN} training via automated training warmup. In 20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23) (pp. 769-785).</a>
+
+- title: Model Checking for Environmental Sustainability
+  supervisors: ["Heerko Groefsema", "Michel Medema"]
+  available: true
+  date: 2025-12-05
+  type: ["bachelor-project", "master-project"]
+  description: |
+    Organisations are increasingly concerned with environmental sustainability for various reasons (e.g., legislative, economic, ecological, or social). Quantifying sustainability performance across different dimensions is necessary for fulfilling legislative requirements and evaluating improvement efforts. In this project you will extend existing model checking approaches so that they can deal with business process models in which key environmental indicators have been attached to tasks and subprocesses along with possible target values for those indicators that should be enforced during process execution.
+
+- title: Runtime Compliance Checking for Camunda 8
+  supervisors: ["Heerko Groefsema", "Michel Medema"]
+  available: true
+  date: 2025-12-05
+  type: ["bachelor-project", "master-internship", "master-project"]
+  description: |
+    Organisations are increasingly concerned with environmental sustainability for various reasons (e.g., legislative, economic, ecological, or social). Quantifying sustainability performance across different dimensions is necessary for fulfilling legislative requirements and evaluating improvement efforts. In this project you will integrate an existing compliance checking tool into the Camunda 8 platform.
+
+- title: Verification of Security and Privacy concepts in BPMN Choreography diagrams
+  supervisors: ["Heerko Groefsema"]
+  available: true
+  date: 2025-12-05
+  type: ["bachelor-project", "master-project"]
+  description: |
+    Where process models define the flow of activities of participants, choreographies describe interactions between participants. Within such interactions, the security and privacy related concepts of separation of duties and division of knowledge are important. The former specifies that no one person has the privileges to misuse the system, either by error or fraudulent behavior, while the latter defines the absence of total knowledge within a single person, such that the knowledge can not be abused. The problem is, how do we specify such concepts and what kind of model is required to verify these concepts? In this project we ask the student to devise an approach to formally specify and verify these concepts given a BPMN Choreography Diagram.
+    <br />References:<br />
+    <a href="https://www.omg.org/spec/BPMN/2.0/PDF" rel="nofollow">OMG. Business process model and notation (BPMN) version 2.0, 2011.</a>
+    <a href="https://doi.org/10.1007/978-3-319-65000-5_3" rel="nofollow">Pullonen, Pille &amp; Matulevičius, Raimundas &amp; Bogdanov, Dan. (2017). PE-BPMN: Privacy-Enhanced Business Process Model and Notation. 40-56.</a>
+    <a href="https://github.com/rug-ds-lab/BPMVerification" rel="nofollow">BPMVerification package</a>
+
+- title: Obtaining Alignments from Transition Graphs
+  supervisors: ["Heerko Groefsema"]
+  available: true
+  date: 2025-12-05
+  type: ["bachelor-project", "master-project"]
+  description: |
+    The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Our Transition Graphs are also obtained from token replays, but offer further insight into parallel executions than regular Reachability Graphs. As a result, we are interested in the applicability of obtaining alignments using Transition Graphs, especially when matched against event logs that include lifecycle events and thus offer parallel execution data. In this project we ask the student to implement and evaluate the applicability of such an approach.
+    <br />References:<br />
+    <a href="https://doi.org/10.1109/TSC.2016.2579621" rel="nofollow">H. Groefsema, N.R.T.P. van Beest, and M. Aiello (2016) A Formal Model for Compliance Verification of Service Compositions. IEEE Transactions on Service Computing.</a>
+    <a href="https://link.springer.com/content/pdf/10.1007/978-3-319-99414-7.pdf" rel="nofollow">Carmona, Josep, et al. "Conformance checking." Switzerland: Springer.[Google Scholar] (2018).</a>
+    <a href="https://github.com/rug-ds-lab/BPMVerification" rel="nofollow">BPMVerification package</a>
+
+- title: Obtaining Alignments from behavior
+  supervisors: ["Heerko Groefsema"]
+  available: true
+  date: 2025-12-05
+  type: ["master-project"]
+  description: |
+    The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Instead, we would like to investigate comparing event logs against a specification of ordering relations to achieve a significant performance increase. 
