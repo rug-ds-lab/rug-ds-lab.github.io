@@ -2,7 +2,7 @@
   supervisors: ["Huy Truong", "Andrés Tello"]
   available: true
   date: 2025-08-25
-  type: ["bi"]
+  type: ["bachelor-internship"]
   description: |  
     Have you ever managed a large dataset? This project provides an opportunity to handle a dataset with over 8,000 downloads each month. You will reorganize the dataset by task, document it thoroughly, and create a user-friendly interface and leaderboard. The project also involves working with HPC clusters, Hugging Face libraries, and GitHub Pages for documentation. Basic Python skills and familiarity with Linux commands are required.
 
@@ -10,7 +10,7 @@
   supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
   available: true
   date: 2024-11-01
-  type: ["bi"]
+  type: ["bachelor-internship"]
   description: |
     In this project you will implement a job generator process. As an input, a JSON configuration (JSON) file and jobs generation rate (jobs per unit time) will be provided. The configuration file contains metadata about different Deep learning jobs, such as the path to the executable file and required arguments. Your task is to design and implement a generator which works as follows: Randomly select a job from the JSON file, use the metadata of the selected job to prepare a YAML/Batch script, a script template will be provided, and submit the prepared script to another process using an RPC protocol. The rate at which a job is sampled and submitted should be equal to the given generation rate. In addition, an implementation of an RPC protocol is required, the description of the protocol will be provided. You may choose any programming language for coding, but advisably to use Python. You will be provided with a supplementary code with helper functions, RPC protocol description and script/configuration files description.
 
@@ -18,7 +18,7 @@
   supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
   available: true
   date: 2024-11-01
-  type: ["bi"]
+  type: ["bachelor-internship"]
   description: |
     In this project we are developing a resource manager framework, part of this framework is to design monitoring APIs functionalities, which gathers hardware metrics upon invocation. You will be given a code template and your task is to fill in the code for some API functionalities. Supplementary programs and helper functions will be provided to be able to test your implementation. A documentation for the required API functions including their input and output parameters will be provided. This project requires C and Python programming as well as basic operating systems knowledge.
 
@@ -26,7 +26,7 @@
   supervisors: ["Dilek Düştegör", "Revin Alief"]
   available: true
   date: 2024-10-28
-  type: ["bi"]
+  type: ["bachelor-internship"]
   description: |
     In collaboration with an industrial partner, we have access to sensor data collected from various machines. We need a curious student to look at the dataset from multiple possible angles and see if datamining / data science techniques can identify any pattern. This is an ideal project if you want to learn about datamining / data science techniques.
 
@@ -34,7 +34,7 @@
   supervisors: ["Dilek Düştegör", "Revin Alief"]
   available: true
   date: 2024-10-28
-  type: ["bi"]
+  type: ["bachelor-internship"]
   description: |
     In collaboration with an industrial partner, we have access to their sales data. We need a curious student to look at the dataset from multiple possible angles and see if data mining / data science techniques can identify any pattern. This is an ideal project if you want to learn about datamining / data science techniques.
     
@@ -42,7 +42,7 @@
   supervisors: ["Heerko Groefsema"]
   available: true
   date: 2024-10-21
-  type: ["bi"]
+  type: ["bachelor-internship"]
   description: |  
     For our research we implemented and use a number of Java packages that allow us to specify, unfold, and verify process compositions such as business process models and service compositions. These packages require some work, including new functionality, replacing old dependencies, adding different output formats, replacing log functionality, refactoring to use certain programming patterns, and more. In this project, we would like a number of students to improve, refactor, and add functionality. This project is available for up to 5 students, which will work on separate sub-projects such as:
       - Adding rich Event Log generation from random executions of annotated Petri net models.
@@ -55,7 +55,7 @@
   supervisors: ["Bochra Boughzala"]
   available: true
   date: 2024-10-29
-  type: ["bi"]
+  type: ["bachelor-internship"]
   description: |
     This project involves creating a high-performance networking application using the Intel Data Plane Development Kit (DPDK). The application will receive network packets over a high-speed interface, inspect the packet header fields, and validate the protocol properties for correctness and consistency guarantees. The tool will verify protocol correctness by making sure that all receiving nodes receive the same set of packets in the exact order, guaranteeing total order and consistent state across all nodes.<br />Prerequisites: C/C++ programming language - Networking libraries and tools for protocol analysis - Logging library for error reporting.
 
@@ -63,7 +63,7 @@
   supervisors: ["Bochra Boughzala"]
   available: true
   date: 2024-10-29
-  type: ["bi"]
+  type: ["bachelor-internship"]
   description: |
     This project involves creating a high-performance networking application using the Intel Data Plane Development Kit (DPDK). The application will read entries from a specified database, convert these entries into JSON format, and send the JSON entries as packets over a high-speed network. The focus is on achieving low-latency and high-throughput performance.<br />Prerequisites: C/C++ programming language - Database Management (e.g., PostgreSQL databases).
 
@@ -71,7 +71,7 @@
   supervisors: ["Dilek Düştegör", "Revin Alief"]
   available: true
   date: 2025-01-21
-  type: ["bachelor"]
+  type: ["bachelor-project"]
   description: |
     Automating dataset generation is essential for streamlining the preprocessing pipeline, enabling faster iterations and ensuring scalability as wastewater systems become increasingly complex. This project involves designing and implementing a program to automate dataset generation for wastewater simulations. The program will take inputs such as simulation parameters, geographic data, and network structures (e.g., pipe diameters and node connections) and output datasets compatible with Graph Neural Network (GNN) models. The student will focus on creating a flexible, user-friendly interface for defining input parameters, ensuring compatibility with graph-based models and simulation outputs, and testing the tool across multiple simulation scenarios. The expected outcome is a reusable dataset generation tool that significantly enhances the efficiency of wastewater simulation workflows.<br />
     References:<br />
@@ -82,7 +82,7 @@
   supervisors: ["Dilek Düştegör", "Revin Alief"]
   available: true
   date: 2025-01-21
-  type: ["bachelor"]
+  type: ["bachelor-project"]
   description: |
     Optimizing Graph Neural Networks (GNNs) is critical for enhancing the accuracy and efficiency of water level predictions, which directly influences the reliability of wastewater management systems. This project focuses on refining specific aspects of GNNs for predicting water levels at nodes in wastewater networks. The student will explore hyperparameter tuning, feature engineering, and advanced GNN variants such as Graph Attention Networks (GAT). Key tasks include studying the impact of different GNN architectures and parameters on performance, experimenting with incorporating edge features (e.g., pipe diameters), and evaluating models on datasets generated by ICM. The expected outcome is a comprehensive analysis of optimization techniques for GNNs in the wastewater domain.<br />
     References:<br />
@@ -93,7 +93,7 @@
   supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
   available: true
   date: 2025-01-21
-  type: ["bachelor"]
+  type: ["bachelor-project"]
   description: |
     Understanding the characteristics of AI workloads is essential for effective resource allocation and fault tolerance mechanisms. This project focuses on benchmarking various deep neural network (DNN) models on GPUs using different profiling and monitoring tools. You will observe and analyze their runtime behavior, identify the factors affecting model performance, and propose metrics that effectively quantify their runtime characteristics. The outcome of this project is to deliver a comprehensive study on profiling DNN models with minimal overhead and maximum accuracy.<br />
     References:<br />
@@ -105,7 +105,7 @@
   supervisors: ["Huy Truong", "Dilek Düştegör"]
   available: true
   date: 2025-01-21
-  type: ["bachelor"]
+  type: ["bachelor-project"]
   description: |
     Researchers studying drinking water distribution networks often rely on large-scale synthesized datasets. However, the current simulation generating these datasets faces limitations in retrieving metadata that enhances dataset accessibility. Moreover, this missing metadata, including customer profiles at each node in the network, plays a crucial role in classifying customer types and estimating their demand, particularly during peak seasons. To address this gap, the student could apply unsupervised clustering algorithms such as K-NN, K-means, or DBSCAN to identify and retrieve these customer profiles. This project requires a candidate with a solid background in Machine Learning and interest in building robust data pipelines. They will be eventually employed to extract the missing metadata for a large-scale dataset, enabling water experts to analyze water network and benchmark customer behavior efficiently.<br />
     References:<br />
@@ -115,7 +115,7 @@
   supervisors: ["Huy Truong", "Dilek Düstegör"]
   available: true
   date: 2025-01-21
-  type: ["bachelor"]
+  type: ["bachelor-project"]
   description: |
     Working with data in the real world often leads to missing information problems, which can negatively affect the performance of deep learning models. However, in proper ways, it can boost the expressiveness of Graph Neural Network (GNN) models in node representation learning through a technique known as Node Masking. In particular, it hides arbitrary nodal features in a graph and instructs the GNN to recover the missing parts. The student can explore diverse masking strategies, such as zero masking, random node replacement, mean-neighbor substitution, shared learnable embedding, and nodal permutation. These options above should be compared and evaluated in a graph reconstruction task that applies to a water distribution network. This study will focus on finding a generative technique that effectively enhances the performance of GNN models in semi-supervised transductive learning. Students interested in joining this project should possess a machine-learning background and a deep-learning framework.<br />
     References:<br />
@@ -128,7 +128,7 @@
   supervisors: ["Heerko Groefsema"]
   available: true
   date: 2025-02-05
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="https://www.sciencedirect.com/science/article/pii/B9780080499444500276">Peot, M. A., & Smith, D. E. (1992, January). Conditional nonlinear planning. In Artificial Intelligence Planning Systems (pp. 189-197). Morgan Kaufmann.</a>
@@ -140,7 +140,7 @@
   supervisors: ["Heerko Groefsema"]
   available: true
   date: 2025-02-05
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="https://doi.org/10.1007/978-3-031-16171-1_2">Groefsema, H., Beest, N.R.T.P.v., Governatori, G. (2022). On the Use of the Conformance and Compliance Keywords During Verification of Business Processes. In: Business Process Management Forum. BPM 2022. Lecture Notes in Business Information Processing, vol 458. Springer.</a>
@@ -152,7 +152,7 @@
   supervisors: ["Andrés Tello"]
   available: true
   date: 2025-02-01
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="https://openreview.net/pdf?id=WIzzXCVYiH">Wang, X., & Shen, H. W. GNNBoundary: Towards Explaining Graph Neural Networks through the Lens of Decision Boundaries. In The Twelfth International Conference on Learning Representations.</a>
@@ -164,7 +164,7 @@
   supervisors: ["Andrés Tello"]
   available: true
   date: 2025-02-01
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="https://openreview.net/pdf?id=qaJxPhkYtD">Kanatsoulis, C., & Ribeiro, A. Counting Graph Substructures with Graph Neural Networks. In The Twelfth International Conference on Learning Representations.</a>
@@ -176,7 +176,7 @@
   supervisors: ["Huy Truong"]
   available: true
   date: 2025-01-21
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="https://www.researchgate.net/publication/371786545_Otter-Knowledge_benchmarks_of_multimodal_knowledge_graph_representation_learning_from_different_sources_for_drug_discovery">Lam, Hoang Thanh, et al. "Otter-Knowledge: benchmarks of multimodal knowledge graph representation learning from different sources for drug discovery." *arXiv preprint arXiv:2306.12802* (2023).</a>
@@ -187,7 +187,7 @@
   supervisors: ["Huy Truong"]
   available: true
   date: 2025-01-21
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="http://proceedings.mlr.press/v119/sun20b/sun20b.pdf">Sun, Yu, et al. "Test-time training with self-supervision for generalization under distribution shifts." International conference on machine learning. PMLR, 2020.</a>
@@ -199,7 +199,7 @@
   supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
   available: true
   date: 2025-01-27
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="https://www.usenix.org/conference/osdi18/presentation/xiao">Wencong Xiao, Romil Bhardwaj, Ramachandran Ramjee, Muthian Sivathanu, Nipun Kwatra, Zhenhua Han, Pratyush Patel et al. "Gandiva: Introspective Cluster Scheduling for Deep Learning." In 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18), pp. 595-610. 2018.</a>
@@ -211,7 +211,7 @@
   supervisors: ["Dilek Düstegör", "Revin Alief"]
   available: true
   date: 2025-01-21
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="https://doi.org/10.3390/w13121681">Belghaddar, Y.; Chahinian, N.; Seriai, A.; Begdouri, A.; Abdou, R.; Delenne, C. Graph Convolutional Networks: Application to Database Completion of Wastewater Networks. Water 2021, 13, 1681. https://doi.org/10.3390/w13121681.</a>
@@ -223,7 +223,7 @@
   supervisors: ["Dilek Düstegör", "Revin Alief"]
   available: true
   date: 2025-01-21
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="https://arxiv.org/abs/2202.07256">R. Liu, P. Xing, Z. Deng, A. Li, C. Guan, and H. Yu, “Federated graph neural networks: Overview, techniques and challenges,” 2022.</a>
@@ -234,7 +234,7 @@
   supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
   available: true
   date: 2023-12-11
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="https://dl.acm.org/doi/abs/10.1145/3368089.3417050">Yanjie Gao, Yu Liu, Hongyu Zhang, Zhengxian Li, Yonghao Zhu, Haoxiang Lin, and Mao Yang. "Estimating GPU memory consumption of deep learning models." In Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering, pp. 1342-1352. 2020.</a>
@@ -246,7 +246,7 @@
   supervisors: ["Dilek Düstegör"]
   available: true
   date: 2023-11-30
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="https://doi.org/10.1016/j.cie.2023.109534">Aboelhassan, Ayman; Sakr, Ahmed H.; Yacout, Soumaya, "General purpose digital twin framework using digital shadow and distributed system concepts," Computers and Industrial Engineering VOLUME 183, 2023, https://doi.org/10.1016/j.cie.2023.109534.</a>
@@ -258,7 +258,7 @@
   supervisors: ["Dilek Düstegör"]
   available: true
   date: 2023-11-30
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="https://doi.org/10.3390/w14071001">Wei, YY; Law, AWK; Yang, C; Tang, D, "Combined Anomaly Detection Framework for Digital Twins of Water Treatment Facilities," Water VOLUME 14, Issue 7, 2022, https://doi.org/10.3390/w14071001.</a>
@@ -270,7 +270,7 @@
   supervisors: ["Dilek Düstegör"]
   available: true
   date: 2023-11-30
-  type: ["colloquium"]
+  type: ["student-colloquium"]
   description: |
     References:<br />
     <a href="https://doi.org/110.2166/ws.2023.220">Romero-Ben, L; Alves, D; Blesa, J; Cembrano, G; Puig, V; Duviella, E, "Leak detection and localization in water distribution networks: Review and perspective," Annual Reviews in control 55, pp 392–419, 2023, https://doi.org/0.1016/j.arcontrol.2023.03.012.</a>
@@ -282,7 +282,7 @@
   supervisors: ["Dilek Dustegor"]
   available: true
   date: 2025-04-11
-  type: ["internship"]
+  type: ["master-internship"]
   description: |
     This project aims to conduct a pilot study utilizing Large Language Models (LLMs) to extract and analyze data on historical tortoiseshell trade from the Dutch East India Company archives. The intern is expected to build an LLM solution to extract all information related to marine life, including but not limited to location, quantity, date, type. This solution would involve dealing with large machine-translated files, serving LLM, prompt engineering, and documentation of the process. This is part of a larger project, where the extracted data will be analyzed within the framework of historical ecology, focusing on quantities, temporal patterns, and geographic distribution (in collaboration with Willemien de Kock (Faculty of Arts) and Emin Tatar (CIT)). 
     <br />References:<br />
@@ -292,7 +292,7 @@
   supervisors: ["Huy Truong"]
   available: true
   date: 2025-04-03
-  type: ["internship"]
+  type: ["master-internship"]
   description: |
     Self-supervised learning (SSL) has shown great potential in enhancing the capabilities of large foundation models, but its application to graph modalities remains underexplored. This project aims to investigate popular SSL tasks across node-level, link-level, and graph-level challenges, as well as more complex graph representation learning approaches. As a researcher of the project, the candidate will develop a framework that enables users to train deep learning models using these tasks on independent datasets. The final deliverables will include the implementation code and a report detailing the problem and the proposed solution. The ideal candidate should have a background in machine learning, and experience with at least one deep learning framework.
     <br />References:<br />
@@ -303,7 +303,7 @@
   supervisors: ["Huy Truong"]
   available: true
   date: 2025-04-03
-  type: ["internship"]
+  type: ["master-internship"]
   description: |
     Water researchers have relied on simulations to monitor the behavior of Water Distribution Networks. These simulations require a comprehensive set of parameters- such as elevation, demand, and pipe diameters-to determine hydraulic states accurately. This increases labor cost, time consumption and, therefore, poses a significant challenge. But what if we could reverse the process and let AI infer the missing pieces? Building on this idea, the project explores an innovative approach: leveraging data-driven deep learning methods to predict initial input conditions based on available output states. As a researcher on this project, the candidate will select and train a cutting-edge Graph Neural Network on a massive dataset. As a result, the model should be able to predict initial conditions while considering the structural and physical constraints. The candidate will submit the implementation code and a report detailing the problem and the proposed solution. The ideal candidate should have a background in machine learning and be familiar with at least one deep-learning framework.
     <br />References:<br />
@@ -313,7 +313,7 @@
   supervisors: ["Huy Truong"]
   available: true
   date: 2025-04-03
-  type: ["internship"]
+  type: ["master-internship"]
   description: |
     Designing Water Distribution Networks (WDN) has been portrayed as a complex, labor, and time-consuming process. To alleviate this, the project aims to automate the design using Evolution Strategy (ES). In particular, these algorithms should search and optimize values of hydraulic parameters, such as nodal elevation, pump speed, and pipe length, to construct a complete simulation configuration. This configuration should follow the local, structural, and physical restrictions (i.e., multi-objective optimization). As a researcher on this project, the candidate will explore an ES framework to develop the optimization algorithm and apply it to a water distribution domain. As such, the candidate should be familiar with machine-learning experiments. As deliverables, the candidate should submit the report and implementation code that generates optimized configurations. These configurations will help water researchers simulate, analyze, and understand the WDN’s behavior and enhance the monitoring capability of these systems in practice.
     <br />References:<br />
@@ -325,7 +325,7 @@
   supervisors: ["Huy Truong"]
   available: true
   date: 2025-04-03
-  type: ["internship"]
+  type: ["master-internship"]
   description: |
     Back Propagation(BP) is a de facto approach to training neural network models. Nevertheless, it is biologically implausible and requires complete knowledge (i.e., tracks the entire flow of information from start to end of a model) to perform a backward pass. Instead, an alternative approach called Forward-Forward(FF) can replace the backward pass with an additional forward one and update the model weights in an unsupervised fashion. In particular, FF performs forward passes using positive and negative inputs, respectively, and, therefore, employs the difference between the two activation versions at each layer in the neural network to compute the loss and update weights. Here, the project studies the behavior of FF employing different losses: (1) cross-entropy and (2) harmonic loss. Also, it is valuable to study the relevance between harmonic loss and FF in terms of distance metrics or geometric properties in an embedding space. As a deliverable, the candidate should submit a detailed report and implementation code. For primary requirements, the candidate should be familiar with one of the deep learning frameworks and have experience in setting up machine learning experiments.
     <br />References:<br />
@@ -336,12 +336,9 @@
   supervisors: ["Mahmoud Alasmar"]
   available: true
   date: 2025-04-04
-  type: ["internship"]
+  type: ["master-internship"]
   description: |
     Deep learning (DL) workload-aware schedulers make decisions based on performance data collected through a process called profiling. However, profiling each job individually is computationally expensive, reducing the practicality of such approaches. Fortunately, DL models exhibit structural similarities that can be leveraged to develop alternative methods for performance estimation. One promising approach involves representing DL models as graphs and measuring their similarity using Graph Edit Distance (GED) [1]. By analyzing the structural similarities between models, we can potentially predict the performance of one model based on the known performance of another, reducing the need for extensive profiling. In this project, you will: Study and implement the similarity matching mechanism proposed in [2], compare runtime performance of similar DL models, focusing on key metrics such as GPU utilization and power consumption, and investigate the relationship between model similarity and performance predictability, trying to answer the following question: Given two similar DL models and the performance of one, what can we infer about the performance of the other? You will work with a selected set of DL training models, and performance metrics will be collected using Nvidia's GPU profiling tools, such as DCGM.
     <br />References:<br />
     <a href="https://doi.org/10.1145/2882903.2915236">Fei Bi, Lijun Chang, Xuemin Lin, Lu Qin, and Wenjie Zhang. 2016. Efficient Subgraph Matching by Postponing Cartesian Products. In Proceedings of the 2016 International Conference on Management of Data (SIGMOD '16). Association for Computing Machinery, New York, NY, USA, 1199–1214</a>
     <a href="https://www.usenix.org/conference/nsdi23/presentation/lai-fan">Lai, F., Dai, Y., Madhyastha, H. V., & Chowdhury, M. (2023). {ModelKeeper}: Accelerating {DNN} training via automated training warmup. In 20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23) (pp. 769-785).</a>
-
-
-
