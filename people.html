@@ -5,12 +5,12 @@ title: People
 <h1>Faculty</h1>
 <hr />
 <div class="container">
-    <div class="row">
+    <div class="row row-cols-1 col-md-4 g-4">
         {% for person in site.people %}
         {% if person.level == "faculty" and person.role == "chair" %}
-        <div class="col-md-3 mb-3">
+        <div class="col">
             <a href="{{ person.url }}">
-                <div class="card">
+                <div class="card h-100">
                     <img src="{{ person.picture }}" class="card-img-top" alt="{{ person.name }}">
                     <div class="card-body">
                         <h4 class="card-title p-0 m-0">{{ person.name }}</h4>
@@ -23,13 +23,11 @@ title: People
         {% endif %}
         
         {% endfor %}
-    </div>
-    <div class="row">
         {% for person in site.people %}
         {% if person.level == "faculty" and person.role != "chair"  %}
-        <div class="col-md-3 mb-3">
+        <div class="col">
             <a href="{{ person.url }}">
-                <div class="card">
+                <div class="card h-100">
                     <img src="{{ person.picture }}" class="card-img-top" alt="{{ person.name }}">
                     <div class="card-body">
                         <h4 class="card-title p-0 m-0">{{ person.name }}</h4>
@@ -48,12 +46,12 @@ title: People
 <h1>PhD Students</h1>
 <hr />
 <div class="container">
-    <div class="row">
+    <div class="row row-cols-1 col-md-4 g-4">
         {% for person in site.people %}
         {% if person.level == "student" %}
-        <div class="col-md-3 mb-3">
+        <div class="col">
             <a href="{{ person.url }}">
-                <div class="card">
+                <div class="card h-100">
                     <img src="{{ person.picture }}" class="card-img-top" alt="{{ person.name }}">
                     <div class="card-body">
                         <h4 class="card-title p-0 m-0">{{ person.name }}</h4>
@@ -72,12 +70,12 @@ title: People
 <h1>Affiliated Members</h1>
 <hr />
 <div class="container">
-    <div class="row">
+    <div class="row row-cols-1 col-md-4 g-4">
         {% for person in site.people %}
         {% if person.level == "affiliated" %}
-        <div class="col-md-4 mb-4">
+        <div class="col">
             <a href="{{ person.url }}">
-                <div class="card">
+                <div class="card h-100">
                     <img src="{{ person.picture }}" class="card-img-top" alt="{{ person.name }}">
                     <div class="card-body">
                         <h4 class="card-title p-0 m-0">{{ person.name }}</h4>
@@ -96,12 +94,12 @@ title: People
 <h1>Alumni</h1>
 <hr />
 <div class="container">
-    <div class="row">
+    <div class="row row-cols-1 col-md-4 g-4">
         {% for person in site.people %}
         {% if person.level == "alumni" %}
-        <div class="col-md-4 mb-4">
+        <div class="col">
             <a href="{{ person.url }}">
-                <div class="card">
+                <div class="card h-100">
                     <img src="{{ person.picture }}" class="card-img-top" alt="{{ person.name }}">
                     <div class="card-body">
                         <h4 class="card-title p-0 m-0">{{ person.name }}</h4>
