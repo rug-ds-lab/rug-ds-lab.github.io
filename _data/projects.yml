@@ -7,7 +7,7 @@
     This project studies sparse sensor placement in large networked systems to support accurate state estimation using graph neural networks (GNNs). The focus is on identifying critical sensor locations using graph-theoretic properties and invariants, and evaluating their impact on learning-based estimation performance. Students will implement and compare sensor placement strategies and assess their effectiveness under limited sensing. Project depth will be adjusted to BS or MS level.
     <a href="https://doi.org/10.3390/w16131835">Graph Neural Networks for Sensor Placement: A Proof of Concept towards a Digital Twin of Water Distribution Systems.</a>
     <a href="https://doi.org/10.48550/arXiv.2508.00141">INSPIRE-GNN: Intelligent Sensor Placement to Improve Sparse Bicycling Network Prediction via Reinforcement Learning Boosted Graph Neural Networks</a>
-    <a href="10.1109/ACCESS.2025.3611333">Graph Neural Networks for Evaluating the Reliability and Resilience of Infrastructure Systems: A Systematic Review of Models, Applications, and Future Directions</a>
+    <a href="https://doi.org/10.1109/ACCESS.2025.3611333">Graph Neural Networks for Evaluating the Reliability and Resilience of Infrastructure Systems: A Systematic Review of Models, Applications, and Future Directions</a>
 
 - title: "Wastewater Systems Benchmark Dataset Development"
   supervisors: ["Revin Alief", "Dilek Düştegör"]
@@ -302,6 +302,7 @@
   type: ["master-project"]
   description: |
     The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Instead, we would like to investigate comparing event logs against a specification of ordering relations to achieve a significant performance increase. 
+
 
 
 
