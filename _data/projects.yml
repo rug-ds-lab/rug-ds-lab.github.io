@@ -16,6 +16,11 @@
   type: ["bachelor-project", "student-colloquium", "master-internship", "master-project"]
   description: |
     This project aims to develop an academic benchmark dataset for wastewater systems to support reproducible research. The work includes a literature review, followed by dataset creation through merging existing data or simulating diverse operating scenarios. A key outcome is a modular, automated data-generation pipeline with clear documentation, suitable for data-driven modeling and analysis tasks.
+    <a href="https://doi.org/10.3390/engproc2024069050">Large-Scale Multipurpose Benchmark Datasets for Assessing Data-Driven Deep Learning Approaches for Water Distribution Networks</a>
+    <a href="https://doi.org/10.1016/j.dib.2023.109148">Benchmarking dataset for leak detection and localization in water distribution systems</a>
+    <a href="https://https://github.com/KIOS-Research/LeakDB">LeakDB: A Benchmark Dataset for Leakage Diagnosis in Water Distribution Networks</a>
+    <a href="https://doi.org/10.1016/j.dib.2023.109148">Benchmarking Dataset for Leak Detection and Localization in Water Distribution Systems</a>
+    
 
 - title: "Dataset Management"
   supervisors: ["Huy Truong", "Andrés Tello"]
@@ -302,6 +307,7 @@
   type: ["master-project"]
   description: |
     The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Instead, we would like to investigate comparing event logs against a specification of ordering relations to achieve a significant performance increase. 
+
 
 
 
