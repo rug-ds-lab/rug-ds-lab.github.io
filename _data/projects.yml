@@ -2,7 +2,7 @@
   supervisors: ["Revien Alief", "Dilek Düştegör"]
   available: true
   date: 2026-01-05
-  type: [bachelor/master/colloquium/internship]
+  type: ["bachelor-project", "student-colloquium", "research-internship", "master-project"]
   description: |
     This project studies sparse sensor placement in large networked systems to support accurate state estimation using graph neural networks (GNNs). The focus is on identifying critical sensor locations using graph-theoretic properties and invariants, and evaluating their impact on learning-based estimation performance. Students will implement and compare sensor placement strategies and assess their effectiveness under limited sensing. Project depth will be adjusted to BS or MS level.
 
@@ -291,5 +291,6 @@
   type: ["master-project"]
   description: |
     The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Instead, we would like to investigate comparing event logs against a specification of ordering relations to achieve a significant performance increase. 
+
 
 
