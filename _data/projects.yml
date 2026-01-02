@@ -1,3 +1,15 @@
+- title: "Evaluating LoRA for GNN-based model adaptation"
+  supervisors: ["Andrés Tello", "Alexander Lazovik"]
+  available: true
+  date: 2026-01-05
+  type: ["bachelor-project", "master-project"]
+  description: |
+    Foundation models have become a game-changer in several fields due to their strong generalization capabilities after some form of model adaptation, with fine-tuning being the most common approach. In this project, we aim to evaluate the effectiveness of Low-Rank Adaptation (LoRA) methods in terms of model performance, model size, and memory usage. While conventional full fine-tuning often yields high accuracy, LoRA can represent a more sustainable yet still effective alternative for model adaptation. <br /><br />
+    In this project, the student will implement a LoRA-based approach to adapt a pre-trained GNN-based model to new, unseen target datasets in the context of Water Distribution Networks (WDNs). The pre-trained model has been trained on several WDNs for pressure reconstruction, and the goal is to adapt it to make predictions on unseen WDN topologies with different operating conditions. The LoRA-based adaptation will be compared against a conventional full fine-tuning approach.
+    References:<br />
+    <a href="https://openreview.net/forum?id=nZeVKeeFYf9">LoRA: Low-Rank Adaptation of Large Language Models.</a>
+    <a href="https://openreview.net/pdf?id=gxhZj6uvFC">Graph low-rank adapters of high regularityfor graph neural networks and graph transformers.</a>
+    <a href="https://openreview.net/pdf?id=hcoxm3Vwgy">ELoRA: Low-Rank Adaptation for Equivariant GNNs</a>
 - title: "Sparse Sensor Placement for Graph-Based State Estimation"
   supervisors: ["Revin Alief", "Dilek Düştegör"]
   available: true
