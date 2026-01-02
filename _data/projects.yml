@@ -10,6 +10,29 @@
     <a href="https://openreview.net/forum?id=nZeVKeeFYf9">LoRA: Low-Rank Adaptation of Large Language Models.</a>
     <a href="https://openreview.net/pdf?id=gxhZj6uvFC">Graph low-rank adapters of high regularityfor graph neural networks and graph transformers.</a>
     <a href="https://openreview.net/pdf?id=hcoxm3Vwgy">ELoRA: Low-Rank Adaptation for Equivariant GNNs</a>
+- title: "Sparse Sensor Placement for Graph-Based State Estimation"
+  supervisors: ["Revin Alief", "Dilek Düştegör"]
+  available: true
+  date: 2026-01-05
+  type: ["bachelor-project", "student-colloquium", "master-internship", "master-project"]
+  description: |
+    This project studies sparse sensor placement in large networked systems to support accurate state estimation using graph neural networks (GNNs). The focus is on identifying critical sensor locations using graph-theoretic properties and invariants, and evaluating their impact on learning-based estimation performance. Students will implement and compare sensor placement strategies and assess their effectiveness under limited sensing. Project depth will be adjusted to BS or MS level.
+    <a href="https://doi.org/10.3390/w16131835">Graph Neural Networks for Sensor Placement: A Proof of Concept towards a Digital Twin of Water Distribution Systems.</a>
+    <a href="https://doi.org/10.48550/arXiv.2508.00141">INSPIRE-GNN: Intelligent Sensor Placement to Improve Sparse Bicycling Network Prediction via Reinforcement Learning Boosted Graph Neural Networks</a>
+    <a href="https://doi.org/10.1109/ACCESS.2025.3611333">Graph Neural Networks for Evaluating the Reliability and Resilience of Infrastructure Systems: A Systematic Review of Models, Applications, and Future Directions</a>
+
+- title: "Wastewater Systems Benchmark Dataset Development"
+  supervisors: ["Revin Alief", "Dilek Düştegör"]
+  available: true
+  date: 2026-01-05
+  type: ["bachelor-project", "student-colloquium", "master-internship", "master-project"]
+  description: |
+    This project aims to develop an academic benchmark dataset for wastewater systems to support reproducible research. The work includes a literature review, followed by dataset creation through merging existing data or simulating diverse operating scenarios. A key outcome is a modular, automated data-generation pipeline with clear documentation, suitable for data-driven modeling and analysis tasks.
+    <a href="https://doi.org/10.3390/engproc2024069050">Large-Scale Multipurpose Benchmark Datasets for Assessing Data-Driven Deep Learning Approaches for Water Distribution Networks</a>
+    <a href="https://doi.org/10.1016/j.dib.2023.109148">Benchmarking dataset for leak detection and localization in water distribution systems</a>
+    <a href="https://https://github.com/KIOS-Research/LeakDB">LeakDB: A Benchmark Dataset for Leakage Diagnosis in Water Distribution Networks</a>
+    <a href="https://doi.org/10.1016/j.dib.2023.109148">Benchmarking Dataset for Leak Detection and Localization in Water Distribution Systems</a>
+    
 
 - title: "Dataset Management"
   supervisors: ["Huy Truong", "Andrés Tello"]
@@ -35,22 +58,6 @@
   description: |
     In this project we are developing a resource manager framework, part of this framework is to design monitoring APIs functionalities, which gathers hardware metrics upon invocation. You will be given a code template and your task is to fill in the code for some API functionalities. Supplementary programs and helper functions will be provided to be able to test your implementation. A documentation for the required API functions including their input and output parameters will be provided. This project requires C and Python programming as well as basic operating systems knowledge.
 
-- title: "Mining sensors data for anomaly detection (with industrial partner)"
-  supervisors: ["Dilek Düştegör", "Revin Alief"]
-  available: true
-  date: 2024-10-28
-  type: ["bachelor-internship"]
-  description: |
-    In collaboration with an industrial partner, we have access to sensor data collected from various machines. We need a curious student to look at the dataset from multiple possible angles and see if datamining / data science techniques can identify any pattern. This is an ideal project if you want to learn about datamining / data science techniques.
-
-- title: "Mining sales data to identify patterns (with industrial partner)"
-  supervisors: ["Dilek Düştegör", "Revin Alief"]
-  available: true
-  date: 2024-10-28
-  type: ["bachelor-internship"]
-  description: |
-    In collaboration with an industrial partner, we have access to their sales data. We need a curious student to look at the dataset from multiple possible angles and see if data mining / data science techniques can identify any pattern. This is an ideal project if you want to learn about datamining / data science techniques.
-    
 - title: "Research packages for the formal specification and verification of process compositions"
   supervisors: ["Heerko Groefsema"]
   available: true
@@ -79,28 +86,6 @@
   type: ["bachelor-internship"]
   description: |
     This project involves creating a high-performance networking application using the Intel Data Plane Development Kit (DPDK). The application will read entries from a specified database, convert these entries into JSON format, and send the JSON entries as packets over a high-speed network. The focus is on achieving low-latency and high-throughput performance.<br />Prerequisites: C/C++ programming language - Database Management (e.g., PostgreSQL databases).
-
-- title: "Automated Dataset Generator for Wastewater System Simulations"
-  supervisors: ["Dilek Düştegör", "Revin Alief"]
-  available: true
-  date: 2025-01-21
-  type: ["bachelor-project"]
-  description: |
-    Automating dataset generation is essential for streamlining the preprocessing pipeline, enabling faster iterations and ensuring scalability as wastewater systems become increasingly complex. This project involves designing and implementing a program to automate dataset generation for wastewater simulations. The program will take inputs such as simulation parameters, geographic data, and network structures (e.g., pipe diameters and node connections) and output datasets compatible with Graph Neural Network (GNN) models. The student will focus on creating a flexible, user-friendly interface for defining input parameters, ensuring compatibility with graph-based models and simulation outputs, and testing the tool across multiple simulation scenarios. The expected outcome is a reusable dataset generation tool that significantly enhances the efficiency of wastewater simulation workflows.<br />
-    References:<br />
-    <a href="https://help.autodesk.com/view/IWICMS/2025/ENU/?guid=Innovyze_Exchange_Introduction_ICM_networks_html">Infoworks ICM Exchange</a>
-    <a href="https://github.com/modelcreate/infoworks-ruby-scripts">Infoworks Ruby Scripts</a>
-
-- title: "Optimizing Graph Neural Networks for Water Level Estimation"
-  supervisors: ["Dilek Düştegör", "Revin Alief"]
-  available: true
-  date: 2025-01-21
-  type: ["bachelor-project"]
-  description: |
-    Optimizing Graph Neural Networks (GNNs) is critical for enhancing the accuracy and efficiency of water level predictions, which directly influences the reliability of wastewater management systems. This project focuses on refining specific aspects of GNNs for predicting water levels at nodes in wastewater networks. The student will explore hyperparameter tuning, feature engineering, and advanced GNN variants such as Graph Attention Networks (GAT). Key tasks include studying the impact of different GNN architectures and parameters on performance, experimenting with incorporating edge features (e.g., pipe diameters), and evaluating models on datasets generated by ICM. The expected outcome is a comprehensive analysis of optimization techniques for GNNs in the wastewater domain.<br />
-    References:<br />
-    <a href="https://www.sciencedirect.com/science/article/pii/S0043135424010418">Zhang, Z., Tian, W., Lu, C., Liao, Z., & Yuan, Z. (2024). Graph neural network-based surrogate modelling for real-time hydraulic prediction of urban drainage networks. Water Research, 263, 122142. https://doi.org/10.1016/j.watres.2024.122142</a>
-    <a href="https://www.sciencedirect.com/science/article/pii/S2210670724007017">Li, M., Shi, X., Lu, Z., & Kapelan, Z. (2024). Predicting the urban stormwater drainage system state using the Graph-WaveNet. Sustainable Cities and Society, 115, 105877. https://doi.org/10.1016/j.scs.2024.105877</a>
 
 - title: "Benchmarking AI Workloads on GPU Cluster"
   supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
@@ -220,29 +205,6 @@
     <a href="https://arxiv.org/abs/2408.08586">Zhang, X., Zhao, H., Xiao, W., Jia, X., Xu, F., Li, Y., ... & Liu, F. (2024). Rubick: Exploiting Job Reconfigurability for Deep Learning Cluster Scheduling. arXiv preprint arXiv:2408.08586.</a>
     <a href="https://www.usenix.org/conference/nsdi23/presentation/lai-fan">Lai, F., Dai, Y., Madhyastha, H. V., & Chowdhury, M. (2023). {ModelKeeper}: Accelerating {DNN} training via automated training warmup. In 20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23) (pp. 769-785).</a>
 
-- title: Enhancing Wastewater System Monitoring through Graph Neural Networks
-  supervisors: ["Dilek Düstegör", "Revin Alief"]
-  available: true
-  date: 2025-01-21
-  type: ["student-colloquium"]
-  description: |
-    References:<br />
-    <a href="https://doi.org/10.3390/w13121681">Belghaddar, Y.; Chahinian, N.; Seriai, A.; Begdouri, A.; Abdou, R.; Delenne, C. Graph Convolutional Networks: Application to Database Completion of Wastewater Networks. Water 2021, 13, 1681. https://doi.org/10.3390/w13121681.</a>
-    <a href="https://doi.org/10.1145/3678717.3695761">Q. Guo and W. Wang. 2024. HydroNet: A Spatio-temporal Graph Neural Network for Modeling Hydraulic Dependencies in Urban Wastewater Systems. In Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL '24). Association for Computing Machinery, New York, NY, USA, 717–718.</a>
-    <a href="https://www.sciencedirect.com/science/article/pii/S0043135423014586">Z. Li, H. Liu, C. Zhang, and G. Fu, “Real-time water quality prediction in water distribution networks using graph neural networks with sparse monitoring data,” Water Research, vol. 250, p. 121018, 2024.</a>
-    <a href="https://www.sciencedirect.com/science/article/pii/S0043135424012958">A. Garzon, Z. Kapelan, J. Langeveld, and R. Taormina, “Transferable and data-efficient metamodeling of storm water system nodal depths using auto-regressive graph neural networks,” Water Research, vol. 266, p. 122396, 2024.</a>
-
-- title: Federated Learning Approaches for Distributed Decision-Making in Wastewater System Management
-  supervisors: ["Dilek Düstegör", "Revin Alief"]
-  available: true
-  date: 2025-01-21
-  type: ["student-colloquium"]
-  description: |
-    References:<br />
-    <a href="https://arxiv.org/abs/2202.07256">R. Liu, P. Xing, Z. Deng, A. Li, C. Guan, and H. Yu, “Federated graph neural networks: Overview, techniques and challenges,” 2022.</a>
-    <a href="https://www.sciencedirect.com/science/article/pii/S1944398624020241">D. Narayanan, M. Bhat, N. Samuel Paul, N. Khatri, and A. Saroliya, “Artificial intelligence-driven advances in wastewater treatment: Evaluating techniques for sustainability and efficacy in global facilities,” Desalination and Water Treatment, vol. 320, p. 100618, 2024.</a>
-    <a href="https://www.sciencedirect.com/science/article/pii/S0043135424010418">Z. Zhang, W. Tian, C. Lu, Z. Liao, and Z. Yuan, “Graph neural network-based surrogate modelling for real-time hydraulic prediction of urban drainage networks,” Water Research, vol. 263, p. 122142, 2024.</a>
-
 - title: Estimating Deep Learning GPU Memory Consumption
   supervisors: ["Kawsar Haghshenas", "Mahmoud Alasmar"]
   available: true
@@ -254,52 +216,6 @@
     <a href="https://ieeexplore.ieee.org/abstract/document/9755116">Haiyi Liu, Shaoying Liu, Chenglong Wen, and W. Eric Wong. "TBEM: Testing-Based GPU-Memory Consumption Estimation for Deep Learning." IEEE Access, 10, pp.39674-39680. 2022.</a>
     <a href="https://arxiv.org/abs/2205.12095">Lu Bai, Weixing Ji, Qinyuan Li, Xilai Yao, Wei Xin, and Wanyi Zhu. "Dnnabacus: Toward accurate computational cost prediction for deep neural netw." arXiv preprint arXiv:2205.12095. 2022.</a>
     <a href="https://ieeexplore.ieee.org/abstract/document/10172674">Yanjie Gao, Xianyu Gu, Hongyu Zhang, Haoxiang Lin, and Mao Yang. "Runtime performance prediction for deep learning models with graph neural network." In IEEE/ACM 45th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP), pp. 368-380. 2023.</a>
-
-- title: Distributed Digital Twin
-  supervisors: ["Dilek Düstegör"]
-  available: true
-  date: 2023-11-30
-  type: ["student-colloquium"]
-  description: |
-    References:<br />
-    <a href="https://doi.org/10.1016/j.cie.2023.109534">Aboelhassan, Ayman; Sakr, Ahmed H.; Yacout, Soumaya, "General purpose digital twin framework using digital shadow and distributed system concepts," Computers and Industrial Engineering VOLUME 183, 2023, https://doi.org/10.1016/j.cie.2023.109534.</a>
-    <a href="https://link.springer.com/article/10.1007/s12599-022-00751-1">Hasse, H; van der Valk, H; Möller, F; Otto, B, "Design Principles for Shared Digital Twins in Distributed Systems," Business and Information Systems Engineering, 64-6 (751-772), 2022, https://link.springer.com/article/10.1007/s12599-022-00751-1.</a>
-    <a href="https://doi.org/10.3390/computers11050067">Azeroual Mohamed, Tijani Lamhamdi, Hassan El Moussaoui and Hassane El Markhi, "IoTwins: Toward Implementation of Distributed Digital Twins in Industry 4.0 Settings," Computers, Vol: 11, Issue: 5, 2022, https://doi.org/10.3390/computers11050067.</a>
-    <a href="https://doi.org/10.1145/3507909">Ricci, A; Croatti, A; Mariani, S; ; Montagna, S; Picone, M, "Web of Digital Twins," ACM Transactions on Internet Technology, Vol: 22, Issue: 4, https://doi.org/10.1145/3507909.</a>
-
-- title: Digital Twin for Water Network
-  supervisors: ["Dilek Düstegör"]
-  available: true
-  date: 2023-11-30
-  type: ["student-colloquium"]
-  description: |
-    References:<br />
-    <a href="https://doi.org/10.3390/w14071001">Wei, YY; Law, AWK; Yang, C; Tang, D, "Combined Anomaly Detection Framework for Digital Twins of Water Treatment Facilities," Water VOLUME 14, Issue 7, 2022, https://doi.org/10.3390/w14071001.</a>
-    <a href="https://doi.org/10.3390/w14223591">Wei, YY; Law, AWK; Yang, C, "Real-Time Data-Processing Framework with Model Updating for Digital Twins of Water Treatment Facilities," Water, 14 (22):3591, 2022, https://doi.org/10.3390/w14223591.</a>
-    <a href="https://doi.org/10.1016/j.ress.2023.109416">Liu, WT; He, SD; Mou, JP; Xue, T; Chen, HT; Xiong, WL, "Digital twins-based process monitoring for wastewater treatment processes," Reliability Engineering and System Safety 238, 2023, https://doi.org/10.1016/j.ress.2023.109416.</a>
-    <a href="https://doi.org/10.1002/awwa.1414">Rand, Honey, "Digital Twins: The Next Generation of Water Treatment Technology," Journal American Water Works Association, Volume: 111, Issue: 12, 2019, https://doi.org/10.1002/awwa.1414.</a>
-
-- title: Data Driven Methods for Leakage Detection in Water Network
-  supervisors: ["Dilek Düstegör"]
-  available: true
-  date: 2023-11-30
-  type: ["student-colloquium"]
-  description: |
-    References:<br />
-    <a href="https://doi.org/110.2166/ws.2023.220">Romero-Ben, L; Alves, D; Blesa, J; Cembrano, G; Puig, V; Duviella, E, "Leak detection and localization in water distribution networks: Review and perspective," Annual Reviews in control 55, pp 392–419, 2023, https://doi.org/0.1016/j.arcontrol.2023.03.012.</a>
-    <a href="https://doi.org/10.1016/j.arcontrol.2023.03.012">Zhang, XQ; Wu, XW; Yuan, YQ; Long, ZH; Yu, TC, "Burst detection based on multi-time monitoring data from multiple pressure sensors in district metering areas," Water Supply, 2023, https://doi.org/10.2166/ws.2023.220.</a>
-    <a href="https://doi.org/10.3390/w15152710">Tyagi, V; Pandey, P; Jain, S; Ramachandran, P, "A Two-Stage Model for Data-Driven Leakage Detection and Localization in Water Distribution Networks," Water, 2023, https://doi.org/10.3390/w15152710.</a>
-    <a href="https://ascelibrary.org/doi/10.1061/JWRMD5.WRENG-6001">Wan, X; Farmani, R; Keedwell, E, "Gradual Leak Detection in Water Distribution Networks Based on Multistep Forecasting Strategy," JOURNAL OF WATER RESOURCES PLANNING AND MANAGEMENT, 2023, https://doi.org/10.3390/w15152710.</a>
-
-- title: Large Language Model to extract from digitized archives
-  supervisors: ["Dilek Dustegor"]
-  available: true
-  date: 2025-04-11
-  type: ["master-internship"]
-  description: |
-    This project aims to conduct a pilot study utilizing Large Language Models (LLMs) to extract and analyze data on historical tortoiseshell trade from the Dutch East India Company archives. The intern is expected to build an LLM solution to extract all information related to marine life, including but not limited to location, quantity, date, type. This solution would involve dealing with large machine-translated files, serving LLM, prompt engineering, and documentation of the process. This is part of a larger project, where the extracted data will be analyzed within the framework of historical ecology, focusing on quantities, temporal patterns, and geographic distribution (in collaboration with Willemien de Kock (Faculty of Arts) and Emin Tatar (CIT)). 
-    <br />References:<br />
-    <a href="https://www.huygens.knaw.nl/en/5-million-scans-voc-archives-online-and-searchable/">5 million scans VOC archives online and searchable.</a>
 
 - title: DiTEC project- Building a collection of Graph Self-Supervised Learning tasks
   supervisors: ["Huy Truong"]
@@ -403,4 +319,12 @@
   type: ["master-project"]
   description: |
     The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Instead, we would like to investigate comparing event logs against a specification of ordering relations to achieve a significant performance increase. 
+
+
+
+
+
+
+
+
 
