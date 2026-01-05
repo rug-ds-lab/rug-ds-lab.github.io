@@ -10,6 +10,27 @@
     <a href="https://openreview.net/forum?id=nZeVKeeFYf9">LoRA: Low-Rank Adaptation of Large Language Models.</a>
     <a href="https://openreview.net/pdf?id=gxhZj6uvFC">Graph low-rank adapters of high regularityfor graph neural networks and graph transformers.</a>
     <a href="https://openreview.net/pdf?id=hcoxm3Vwgy">ELoRA: Low-Rank Adaptation for Equivariant GNNs</a>
+- title: "A Systematic Review of Graph Neural Network Applications in Wastewater Systems"
+  supervisors: ["Revin Alief", "Dilek Düştegör"]
+  available: true
+  date: 2026-01-05
+  type: ["bachelor-project", "student-colloquium", "master-internship", "master-project"]
+  description: |
+    Graph Neural Networks (GNNs) have shown strong performance in graph-related data. If we are looking at the wastewater systems, they are able to be represented as network topology which is suitable for GNN to works on. Existing studies apply GNNs to a variety of tasks, including state estimation, forecasting, anomaly detection, and sensor placement. However, the literature remains scattered, and the overview of methods, datasets, and research gaps is still lacking. In this project, the student will conduct a systematic literature review of GNN-based approaches in wastewater systems following a structured review protocol (e.g., PRISMA). The student will identify, screen, and categorize relevant studies based on application domain, learning task, data sources (real vs synthetic), and evaluation settings. Special attention will be given to limitations related to sensor availability, uncertainty handling, and generalization across networks. The outcome of the project is a structured taxonomy and comparative analysis of existing GNN-based wastewater studies, highlighting open challenges and opportunities for future research, particularly in sensor placement and digital twin development. Project depth will be adjusted to BS or MS level.
+    <br /><br /><span style="display:inline-block; white-space:nowrap;"><strong style="display:inline !important;">References:</strong> (Not exhaustive)</span>
+    <a href="https://ieeexplore.ieee.org/abstract/document/11231364">Graph Neural Network Empowers Intelligent Education: A Systematic Review From an Application Perspective.</a>
+    <a href="https://www.bmj.com/content/372/bmj.n71">The PRISMA 2020 Statement: An Updated Guideline for Reporting Systematic Reviews.</a>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9046288">A Comprehensive Survey on Graph Neural Networks.</a>
+- title: "Uncertainty Quantification in GNN-based Water Level Estimation"
+  supervisors: ["Revin Alief", "Dilek Düştegör"]
+  available: true
+  date: 2026-01-05
+  type: ["bachelor-project", "student-colloquium", "master-internship", "master-project"]
+  description: |
+    Graph Neural Networks (GNNs) have shown strong performance in estimating hydraulic states in partially observed wastewater networks. However, most existing approaches focus on point predictions and provide limited insight into prediction reliability, which is crucial for decision-making. In this project, the student will (1) do literature review on conformal prediction for graph-structured data, emphasizing the challenges of applying CP to graphs (e.g., exchangeability issues in node/edge settings and dependence in graph neighborhoods), and (2) implement a split conformal prediction pipeline on top of a pre-trained GNN for water level estimation in wastewater networks. Recent work such as Conformalized GNNs (CF-GNN) and conformal prediction sets for GNNs provide practical designs and evaluation protocols for graph settings. The student will evaluate uncertainty quality using empirical coverage and interval width across sensor-masking ratios and analyze how uncertainty varies across sparse sensor conditions. Project depth will be adjusted to BS or MS level.
+    <br /><br /><strong>References:</strong>
+    <a href="https://arxiv.org/pdf/2305.14535">Uncertainty Quantification over Graph with Conformalized Graph Neural Networks.</a>
+    <a href="https://doi.org/10.1145/3711896.3737064">Non-exchangeable Conformal Prediction for Temporal Graph Neural Networks.</a>
 - title: "Sparse Sensor Placement for Graph-Based State Estimation"
   supervisors: ["Revin Alief", "Dilek Düştegör"]
   available: true
