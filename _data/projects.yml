@@ -10,6 +10,24 @@
     <a href="https://openreview.net/forum?id=nZeVKeeFYf9">LoRA: Low-Rank Adaptation of Large Language Models.</a>
     <a href="https://openreview.net/pdf?id=gxhZj6uvFC">Graph low-rank adapters of high regularityfor graph neural networks and graph transformers.</a>
     <a href="https://openreview.net/pdf?id=hcoxm3Vwgy">ELoRA: Low-Rank Adaptation for Equivariant GNNs</a>
+
+- title: "Centrality-Aware Learning vs Graph Neural Networks for State Estimation in Wastewater Systems"
+supervisors: ["Revin Alief", "Dilek Düştegör"]
+available: true
+date: 2026-01-05
+type: ["bachelor-project", "student-colloquium", "master-internship", "master-project"]
+description: |
+Wastewater systems can naturally be represented as graphs, where nodal pressure dynamics depend on both hydraulic conditions and network topology. Recent studies have demonstrated that standard deep learning models, such as multilayer perceptrons and convolutional neural networks, can achieve high pressure prediction accuracy when augmented with node centrality metrics (e.g., degree, betweenness, and closeness). These metrics implicitly encode structural information without explicitly modeling graph connectivity. However, despite promising results, such approaches have not yet been systematically compared with Graph Neural Networks (GNNs), which explicitly learn relational dependencies and are considered the natural baseline for topology-aware learning in WDNs.
+<br /><br />
+In this project, the student will investigate the extent to which centrality-aware feature engineering can serve as an alternative to GNN-based models for pressure prediction in WDNs. The project will involve a comparative study of centrality-aware neural networks and GNN architectures applied to benchmark water distribution networks under varying demand patterns and operating conditions. The analysis will focus on prediction performance, robustness to topology variations, generalization across different networks, and computational complexity.
+<br /><br />
+The project scope will be adjusted according to the study level. Bachelor-level projects will focus on reproducing existing baselines and conducting a controlled comparison between centrality-aware models and a single GNN architecture. Master-level projects may extend the analysis to include cross-network transfer learning, partial observability scenarios, and ablation studies to identify which aspects of network topology are captured by centrality metrics versus explicit graph representations. The outcomes of this project aim to clarify the practical trade-offs between implicit and explicit topology encoding in machine learning models for water infrastructure systems.
+<br /><br /><span style="display:inline-block; white-space:nowrap;"><strong style="display:inline !important;">References:</strong> (Not exhaustive)</span>
+<a href="https://arxiv.org/abs/2106.06861">Centrality-Aware Machine Learning for Water Network Pressure Prediction.</a>
+<a href="https://arxiv.org/abs/1609.02907">Semi-Supervised Classification with Graph Convolutional Networks.</a>
+<a href="https://arxiv.org/abs/1710.10903">Inductive Representation Learning on Large Graphs.</a>
+<a href="https://arxiv.org/abs/1710.10903">Graph Attention Networks.</a>
+
 - title: "A Systematic Review of Graph Neural Network Applications in Wastewater Systems"
   supervisors: ["Revin Alief", "Dilek Düştegör"]
   available: true
@@ -21,6 +39,7 @@
     <a href="https://ieeexplore.ieee.org/abstract/document/11231364">Graph Neural Network Empowers Intelligent Education: A Systematic Review From an Application Perspective.</a>
     <a href="https://www.bmj.com/content/372/bmj.n71">The PRISMA 2020 Statement: An Updated Guideline for Reporting Systematic Reviews.</a>
     <a href="https://ieeexplore.ieee.org/abstract/document/9046288">A Comprehensive Survey on Graph Neural Networks.</a>
+
 - title: "Uncertainty Quantification in GNN-based Water Level Estimation"
   supervisors: ["Revin Alief", "Dilek Düştegör"]
   available: true
@@ -31,6 +50,7 @@
     <br /><br /><strong>References:</strong>
     <a href="https://arxiv.org/pdf/2305.14535">Uncertainty Quantification over Graph with Conformalized Graph Neural Networks.</a>
     <a href="https://doi.org/10.1145/3711896.3737064">Non-exchangeable Conformal Prediction for Temporal Graph Neural Networks.</a>
+
 - title: "Sparse Sensor Placement for Graph-Based State Estimation"
   supervisors: ["Revin Alief", "Dilek Düştegör"]
   available: true
@@ -340,6 +360,7 @@
   type: ["master-project"]
   description: |
     The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Instead, we would like to investigate comparing event logs against a specification of ordering relations to achieve a significant performance increase. 
+
 
 
 
