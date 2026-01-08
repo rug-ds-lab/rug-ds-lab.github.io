@@ -1,6 +1,7 @@
 ---
 layout: person
 name: Dilek Düştegör
+bib_names: ["Düştegör", "Düstegör", "Dustegor", "Dusteaor"]
 room: 0578
 email: d.dustegor@rug.nl
 website: https://ddustegor.github.io/

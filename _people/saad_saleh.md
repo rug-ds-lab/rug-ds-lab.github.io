@@ -2,6 +2,7 @@
 layout: person
 # name: Dr. Saad Saleh
 name: Saad Saleh
+bib_names: ["S. Saleh", "Saleh, S."]
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/saad.jpg

@@ -1,6 +1,7 @@
 ---
 layout: person
 name: Samer Ahmed
+bib_names: ["S. Ahmed", "Ahmed, S."]
 level: student
 academic_status: PhD Student
 picture: /assets/images/profile/samer.jpg
