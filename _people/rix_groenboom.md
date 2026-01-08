@@ -2,6 +2,7 @@
 layout: person
 # name: Dr. Rix Groenboom
 name: Rix Groenboom
+bib_names: ["Groenboom"]
 level: affiliated
 academic_status: Affiliated Member
 picture: /assets/images/profile/rix.jpeg

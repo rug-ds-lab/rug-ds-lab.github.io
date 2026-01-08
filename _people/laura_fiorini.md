@@ -2,6 +2,7 @@
 layout: person
 # name: Dr. Laura Fiorini
 name: Laura Fiorini
+bib_names: ["Fiorini"]
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/laura.jpg

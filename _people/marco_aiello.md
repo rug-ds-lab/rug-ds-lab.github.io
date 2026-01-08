@@ -2,6 +2,7 @@
 layout: person
 # name: Prof. dr. ir. Marco Aiello
 name: Marco Aiello
+bib_names: ["Aiello"]
 level: affiliated
 academic_status: Honorary Professor
 picture: /assets/images/profile/marco.jpg

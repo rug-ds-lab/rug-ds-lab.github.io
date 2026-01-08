@@ -1,6 +1,7 @@
 ---
 layout: person
 name: Dr. Ando Emerencia
+bib_names: ["Emerencia"]
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/ando.jpg
