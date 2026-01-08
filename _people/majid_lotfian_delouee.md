@@ -1,6 +1,7 @@
 ---
 layout: person
 name: Majid Lotfian Delouee
+bib_names: ["Lotfian Delouee"]
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/majid.jpg

@@ -1,6 +1,7 @@
 ---
 layout: person
 name: Alexander Lazovik
+bib_names: ["A. Lazovik", "Lazovik, A.", "Alexander Lazovik", "Lazovik, Alexander"]
 room: 0578
 email: a.lazovik@rug.nl
 website: http://www.cs.rug.nl/~lazovik

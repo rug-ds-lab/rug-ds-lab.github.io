@@ -2,6 +2,7 @@
 layout: person
 # name: Dr. Azkario Rizky Pratama
 name: Azkario Rizky Pratama
+bib_names: ["Pratama"]
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/azkario.jpg

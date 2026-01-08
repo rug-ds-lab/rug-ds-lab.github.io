@@ -1,6 +1,7 @@
 ---
 layout: person
 name: Andrés Tello
+bib_names: ["Tello"]
 room: 591
 email: andres.tello [at] rug.nl
 picture: /assets/images/profile/andres.jpg

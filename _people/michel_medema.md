@@ -1,6 +1,7 @@
 ---
 layout: person
 name: Michel Medema
+bib_names: ["Medema"]
 picture: /assets/images/profile/michel_medema.jpg
 level: affiliated
 academic_status: PhD Student

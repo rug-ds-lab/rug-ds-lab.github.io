@@ -2,6 +2,7 @@
 layout: person
 # name: Dr. Pavel Bulanov
 name: Pavel Bulanov
+bib_names: ["Bulanov"]
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/pavel.jpg
