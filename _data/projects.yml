@@ -12,7 +12,7 @@
     <a href="https://openreview.net/pdf?id=hcoxm3Vwgy">ELoRA: Low-Rank Adaptation for Equivariant GNNs</a>
 
 - title: "Centrality-Aware Learning vs Graph Neural Networks for State Estimation in Wastewater Systems"
-  supervisors: ["Revin Alief", "Dilek Düştegör"]
+  supervisors: ["Revin Naufal Alief", "Dilek Düştegör"]
   available: true
   date: 2026-01-05
   type: ["bachelor-project", "student-colloquium", "master-internship", "master-project"]
@@ -27,7 +27,7 @@
     <a href="https://arxiv.org/abs/1710.10903">Graph Attention Networks.</a>
 
 - title: "A Systematic Review of Graph Neural Network Applications in Wastewater Systems"
-  supervisors: ["Revin Alief", "Dilek Düştegör"]
+  supervisors: ["Revin Naufal Alief", "Dilek Düştegör"]
   available: true
   date: 2026-01-05
   type: ["bachelor-project", "student-colloquium", "master-internship", "master-project"]
@@ -39,7 +39,7 @@
     <a href="https://ieeexplore.ieee.org/abstract/document/9046288">A Comprehensive Survey on Graph Neural Networks.</a>
 
 - title: "Uncertainty Quantification in GNN-based Water Level Estimation"
-  supervisors: ["Revin Alief", "Dilek Düştegör"]
+  supervisors: ["Revin Naufal Alief", "Dilek Düştegör"]
   available: true
   date: 2026-01-05
   type: ["bachelor-project", "student-colloquium", "master-internship", "master-project"]
@@ -50,7 +50,7 @@
     <a href="https://doi.org/10.1145/3711896.3737064">Non-exchangeable Conformal Prediction for Temporal Graph Neural Networks.</a>
 
 - title: "Sparse Sensor Placement for Graph-Based State Estimation"
-  supervisors: ["Revin Alief", "Dilek Düştegör"]
+  supervisors: ["Revin Naufal Alief", "Dilek Düştegör"]
   available: true
   date: 2026-01-05
   type: ["bachelor-project", "student-colloquium", "master-internship", "master-project"]
@@ -61,7 +61,7 @@
     <a href="https://doi.org/10.1109/ACCESS.2025.3611333">Graph Neural Networks for Evaluating the Reliability and Resilience of Infrastructure Systems: A Systematic Review of Models, Applications, and Future Directions</a>
 
 - title: "Wastewater Systems Benchmark Dataset Development"
-  supervisors: ["Revin Alief", "Dilek Düştegör"]
+  supervisors: ["Revin Naufal Alief", "Dilek Düştegör"]
   available: true
   date: 2026-01-05
   type: ["bachelor-project", "student-colloquium", "master-internship", "master-project"]
@@ -71,10 +71,9 @@
     <a href="https://doi.org/10.1016/j.dib.2023.109148">Benchmarking dataset for leak detection and localization in water distribution systems</a>
     <a href="https://https://github.com/KIOS-Research/LeakDB">LeakDB: A Benchmark Dataset for Leakage Diagnosis in Water Distribution Networks</a>
     <a href="https://doi.org/10.1016/j.dib.2023.109148">Benchmarking Dataset for Leak Detection and Localization in Water Distribution Systems</a>
-    
 
 - title: "Dataset Management"
-  supervisors: ["Huy Truong", "Andrés Tello"]
+  supervisors: ["Huy Cuong Truong", "Andrés Tello"]
   available: true
   date: 2025-08-25
   type: ["bachelor-internship"]
@@ -139,7 +138,7 @@
     <a href="https://arxiv.org/abs/2009.05257">Yang, Charlene, et al. "Hierarchical roofline performance analysis for deep learning applications." Intelligent Computing: Proceedings of the 2021 Computing Conference, Volume 2. Springer International Publishing, 2021., https://arxiv.org/abs/2009.05257</a>
 
 - title: "DiTEC project- Unsupervised Learning for Customer Profiles in Water Distribution Networks"
-  supervisors: ["Huy Truong", "Dilek Düştegör"]
+  supervisors: ["Huy Cuong Truong", "Dilek Düştegör"]
   available: true
   date: 2025-01-21
   type: ["bachelor-project"]
@@ -149,7 +148,7 @@
     <a href="https://doi.org/10.3390/engproc2024069050">Tello, A., Truong, H., Lazovik, A., & Degeler, V. (2024). Large-scale multipurpose benchmark datasets for assessing data-driven deep learning approaches for water distribution networks. Engineering Proceedings, 69(1), 50. https://doi.org/10.3390/engproc2024069050.</a>
 
 - title: "Node masking in Graph Neural Networks"
-  supervisors: ["Huy Truong", "Dilek Düstegör"]
+  supervisors: ["Huy Cuong Truong", "Dilek Düştegör"]
   available: true
   date: 2025-01-21
   type: ["bachelor-project"]
@@ -210,7 +209,7 @@
     <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Mind_the_Label_Shift_of_Augmentation-Based_Graph_OOD_Generalization_CVPR_2023_paper.pdf">Yu, J., Liang, J., & He, R. (2023). Mind the Label Shift of Augmentation-based Graph OOD Generalization. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 11620-11630).</a>
 
 - title: Multimodality Graph Foundation Models
-  supervisors: ["Huy Truong"]
+  supervisors: ["Huy Cuong Truong"]
   available: true
   date: 2025-01-21
   type: ["student-colloquium"]
@@ -221,7 +220,7 @@
     <a href="https://www.nature.com/articles/s42256-023-00624-6">Ektefaie, Yasha, et al. "Multimodal learning with graphs." *Nature Machine Intelligence* 5.4 (2023): 340-350.</a>
 
 - title: Test-Time Training
-  supervisors: ["Huy Truong"]
+  supervisors: ["Huy Cuong Truong"]
   available: true
   date: 2025-01-21
   type: ["student-colloquium"]
@@ -257,7 +256,7 @@
     <a href="https://ieeexplore.ieee.org/abstract/document/10172674">Yanjie Gao, Xianyu Gu, Hongyu Zhang, Haoxiang Lin, and Mao Yang. "Runtime performance prediction for deep learning models with graph neural network." In IEEE/ACM 45th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP), pp. 368-380. 2023.</a>
 
 - title: DiTEC project- Building a collection of Graph Self-Supervised Learning tasks
-  supervisors: ["Huy Truong"]
+  supervisors: ["Huy Cuong Truong"]
   available: true
   date: 2025-04-03
   type: ["master-internship"]
@@ -268,7 +267,7 @@
     <a href="https://ieeexplore.ieee.org/document/9632431/">Wu, Lirong, et al. "Self-supervised learning on graphs: Contrastive, generative, or predictive." *IEEE Transactions on Knowledge and Data Engineering* 35.4 (2021): 4216-4235.</a>
 
 - title: DiTEC project- Inverse problem in Water Distribution Networks
-  supervisors: ["Huy Truong"]
+  supervisors: ["Huy Cuong Truong"]
   available: true
   date: 2025-04-03
   type: ["master-internship"]
@@ -278,7 +277,7 @@
     <a href="https://arxiv.org/abs/2503.17167">Truong, Huy, et al. "DiTEC-WDN: A Large-Scale Dataset of Hydraulic Scenarios across Multiple Water Distribution Networks." (2025).</a>
 
 - title: DiTEC project- Bio-inspired Water Network Design
-  supervisors: ["Huy Truong"]
+  supervisors: ["Huy Cuong Truong"]
   available: true
   date: 2025-04-03
   type: ["master-internship"]
@@ -290,7 +289,7 @@
     <a href="https://dl.acm.org/doi/abs/10.1145/3583133.3590733">Lange, Robert Tjarko. "evosax: Jax-based evolution strategies, 2022." *URL http://github.com/RobertTLange/evosax* 7 (2022).</a>
 
 - title: Can we train a Neural Network with Forward-Forward “harmoniously”?
-  supervisors: ["Huy Truong"]
+  supervisors: ["Huy Cuong Truong"]
   available: true
   date: 2025-04-03
   type: ["master-internship"]
