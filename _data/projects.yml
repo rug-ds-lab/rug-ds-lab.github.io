@@ -28,7 +28,7 @@ Wastewater systems can naturally be represented as graphs, where nodal pressure 
   type: ["bachelor-project", "student-colloquium", "master-internship", "master-project"]
   description: |
     Graph Neural Networks (GNNs) have shown strong performance in graph-related data. If we are looking at the wastewater systems, they are able to be represented as network topology which is suitable for GNN to works on. Existing studies apply GNNs to a variety of tasks, including state estimation, forecasting, anomaly detection, and sensor placement. However, the literature remains scattered, and the overview of methods, datasets, and research gaps is still lacking. In this project, the student will conduct a systematic literature review of GNN-based approaches in wastewater systems following a structured review protocol (e.g., PRISMA). The student will identify, screen, and categorize relevant studies based on application domain, learning task, data sources (real vs synthetic), and evaluation settings. Special attention will be given to limitations related to sensor availability, uncertainty handling, and generalization across networks. The outcome of the project is a structured taxonomy and comparative analysis of existing GNN-based wastewater studies, highlighting open challenges and opportunities for future research, particularly in sensor placement and digital twin development. Project depth will be adjusted to BS or MS level.
-    <br /><br /><span style="display:inline-block; white-space:nowrap;"><strong style="display:inline !important;">References:</strong> (Not exhaustive)</span>
+    References:<br />
     <a href="https://ieeexplore.ieee.org/abstract/document/11231364">Graph Neural Network Empowers Intelligent Education: A Systematic Review From an Application Perspective.</a>
     <a href="https://www.bmj.com/content/372/bmj.n71">The PRISMA 2020 Statement: An Updated Guideline for Reporting Systematic Reviews.</a>
     <a href="https://ieeexplore.ieee.org/abstract/document/9046288">A Comprehensive Survey on Graph Neural Networks.</a>
@@ -353,16 +353,3 @@ Wastewater systems can naturally be represented as graphs, where nodal pressure 
   type: ["master-project"]
   description: |
     The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Instead, we would like to investigate comparing event logs against a specification of ordering relations to achieve a significant performance increase. 
-
-
-
-
-
-
-
-
-
-
-
-
-
