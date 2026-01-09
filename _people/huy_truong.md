@@ -1,6 +1,6 @@
 ---
 layout: person
-name: Huy Cuong Truong
+name: Huy Truong
 bib_names: Truong
 level: student
 academic_status: PhD Student
