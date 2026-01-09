@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Huy Cuong Truong
-bib_names: ["Truong"]
+bib_names: "(Truong)"
 level: student
 academic_status: PhD Student
 picture: /assets/images/profile/huy.png

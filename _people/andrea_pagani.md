@@ -2,7 +2,7 @@
 layout: person
 # name: Dr. Andrea Pagani
 name: Andrea Pagani
-bib_names: ["Pagani"]
+bib_names: "(Pagani)"
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/andrea.jpg

@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Talko Dijkhuis
-bib_names: ["Dijkhuis"]
+bib_names: "(Dijkhuis)"
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/talko.jpg
