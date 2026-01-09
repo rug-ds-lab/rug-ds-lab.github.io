@@ -2,7 +2,7 @@
 layout: person
 # name: Dr. Frank Blaauw
 name: Frank Blaauw
-bib_names: ["Blaauw"]
+bib_names: "(Blaauw)"
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/frank.png

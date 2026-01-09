@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Mostafa Hadadian Nejad Yousefi
-bib_names: ["Yousefi"]
+bib_names: "(Yousefi)"
 room: 566
 email: m.hadadian [at] rug.nl
 picture: /assets/images/profile/mostafa.jpg

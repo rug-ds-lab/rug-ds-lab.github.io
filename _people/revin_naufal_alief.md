@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Revin Naufal Alief
-bib_names: ["Alief"]
+bib_names: "(Alief)"
 level: student
 academic_status: PhD Student
 picture: /assets/images/profile/revin.png

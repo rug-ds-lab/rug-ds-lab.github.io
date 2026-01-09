@@ -2,7 +2,7 @@
 layout: person
 # name: Dr. Brian Setz
 name: Brian Setz
-bib_names: ["Setz"]
+bib_names: "(Setz)"
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/brian.png
