@@ -2,7 +2,7 @@
 layout: person
 # name: Dr. Ehsan Ullah Warriach
 name: Ehsan Ullah Warriach
-bib_names: "(Warriach)"
+bib_names: Warriach
 level: alumni
 academic_status: PhD Graduate
 # orcid: 

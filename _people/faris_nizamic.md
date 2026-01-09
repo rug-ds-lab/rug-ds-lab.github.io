@@ -2,7 +2,7 @@
 layout: person
 # name: Dr. Faris Nizamic
 name: Faris Nizamic
-bib_names: "(Nizamic)"
+bib_names: Nizamic
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/faris.jpg

@@ -2,7 +2,7 @@
 layout: person
 # name: Dr. ir. Ilche Georgievski
 name: Ilche Georgievski
-bib_names: "(Georgievski)"
+bib_names: Georgievski
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/ilche.jpg

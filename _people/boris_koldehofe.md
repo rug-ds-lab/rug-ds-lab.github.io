@@ -2,7 +2,7 @@
 layout: person
 # name: Prof. dr. Boris Koldehofe
 name: Boris Koldehofe
-bib_names: "(Koldehofe)"
+bib_names: Koldehofe
 level: affiliated
 academic_status: Professor of Computer Networks
 picture: /assets/images/profile/boris.png

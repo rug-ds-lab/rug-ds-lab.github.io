@@ -2,7 +2,7 @@
 layout: person
 # name: Dr. Saad Saleh
 name: Saad Saleh
-bib_names: "((S(aad|\.)\sSaleh|Saleh(,\sS(aad|\.))))"
+bib_names: S(aad|\.)\sSaleh|Saleh.\sS(aad|\.)
 level: alumni
 academic_status: PhD Graduate
 picture: /assets/images/profile/saad.jpg

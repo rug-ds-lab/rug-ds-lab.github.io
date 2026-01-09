@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Mahmoud Alasmar
-bib_names: "(Alasmar)"
+bib_names: Alasmar
 room: 566
 email: m.r.m.alasmar [at] rug.nl
 picture: /assets/images/profile/mahmoud.png
