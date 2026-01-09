@@ -2,7 +2,7 @@
 layout: person
 # name: Dr. Viktoriya Degeler
 name: Victoria Degeler
-bib_names: "(Degeler)"
+bib_names: Degeler
 level: affiliated
 academic_status: Assistant Professor
 picture: /assets/images/profile/vika.jpg
