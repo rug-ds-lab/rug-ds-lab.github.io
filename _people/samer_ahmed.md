@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Samer Ahmed
-bib_names: S(amer|.[[:punct:]])\sAhmed|Ahmed[[:punct:]]\sS(amer|\.)
+bib_names: S(amer|\.)\sAhmed|Ahmed[[:punct:]]\sS(amer|\.)
 level: student
 academic_status: PhD Student
 picture: /assets/images/profile/samer.jpg
