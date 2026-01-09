@@ -2,7 +2,7 @@
 layout: person
 prefix: "Dr."
 name: Heerko Groefsema
-bib_names: (Groefsema)
+bib_names: Groefsema
 room: 591
 email: h.groefsema@rug.nl
 website: https://hgroefsema.nl/
