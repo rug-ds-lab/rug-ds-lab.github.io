@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Alexander Lazovik
-bib_names: "A(lexander|\.)\sLazovik|Lazovik\,\sA(lexander|\.)"
+bib_names: "A(lexander|\.)\sLazovik|Lazovik[[:punct:]]\sA(lexander|\.)"
 room: 0578
 email: a.lazovik@rug.nl
 website: http://www.cs.rug.nl/~lazovik
