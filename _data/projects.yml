@@ -1,3 +1,49 @@
+- title: "Evaluating Server-Based and Serverless Deployment Strategies for Machine Learning Prediction Workloads in KServe"
+  supervisors: ["Mahmoud Alasmar", "Alexander Lazovik"]
+  available: true
+  date: 2026-01-09
+  type: ["bachelor-project"]
+  description: |
+    KServe is an open-source, Kubernetes-native framework for deploying machine learning inference services. It supports both server-based deployments using standard Kubernetes resources and serverless deployments using Knative, enabling request-driven autoscaling and scale-to-zero capabilities. This project aims to evaluate the system-level performance (latency, throughput, resource usage) of server-based and serverless deployment strategies for classical machine learning prediction workloads using KServe. The study focuses on CPU-only inference services based on scikit-learn and XGBoost models. In the first phase, representative prediction machine learning models will be trained to generate inference workloads. In the second phase, these models will be deployed using KServe under two configurations: (i) Kubernetes-based deployments with Horizontal Pod Autoscaling (HPA), and (ii) Knative-based serverless deployments with request-driven autoscaling. A stream of controlled query workloads will be generated to simulate different traffic patterns. The evaluation will focus on latency, throughput, autoscaling responsiveness, CPU and memory utilization, and cold-start overhead. The results will highlight the trade-offs between performance, scalability, and resource efficiency in server and serverless ML serving environments, and how each deployment strategy can be adapted depending on the type of workloads.
+    References: <br/>
+    <a href="https://arxiv.org/abs/1612.03079">Clipper: A Low-Latency Online Prediction Serving System</a>
+    <a href="https://www.usenix.org/conference/atc18/presentation/oakes">SOCK: Rapid Task Provisioning with Serverless-Optimized Containers</a>
+    <a href="https://www.usenix.org/conference/nsdi23/presentation/karthikeyan">SelfTune: Tuning Cluster Managers</a>
+    <a href="https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/">Horizontal Pod Autoscaling</a>
+    <a href="https://knative.dev/docs/">Knative Technical Overview</a>
+    <a href="https://kserve.github.io/website/docs/intro">KServe Documentation</a>
+  
+- title: "Estimating Inference Latency of  Deep Learning Models Using Roofline Analysis"
+  supervisors: ["Mahmoud Alasmar", "Alexander Lazovik"]
+  available: true
+  date: 2026-01-09
+  type: ["bachelor-project"]
+  description: |
+    Accurate estimation of inference latency is critical for meeting service-level objectives (SLOs) in large language model (LLM) serving systems. While classical ML prediction methods can be leveraged for the estimation task, their accuracy highly depends on the type of selected features. On the other hand, analytical performance models, such as the Roofline analysis, provide a hardware-aware upper bound on achievable performance; however, their applicability for latency estimation remains an open question. This project investigates how Roofline analysis can be integrated with ML prediction methods for improved estimation of end-to-end inference latency of LLM queries on a single GPU. A small set of representative LLMs will be selected, and inference latency will be measured under controlled conditions (Sequence length, batch size). Roofline-related metrics, such as arithmetic intensity and memory bandwidth utilization, will be collected using GPU profiling tools. These metrics will be used to estimate processing time and to build regression models that predict end-to-end inference latency. The evaluation will analyze prediction error, sensitivity to model size and input length, and the limitations of Roofline-based estimation.
+    References: <br/>
+    <a href="https://mlforsystems.org/assets/papers/neurips2024/paper28.pdf">Predicting LLM Inference Latency: A Roofline-Driven ML Method</a>
+
+- title: "Evaluating the Performance of vLLM and DeepSpeed for Serving LLM Inference Queries"
+  supervisors: ["Mahmoud Alasmar", "Alexander Lazovik"]
+  available: true
+  date: 2026-01-09
+  type: ["master-project"]
+  description: |
+    The computational complexity of serving large language model (LLM) queries depends heavily on model size, sequence length, and memory access patterns. To address these challenges, several LLM inference serving frameworks have been proposed employing different optimization techniques to improve throughput and reduce memory overhead. vLLM and DeepSpeed are two prominent examples that deploy distinct techniques to achieve efficient inference serving frameworks.  vLLM proposes PagedAttention for efficient key–value cache management. On the other hand, DeepSpeed integrates multiple optimization techniques, such as parallelism and kernel-level optimizations, for scalable inference. This project aims to systematically evaluate the end-to-end inference performance (Latency, throughput, Memory footprint) of vLLM and DeepSpeed under different inference workloads.  Experiments will be performed using one of the publicly available datasets, such as ShareGPT. The results will highlight the trade-offs between KV cache management, kernel-level optimizations, and parallelism strategies in LLM inference serving, providing insights into the conditions under which each framework is most effective.
+    References: <br/>
+    <a href="https://arxiv.org/abs/2309.06180">Efficient Memory Management for Large Language Model Serving with PagedAttention</a>
+    <a href="https://arxiv.org/abs/2207.00032">DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale</a>
+
+- title: "Estimating Time and Resource Usage of SLURM Jobs Using RLM"
+  supervisors: ["Mahmoud Alasmar", "Alexander Lazovik"]
+  available: true
+  date: 2026-01-09
+  type: ["master-project", "master-internship"]
+  description: |
+    Efficient allocation of computational resources in high-performance computing (HPC) clusters requires accurate prediction of job runtime and resource requirements. Users often over-request CPU, memory, or time to avoid failures, which can lead to wasted resources and longer queue times. Therefore, predicting these requirements before job submission is critical for improving cluster utilization and scheduling efficiency. This project investigates how Regression Language Models (RLMs) can be used to estimate the time and resource usage of SLURM jobs based on submitted Bash scripts and job metadata. The study will use real job submission data from the Habrok HPC cluster.
+    References: <br/>
+    <a href="https://arxiv.org/abs/2509.26476">Regression Language Models for Code</a>
+
 - title: "An Online, Continuous, Self-Adaptive Pipeline for Water Distribution Network State Estimation"
   supervisors: ["Huy Truong", "Dilek Düştegör"]
   available: true
