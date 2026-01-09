@@ -1,3 +1,17 @@
+- title: "Building a Simulation Pipeline for Anomalous Time-Series Data in Water Networks"
+  supervisors: ["Samer Ahmed", "Dilek Düştegör"]
+  available: true
+  date: 2026-01-09
+  type: ["bachelor-project", "master-project", "bachelor-internship", "master-internship"]
+  description: |
+    Reliable anomaly detection in water distribution networks requires diverse and well-structured data covering both normal and faulty operating conditions. In this project, the student will design and implement an automated simulation and data-generation pipeline that produces time-series data (e.g. pressure, flow, demand) for water networks under a variety of scenarios, including leaks and sensor malfunctions. The work focuses on wrapping and orchestrating existing simulation tools (such as EPANET/WNTR), systematically varying configurations and fault parameters, and organising outputs into reproducible, machine-learning-ready datasets. The project is well suited for Bachelor or Master students with a background in computer science, data science, or AI, who are comfortable programming in Python and willing to independently learn domain-specific tools through documentation and examples. Prior knowledge of water networks is not required.
+    References: <br/>
+    <a href="https://huggingface.co/datasets/rugds/ditec-wdn">DiTEC-WDN Dataset</a>
+    <a href="https://www.nature.com/articles/s41597-025-06026-0">DiTEC-WDN: A Large-Scale Dataset of Hydraulic Scenarios across Multiple Water Distribution Networks</a>
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-77738-7_7">LeakG3PD: A Python Generator and Simulated Water Distribution System Dataset</a>
+    <a href="https://www.epa.gov/water-research/epanet">EPANET</a>
+    <a href="https://usepa.github.io/WNTR/">WNTR</a>
+
 - title: "Evaluating Server-Based and Serverless Deployment Strategies for Machine Learning Prediction Workloads in KServe"
   supervisors: ["Mahmoud Alasmar", "Alexander Lazovik"]
   available: true
