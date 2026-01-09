@@ -1,3 +1,41 @@
+- title: "An Online, Continuous, Self-Adaptive Pipeline for Water Distribution Network State Estimation"
+  supervisors: ["Huy Truong", "Dilek Düştegör"]
+  available: true
+  date: 2026-01-09
+  type: ["bachelor-project", "master-project", "master-internship"]
+  description: |
+    Deploying machine-learning pipelines in real-world systems is challenging due to data distribution drift and inherent instability. Conventional machine-learning models typically rely on fixed weights optimized for a specific training distribution, which leads to performance degradation when exposed to unseen and noisy data in practice. To address this limitation, this group project develops a framework that supports online learning and introduces an evaluation benchmark that more closely reflects real-world operating conditions.
+    Specifically, the project consists of two main components:
+    1. A pipeline built around a pretrained Graph Neural Network (GNN) to estimate unknown hydraulic measurements from a limited set of sensors deployed across a water distribution network. This component focuses on implementing a Test-Time Training strategy that adapts model weights using only incoming test inputs.
+    2. A benchmarking platform that simulates real-world steady-state snapshots, incorporating hydraulic measurements such as pressure, demand, and network topology across multiple water distribution systems. The benchmark is designed to evaluate the robustness and adaptability of machine-learning pipelines under what-if analyses and out-of-distribution conditions.
+    
+    References: <br/>
+    <a href="https://proceedings.mlr.press/v119/sun20b.html">Test-Time Training with Self-Supervision for Generalization under Distribution Shifts.</a>
+
+- title: "Multivariate State Estimation in Drinking Water Distribution Networks"
+  supervisors: ["Huy Truong", "Andrés Tello", "Alexander Lazovik"]
+  available: true
+  date: 2026-01-09
+  type: ["bachelor-project", "master-project", "master-internship"]
+  description: |
+    Monitoring water distribution networks plays the main role in ensuring safe drinking water delivery to millions of residents in the urban area. Traditionally, this task relies on physics-based mathematical simulations; however, such models require a large number of parameters and frequent recalibration to maintain accuracy consistent with sensor measurements. As an alternative, recent studies have proposed data-driven approaches based on Graph Neural Networks (GNNs), which leverage pressure measurements from a limited set of sensors at known locations to infer pressure values at unmonitored nodes in the network. Building on this idea, the project extends the existing univariate method to a multivariate framework, aiming to jointly estimate multiple hydraulic quantities, including pressure, demand, flow rate, head loss, and others. The candidate is expected to have a basis of machine-learning foundation and proficiency in one of the deep learning frameworks (PyTorch, TensorFlow).
+    
+    Reference: <br/>
+    <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023WR036741">Graph Neural Networks for Pressure Estimation in Water Distribution Systems**.**</a>
+
+- title: "Graph Reasoning Models"
+  supervisors: ["Huy Truong", "Dilek Düştegör"]
+  available: true
+  date: 2026-01-09
+  type: ["master-project", "master-internship"]
+  description: |
+    Graph Neural Networks (GNNs) have emerged as promising approaches in processing graph-based systems. GNNs leverage a message passing mechanism to update node features given neighborhood information. However, this mechanism often paired with several issues, particularly for over-smoothing, a phenomenon in which GNNs encode similar representations for all nodes in the graph. This hinders the scalability, constraining these models’ depth to a shallow level. This work explores a recursive approach to extend the number of layers virtually while measuring the impact of over-smoothing in this specific setting. The new approach is validated in the context of the water domain. Students interested in joining this project should have a basis of machine-learning knowledge and be familiar with one of deep-learning frameworks (PyTorch, Tensorflow).
+    
+    References:<br/>
+    <a href="https://arxiv.org/pdf/2510.04871">Less is More: Recursive Reasoning with Tiny Networks.</a>
+    <a href="https://iwaponline.com/jh/article/25/6/2223/98159/Assessing-the-performances-and-transferability-of">Assessing the performances and transferability of graph neural network metamodels for water distribution systems**.**</a>
+    <a href="https://arxiv.org/abs/2506.21734">Hierarchical Reasoning Model**.**</a>
+
 - title: "Evaluating LoRA for GNN-based model adaptation"
   supervisors: ["Andrés Tello", "Alexander Lazovik"]
   available: true
@@ -73,7 +111,7 @@
     <a href="https://doi.org/10.1016/j.dib.2023.109148">Benchmarking Dataset for Leak Detection and Localization in Water Distribution Systems</a>
 
 - title: "Dataset Management"
-  supervisors: ["Huy Cuong Truong", "Andrés Tello"]
+  supervisors: ["Huy Truong", "Andrés Tello"]
   available: true
   date: 2025-08-25
   type: ["bachelor-internship"]
@@ -137,18 +175,8 @@
     <a href="https://www.usenix.org/conference/osdi18/presentation/xiao">Xiao, Wencong, et al. "Gandiva: Introspective cluster scheduling for deep learning." 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18). 2018., https://www.usenix.org/conference/osdi18/presentation/xiao</a>
     <a href="https://arxiv.org/abs/2009.05257">Yang, Charlene, et al. "Hierarchical roofline performance analysis for deep learning applications." Intelligent Computing: Proceedings of the 2021 Computing Conference, Volume 2. Springer International Publishing, 2021., https://arxiv.org/abs/2009.05257</a>
 
-- title: "DiTEC project- Unsupervised Learning for Customer Profiles in Water Distribution Networks"
-  supervisors: ["Huy Cuong Truong", "Dilek Düştegör"]
-  available: true
-  date: 2025-01-21
-  type: ["bachelor-project"]
-  description: |
-    Researchers studying drinking water distribution networks often rely on large-scale synthesized datasets. However, the current simulation generating these datasets faces limitations in retrieving metadata that enhances dataset accessibility. Moreover, this missing metadata, including customer profiles at each node in the network, plays a crucial role in classifying customer types and estimating their demand, particularly during peak seasons. To address this gap, the student could apply unsupervised clustering algorithms such as K-NN, K-means, or DBSCAN to identify and retrieve these customer profiles. This project requires a candidate with a solid background in Machine Learning and interest in building robust data pipelines. They will be eventually employed to extract the missing metadata for a large-scale dataset, enabling water experts to analyze water network and benchmark customer behavior efficiently.<br />
-    References:<br />
-    <a href="https://doi.org/10.3390/engproc2024069050">Tello, A., Truong, H., Lazovik, A., & Degeler, V. (2024). Large-scale multipurpose benchmark datasets for assessing data-driven deep learning approaches for water distribution networks. Engineering Proceedings, 69(1), 50. https://doi.org/10.3390/engproc2024069050.</a>
-
 - title: "Node masking in Graph Neural Networks"
-  supervisors: ["Huy Cuong Truong", "Dilek Düştegör"]
+  supervisors: ["Huy Truong", "Dilek Düştegör"]
   available: true
   date: 2025-01-21
   type: ["bachelor-project"]
@@ -209,7 +237,7 @@
     <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Mind_the_Label_Shift_of_Augmentation-Based_Graph_OOD_Generalization_CVPR_2023_paper.pdf">Yu, J., Liang, J., & He, R. (2023). Mind the Label Shift of Augmentation-based Graph OOD Generalization. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 11620-11630).</a>
 
 - title: Multimodality Graph Foundation Models
-  supervisors: ["Huy Cuong Truong"]
+  supervisors: ["Huy Truong"]
   available: true
   date: 2025-01-21
   type: ["student-colloquium"]
@@ -220,7 +248,7 @@
     <a href="https://www.nature.com/articles/s42256-023-00624-6">Ektefaie, Yasha, et al. "Multimodal learning with graphs." *Nature Machine Intelligence* 5.4 (2023): 340-350.</a>
 
 - title: Test-Time Training
-  supervisors: ["Huy Cuong Truong"]
+  supervisors: ["Huy Truong"]
   available: true
   date: 2025-01-21
   type: ["student-colloquium"]
@@ -255,19 +283,8 @@
     <a href="https://arxiv.org/abs/2205.12095">Lu Bai, Weixing Ji, Qinyuan Li, Xilai Yao, Wei Xin, and Wanyi Zhu. "Dnnabacus: Toward accurate computational cost prediction for deep neural netw." arXiv preprint arXiv:2205.12095. 2022.</a>
     <a href="https://ieeexplore.ieee.org/abstract/document/10172674">Yanjie Gao, Xianyu Gu, Hongyu Zhang, Haoxiang Lin, and Mao Yang. "Runtime performance prediction for deep learning models with graph neural network." In IEEE/ACM 45th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP), pp. 368-380. 2023.</a>
 
-- title: DiTEC project- Building a collection of Graph Self-Supervised Learning tasks
-  supervisors: ["Huy Cuong Truong"]
-  available: true
-  date: 2025-04-03
-  type: ["master-internship"]
-  description: |
-    Self-supervised learning (SSL) has shown great potential in enhancing the capabilities of large foundation models, but its application to graph modalities remains underexplored. This project aims to investigate popular SSL tasks across node-level, link-level, and graph-level challenges, as well as more complex graph representation learning approaches. As a researcher of the project, the candidate will develop a framework that enables users to train deep learning models using these tasks on independent datasets. The final deliverables will include the implementation code and a report detailing the problem and the proposed solution. The ideal candidate should have a background in machine learning, and experience with at least one deep learning framework.
-    <br />References:<br />
-    <a href="https://ieeexplore.ieee.org/document/9770382/">Liu, Yixin, et al. "Graph self-supervised learning: A survey." *IEEE transactions on knowledge and data engineering* 35.6 (2022): 5879-5900.</a>
-    <a href="https://ieeexplore.ieee.org/document/9632431/">Wu, Lirong, et al. "Self-supervised learning on graphs: Contrastive, generative, or predictive." *IEEE Transactions on Knowledge and Data Engineering* 35.4 (2021): 4216-4235.</a>
-
 - title: DiTEC project- Inverse problem in Water Distribution Networks
-  supervisors: ["Huy Cuong Truong"]
+  supervisors: ["Huy Truong"]
   available: true
   date: 2025-04-03
   type: ["master-internship"]
@@ -276,20 +293,8 @@
     <br />References:<br />
     <a href="https://arxiv.org/abs/2503.17167">Truong, Huy, et al. "DiTEC-WDN: A Large-Scale Dataset of Hydraulic Scenarios across Multiple Water Distribution Networks." (2025).</a>
 
-- title: DiTEC project- Bio-inspired Water Network Design
-  supervisors: ["Huy Cuong Truong"]
-  available: true
-  date: 2025-04-03
-  type: ["master-internship"]
-  description: |
-    Designing Water Distribution Networks (WDN) has been portrayed as a complex, labor, and time-consuming process. To alleviate this, the project aims to automate the design using Evolution Strategy (ES). In particular, these algorithms should search and optimize values of hydraulic parameters, such as nodal elevation, pump speed, and pipe length, to construct a complete simulation configuration. This configuration should follow the local, structural, and physical restrictions (i.e., multi-objective optimization). As a researcher on this project, the candidate will explore an ES framework to develop the optimization algorithm and apply it to a water distribution domain. As such, the candidate should be familiar with machine-learning experiments. As deliverables, the candidate should submit the report and implementation code that generates optimized configurations. These configurations will help water researchers simulate, analyze, and understand the WDN’s behavior and enhance the monitoring capability of these systems in practice.
-    <br />References:<br />
-    <a href="https://link.springer.com/article/10.1007/s11042-023-17167-y">Gad, Ahmed Fawzy. "Pygad: An intuitive genetic algorithm python library." *Multimedia tools and applications* 83.20 (2024): 58029-58042.</a>
-    <a href="https://arxiv.org/abs/2302.12600">Toklu, Nihat Engin, et al. "Evotorch: Scalable evolutionary computation in python." *arXiv preprint arXiv:2302.12600* (2023).</a>
-    <a href="https://dl.acm.org/doi/abs/10.1145/3583133.3590733">Lange, Robert Tjarko. "evosax: Jax-based evolution strategies, 2022." *URL http://github.com/RobertTLange/evosax* 7 (2022).</a>
-
 - title: Can we train a Neural Network with Forward-Forward “harmoniously”?
-  supervisors: ["Huy Cuong Truong"]
+  supervisors: ["Huy Truong"]
   available: true
   date: 2025-04-03
   type: ["master-internship"]
@@ -357,3 +362,4 @@
   type: ["master-project"]
   description: |
     The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Instead, we would like to investigate comparing event logs against a specification of ordering relations to achieve a significant performance increase. 
+
