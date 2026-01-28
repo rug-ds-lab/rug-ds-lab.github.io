@@ -1,3 +1,13 @@
+- title: "Orchestration Framework for hybrid computing"
+  supervisors: ["Alexander Lazovik"]
+  available: true
+  date: 2026-01-28
+  type: ["master-project", "master-internship"]
+  description: |
+    (Requirement: Availability for six months for full time internship at TNO; Interest in cloud computing, HPC, or AI infrastructure) <br/>
+    In this internship at TNO, the student will contribute to the design of the model and implementation of a tool that automatically selects the most suitable digital infrastructure for a given application. The tool will support intelligent decision-making across heterogeneous computing environments such as HPC, Quantum, and emerging accelerators (Neuromorphic). The internship focuses on translating application requirements (e.g. performance, cost, energy, data sensitivity) into infrastructure choices using rule-based logic, optimization methods, or AI-driven approaches. The work will be carried out in close collaboration with researchers working on digital infrastructures and AI orchestration.<br/>
+    The challenge of this internship is to design and implement a research-oriented prototype that automatically selects the most suitable digital infrastructure (e.g. cloud, HPC, edge, or accelerators) based on application requirements such as performance, cost, energy efficiency, and data constraints. The student will investigate how these requirements can be formalized and mapped to infrastructure capabilities using rule-based, optimization, or AI-driven methods. In this role, the student will combine analytical research with hands-on implementation, validate the approach using realistic use cases, and document the findings in a structured, research-quality manner, contributing to ongoing work on intelligent orchestration of heterogeneous computing infrastructures.  <br/>
+
 - title: "Vertical Federated Learning Framework"
   supervisors: ["Revin Alief", "Dilek Düştegör", "Alexander Lazovik"]
   available: true
@@ -433,6 +443,7 @@
   type: ["master-project"]
   description: |
     The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Instead, we would like to investigate comparing event logs against a specification of ordering relations to achieve a significant performance increase. 
+
 
 
 
