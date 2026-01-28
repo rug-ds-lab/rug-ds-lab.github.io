@@ -4,10 +4,14 @@
   date: 2026-01-28
   type: ["master-project", "master-internship"]
   description: |
-    (Requirement: Availability for six months for full time internship at TNO) 
-    Big Data and Data Science (AI & ML) are increasingly popular topics because of the advantages they can bring to companies. The data analysis is often done in long-running processes or even with an always-online streaming process. This data analysis is almost always done within different types of limitations: from users, business perspective, from hardware and from the platforms on which the data analysis is running. At TNO we are looking into ways of developing solutions for vertical federated learning framework which allows the separation of concerns between local models, making analysis on local data, and central model which learns from many local models and updates local models when necessary. We have applied federated learning on horizontal approaches applied in multiple domains like energy, industry. Vertical Federated Learning (VFL) enables multiple parties to collaboratively train a machine learning model over vertically distributed datasets without data privacy leakage.
-    References: <br/>
-
+    (Requirement: Availability for six months for full time internship at TNO) <br/>
+    Big Data and Data Science (AI & ML) are increasingly popular topics because of the advantages they can bring to companies. The data analysis is often done in long-running processes or even with an always-online streaming process. This data analysis is almost always done within different types of limitations: from users, business perspective, from hardware and from the platforms on which the data analysis is running. At TNO we are looking into ways of developing solutions for vertical federated learning framework which allows the separation of concerns between local models, making analysis on local data, and central model which learns from many local models and updates local models when necessary. We have applied federated learning on horizontal approaches applied in multiple domains like energy, industry. Vertical Federated Learning (VFL) enables multiple parties to collaboratively train a machine learning model over vertically distributed datasets without data privacy leakage. <br/>
+    At TNO we are looking into ways of developing solutions for vertical federated learning framework which allows the separation of concerns between local models, making analysis on local data, and central model which learns from many local models and updates local models when necessary. We have applied federated learning on horizontal approaches applied in multiple domains like energy, industry. Vertical Federated Learning (VFL) enables multiple parties to collaboratively train a machine learning model over vertically distributed datasets without data privacy leakage. <br/>
+    Internship Role and Responsibilities: <br/>
+    - Your challenge would be to investigate and experiment on vertical federated learning approach and apply it to the energy or industry domain. Develop a scalable federated learning platform using the state-of-the-art approach. <br/>
+    - Evaluation of real-world scenarios and benchmarking data. <br/>
+    - Research on state of the art of heterogeneous edge computing and federated learning frameworks and scenarios.
+    
 - title: "Building a Simulation Pipeline for Anomalous Time-Series Data in Water Networks"
   supervisors: ["Samer Ahmed", "Dilek Düştegör"]
   available: true
@@ -429,6 +433,7 @@
   type: ["master-project"]
   description: |
     The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Instead, we would like to investigate comparing event logs against a specification of ordering relations to achieve a significant performance increase. 
+
 
 
 
