@@ -3,35 +3,42 @@ layout: default
 title: Research Areas
 ---
 
-<p>Distributed Information Systems are concerned with the delocalization of computation on several hosts and their
-    coordination via message passing. Looking at today's information systems, one notices that most of them, if not all,
-    have some form of distribution. The key issues that emerge for research become those of addressing heterogeneity,
-    scalability, and run-time adaptation. 
-</p>
+<h2>Distributed Systems for Real-World Impact</h2>
+<p>We design next-generation distributed systems that combine Artificial Intelligence, Digital Twins, and adaptive data infrastructures to tackle complex societal and industrial challenges.</p>
+<p>Our research addresses a simple but urgent question:</p>
+<div style="text-align: center; padding: 8pt;">
+    <i>How can large-scale, data-driven systems be designed to remain adaptive, operational, and trustworthy/compliant while the real world keeps evolving?</i>
+</div>
+<p>From water infrastructure and energy systems to manufacturing and smart environments, we build systems that evolve with their environment, rather than requiring costly shutdowns, recalibration, or manual intervention.</p>
 
-<p>In the context of distributed systems, the group focuses on a number of sub-areas: </p>
+<h2>What We Do</h2>
+<p>We work at the intersection of:</p>
 <ul>
-    <li>Service-Oriented and Cloud Computing</li>
-    <li>Pervasive Computing</li>
-    <li>Middleware for Pervasive Computing and Adaptive Communications</li>
-    <li>Network-centric Real-time Analytics, and</li>
-    <li>Sensor Networks</li>
+    <li>Distributed & Service-Oriented Systems</li>
+    <li>Event-based & Process Aware Systems</li>
+    <li>Digital Twins & Simulation</li>
+    <li>Graph-based & Neuro-Symbolic AI</li>
+    <li>Real-time Analytics & Compliance</li>
+    <li>Evolutionary Self-Managing Data Pipelines & Processes</li>
 </ul>
+<p>Our core strength lies in bridging theory and practice: we design scalable architectures and learning methods, and validate them using real sensor data, operational infrastructures, and industry-relevant use cases.</p>
 
-<p>While interesting applications areas for the group are</p>
-<ul class="pb-3">
-    <li>Healthcare</li>
-    <li>Domitcs</li>
-    <li>Smart Energy Systems</li>
-</ul>
-
-{% for research in site.research %}
-
-    {% assign contact = site.people | find_exp:"person", "person.name == research.contact" %}
-
+<h2>Current Research Projects:</h2>
+{% assign ordered_research = site.research | where_exp:"item","item.end >= {{ date: "%Y" }}" | sort:"end" %}
+{% for research in ordered_research %}
     <div class="research">
-        <h2>{{ research.title }}</h2>
-        <p>{{ research.description }}</p>
-        <a href="{{ contact.url }}">{{ contact.name }}</a>
+        <h3>{{ research.title }}</h3>
+        <p>{{ research.funding }}({{ research.start }}--{{ research.end }})</p>
+        <p>{{ research.content }}</p>
     </div>
 {% endfor %}
+
+<h2>Collaboration & Impact</h2>
+<p>We actively collaborate with:</p>
+<ul>
+    <li>Water utilities and environmental stakeholders</li>
+    <li>Manufacturing SMEs</li>
+    <li>Public funding agencies</li>
+    <li>International research networks</li>
+</ul>
+
