@@ -1,3 +1,27 @@
+- title: "Orchestration Framework for hybrid computing"
+  supervisors: ["Alexander Lazovik"]
+  available: true
+  date: 2026-01-28
+  type: ["master-project", "master-internship"]
+  description: |
+    (Requirement: Availability for six months for full time internship at TNO; Interest in cloud computing, HPC, or AI infrastructure) <br/>
+    In this internship at TNO, the student will contribute to the design of the model and implementation of a tool that automatically selects the most suitable digital infrastructure for a given application. The tool will support intelligent decision-making across heterogeneous computing environments such as HPC, Quantum, and emerging accelerators (Neuromorphic). The internship focuses on translating application requirements (e.g. performance, cost, energy, data sensitivity) into infrastructure choices using rule-based logic, optimization methods, or AI-driven approaches. The work will be carried out in close collaboration with researchers working on digital infrastructures and AI orchestration.<br/>
+    The challenge of this internship is to design and implement a research-oriented prototype that automatically selects the most suitable digital infrastructure (e.g. cloud, HPC, edge, or accelerators) based on application requirements such as performance, cost, energy efficiency, and data constraints. The student will investigate how these requirements can be formalized and mapped to infrastructure capabilities using rule-based, optimization, or AI-driven methods. In this role, the student will combine analytical research with hands-on implementation, validate the approach using realistic use cases, and document the findings in a structured, research-quality manner, contributing to ongoing work on intelligent orchestration of heterogeneous computing infrastructures.  <br/>
+
+- title: "Vertical Federated Learning Framework"
+  supervisors: ["Revin Alief", "Dilek Düştegör", "Alexander Lazovik"]
+  available: true
+  date: 2026-01-28
+  type: ["master-project", "master-internship"]
+  description: |
+    (Requirement: Availability for six months for full time internship at TNO) <br/>
+    Big Data and Data Science (AI & ML) are increasingly popular topics because of the advantages they can bring to companies. The data analysis is often done in long-running processes or even with an always-online streaming process. This data analysis is almost always done within different types of limitations: from users, business perspective, from hardware and from the platforms on which the data analysis is running. At TNO we are looking into ways of developing solutions for vertical federated learning framework which allows the separation of concerns between local models, making analysis on local data, and central model which learns from many local models and updates local models when necessary. We have applied federated learning on horizontal approaches applied in multiple domains like energy, industry. Vertical Federated Learning (VFL) enables multiple parties to collaboratively train a machine learning model over vertically distributed datasets without data privacy leakage. <br/>
+    At TNO we are looking into ways of developing solutions for vertical federated learning framework which allows the separation of concerns between local models, making analysis on local data, and central model which learns from many local models and updates local models when necessary. We have applied federated learning on horizontal approaches applied in multiple domains like energy, industry. Vertical Federated Learning (VFL) enables multiple parties to collaboratively train a machine learning model over vertically distributed datasets without data privacy leakage. <br/>
+    Internship Role and Responsibilities: <br/>
+    - Your challenge would be to investigate and experiment on vertical federated learning approach and apply it to the energy or industry domain. Develop a scalable federated learning platform using the state-of-the-art approach. <br/>
+    - Evaluation of real-world scenarios and benchmarking data. <br/>
+    - Research on state of the art of heterogeneous edge computing and federated learning frameworks and scenarios.
+    
 - title: "Building a Simulation Pipeline for Anomalous Time-Series Data in Water Networks"
   supervisors: ["Samer Ahmed", "Dilek Düştegör"]
   available: true
@@ -117,12 +141,9 @@
   description: |
     Wastewater systems can naturally be represented as graphs, where nodal pressure dynamics depend on both hydraulic conditions and network topology. Recent studies have demonstrated that standard deep learning models, such as multilayer perceptrons and convolutional neural networks, can achieve high pressure prediction accuracy when augmented with node centrality metrics (e.g., degree, betweenness, and closeness). These metrics implicitly encode structural information without explicitly modeling graph connectivity. However, despite promising results, such approaches have not yet been systematically compared with Graph Neural Networks (GNNs), which explicitly learn relational dependencies and are considered the natural baseline for topology-aware learning in WDNs.
     In this project, the student will investigate the extent to which centrality-aware feature engineering can serve as an alternative to GNN-based models for pressure prediction in WDNs. The project will involve a comparative study of centrality-aware neural networks and GNN architectures applied to benchmark water distribution networks under varying demand patterns and operating conditions. The analysis will focus on prediction performance, robustness to topology variations, generalization across different networks, and computational complexity.
-    The project scope will be adjusted according to the study level. Bachelor-level projects will focus on reproducing existing baselines and conducting a controlled comparison between centrality-aware models and a single GNN architecture. Master-level projects may extend the analysis to include cross-network transfer learning, partial observability scenarios, and ablation studies to identify which aspects of network topology are captured by centrality metrics versus explicit graph representations. The outcomes of this project aim to clarify the practical trade-offs between implicit and explicit topology encoding in machine learning models for water infrastructure systems.
-    References: (Not exhaustive)<br/>
-    <a href="https://arxiv.org/abs/2106.06861">Centrality-Aware Machine Learning for Water Network Pressure Prediction.</a>
-    <a href="https://arxiv.org/abs/1609.02907">Semi-Supervised Classification with Graph Convolutional Networks.</a>
-    <a href="https://arxiv.org/abs/1710.10903">Inductive Representation Learning on Large Graphs.</a>
-    <a href="https://arxiv.org/abs/1710.10903">Graph Attention Networks.</a>
+    The project scope will be adjusted according to the study level. Bachelor-level projects will focus on reproducing existing baselines and conducting a controlled comparison between centrality-aware models and a single GNN architecture. Master-level projects may extend the analysis to include cross-network transfer learning, partial observability scenarios, and ablation studies to identify which aspects of network topology are captured by centrality metrics versus explicit graph representations. The outcomes of this project aim to clarify the practical trade-offs between implicit and explicit topology encoding in machine learning models for water infrastructure systems.><br />
+    Reference: (Not exhaustive)<br/>
+    <a href="https://networking.ifip.org/2025/images/Net25_papers/1571131460.pdf">Centrality-Aware Machine Learning for Water Network Pressure Prediction.</a>
 
 - title: "A Systematic Review of Graph Neural Network Applications in Wastewater Systems"
   supervisors: ["Revin Naufal Alief", "Dilek Düştegör"]
@@ -422,4 +443,8 @@
   type: ["master-project"]
   description: |
     The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Instead, we would like to investigate comparing event logs against a specification of ordering relations to achieve a significant performance increase. 
+
+
+
+
 
