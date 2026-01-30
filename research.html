@@ -24,7 +24,7 @@ title: Research Areas
 <p>Our core strength lies in bridging theory and practice: we design scalable architectures and learning methods, and validate them using real sensor data, operational infrastructures, and industry-relevant use cases.</p>
 
 <h2>Current Research Projects:</h2>
-{% assign ordered_research = site.research | where_exp:"item","item.end >= {{ date: "%Y" }}" | sort:"end" %}
+{% assign ordered_research = site.research | sort:"end" %}
 {% for research in ordered_research %}
     <div class="research">
         <h3>{{ research.title }}</h3>
