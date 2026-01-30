@@ -29,10 +29,10 @@ title: Research Areas
 <hr>
 {% assign ordered_research = site.research | sort:"end" %}
 {% for research in ordered_research %}
-    <div class="research" style="margin-left: 1rem; margin-bottom: 10px; border-left: 3px solid darkgray;">
+    <div class="research" style="margin-left: 1rem; margin-bottom: 10px;">
         <h4>{{ research.title }}</h4>
         <p>{{ research.funding }} ({{ research.start }}-{{ research.end }})</p>
-        <p>{{ research.content }}</p>
+        <p style="font-style: italic;">{{ research.content }}</p>
     </div>
 {% endfor %}
 
