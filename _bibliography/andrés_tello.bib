@@ -364,17 +364,6 @@ title = "DiTEC: Digital Twin for Evolutionary Changes in Water Distribution Ne
 }
 
 
-@phdthesis{4310d0391c7c4ab0ab37eef1d115b060,
-school = "University of Groningen",
-publisher = "University of Groningen",
-language = "English",
-year = "2026",
-author = "{Tello Guerrero}, Andrés",
-abstract = "This research focuses on learning effective representations of graph-structured data to improve inference in smart environments. While state-of-the-art deep learning models are highly successful on grids or sequences, graphs pose unique challenges due to their arbitrary size, irregular structure, and lack of an explicit notion of locality. These characteristics make it nontrivial to directly apply conventional architectures, such as convolutional neural networks, to graph-based data. The thesis is organized into two parts, each focusing on a different domain, graph topology, and prediction task. Part I investigates Human Activity Recognition (HAR) using wearable and mobile sensors, where the graph topology is not explicitly given and must be inferred from data. In this setting, HAR is framed as a graph classification problem. This part highlights how conventional HAR methodologies can lead to misleading and impractical results, motivating the use of unbiased evaluation strategies. It then proposes a contrastive learning approach to capture global and local dependencies based on multiple graph constructions, leading to significant improvements in classification accuracy. Part II focuses on Water Distribution Networks (WDNs), where the graph topology is explicitly defined by the network layout. The task is formulated as a node-level regression problem aimed at reconstructing pressure signals across the network from sparsely located sensors. A graph-based model is introduced, along with robust training and evaluation strategies, resulting in a new state-of-the-art approach. Finally, it is discussed how these advances can support the development of Graph Foundation Models tailored to WDNs, outlining key challenges and strategies for their realization.",
-title = "Graph Representation Learning in Smart Environments: Sensor Embeddings with Graph Neural Networks"
-}
-
-
 @inproceedings{b41cc584ffa043ce9d9638939af189d3,
 booktitle = "Technology Trends - 4th International Conference, CITT 2018, Revised Selected Papers",
 editor = "Miguel Botto-Tobar and Mayra D’Armas and {Zúñiga Sánchez}, Miguel and Miguel Zúñiga-Prieto and Guillermo Pizarro",
@@ -408,4 +397,16 @@ author = "Andrés Tello and Victoria Degeler",
 keywords = "graph classification, graph contrastive learning, graph neural networks, human activity recognition",
 abstract = "Human Activity Recognition has achieved notable improvements with the emergence of Deep Learning models for automated feature extraction. Those models allow to extract complex translational-invariant features and to exploit the temporal dependencies from sensors' time series data. This work posits additional dependencies between sensors beyond the time dimension, such as physical proximity, which are equally important for the characterization of human activities. We leverage such spatial dependencies by modeling them as a graph. Using Graph Neural Networks (GNNs), we learn global and local representations of the intra- and intersensor dependencies. We empirically show that by maximizing the mutual information between the local and global representations, the performance of the recognition models can be significantly improved. Our results show a clear improvement over previous works based on CNNs, LSTMs, Attention-based and other more complex GNNs-based architectures. Our source code is available at: https://github.com/atello/GNNs4HAR.",
 title = "Contrasting Global and Local Representations for Human Activity Recognition using Graph Neural Networks"
+}
+
+
+@phdthesis{4310d0391c7c4ab0ab37eef1d115b060,
+school = "University of Groningen",
+publisher = "University of Groningen",
+language = "English",
+doi = "10.33612/diss.1475201941",
+year = "2026",
+author = "{Tello Guerrero}, Andrés",
+abstract = "This research focuses on learning effective representations of graph-structured data to improve inference in smart environments. While state-of-the-art deep learning models are highly successful on grids or sequences, graphs pose unique challenges due to their arbitrary size, irregular structure, and lack of an explicit notion of locality. These characteristics make it nontrivial to directly apply conventional architectures, such as convolutional neural networks, to graph-based data. The thesis is organized into two parts, each focusing on a different domain, graph topology, and prediction task. Part I investigates Human Activity Recognition (HAR) using wearable and mobile sensors, where the graph topology is not explicitly given and must be inferred from data. In this setting, HAR is framed as a graph classification problem. This part highlights how conventional HAR methodologies can lead to misleading and impractical results, motivating the use of unbiased evaluation strategies. It then proposes a contrastive learning approach to capture global and local dependencies based on multiple graph constructions, leading to significant improvements in classification accuracy. Part II focuses on Water Distribution Networks (WDNs), where the graph topology is explicitly defined by the network layout. The task is formulated as a node-level regression problem aimed at reconstructing pressure signals across the network from sparsely located sensors. A graph-based model is introduced, along with robust training and evaluation strategies, resulting in a new state-of-the-art approach. Finally, it is discussed how these advances can support the development of Graph Foundation Models tailored to WDNs, outlining key challenges and strategies for their realization.",
+title = "Graph Representation Learning in Smart Environments: Sensor Embeddings with Graph Neural Networks"
 }
