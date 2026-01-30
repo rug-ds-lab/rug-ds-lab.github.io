@@ -4,14 +4,16 @@ title: Research Areas
 ---
 
 <h2>Distributed Systems for Real-World Impact</h2>
+<hr>
 <p>We design next-generation distributed systems that combine Artificial Intelligence, Digital Twins, and adaptive data infrastructures to tackle complex societal and industrial challenges.</p>
 <p>Our research addresses a simple but urgent question:</p>
 <div style="text-align: center; padding: 8pt;">
-    <i>How can large-scale, data-driven systems be designed to remain adaptive, operational, and trustworthy/compliant while the real world keeps evolving?</i>
+    <i>"How can large-scale, data-driven systems be designed to remain adaptive, operational, and trustworthy/compliant while the real world keeps evolving?"</i>
 </div>
 <p>From water infrastructure and energy systems to manufacturing and smart environments, we build systems that evolve with their environment, rather than requiring costly shutdowns, recalibration, or manual intervention.</p>
 
 <h2>What We Do</h2>
+<hr>
 <p>We work at the intersection of:</p>
 <ul>
     <li>Distributed & Service-Oriented Systems</li>
@@ -24,16 +26,18 @@ title: Research Areas
 <p>Our core strength lies in bridging theory and practice: we design scalable architectures and learning methods, and validate them using real sensor data, operational infrastructures, and industry-relevant use cases.</p>
 
 <h2>Current Research Projects:</h2>
+<hr>
 {% assign ordered_research = site.research | sort:"end" %}
 {% for research in ordered_research %}
-    <div class="research">
-        <h3>{{ research.title }}</h3>
-        <p>{{ research.funding }}({{ research.start }}--{{ research.end }})</p>
+    <div class="research" style="margin-left: 1rem; margin-bottom: 10px; border-left: 3px solid darkgray;">
+        <h4>{{ research.title }}</h4>
+        <p>{{ research.funding }} ({{ research.start }}-{{ research.end }})</p>
         <p>{{ research.content }}</p>
     </div>
 {% endfor %}
 
 <h2>Collaboration & Impact</h2>
+<hr>
 <p>We actively collaborate with:</p>
 <ul>
     <li>Water utilities and environmental stakeholders</li>
