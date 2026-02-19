@@ -1,3 +1,12 @@
+- title: "Web-Based EPANET Hydraulic Model Comparison Tool"
+  supervisors: ["Andrés Tello", "Alexander Lazovik"]
+  available: true
+  date: 2026-02-19
+  type: ["bachelor-internship"]
+  description: |
+	  This project involves the development of a web-based tool to compare two water distribution network models created using EPANET. Using the WNTR Python library, the tool will automatically analyze structural differences between the models, including network topology, node properties (e.g., elevation), and pipe properties (e.g., diameter, length, etc.). <br/>
+	  The identified differences will be presented through an interactive visualization interface, allowing users to clearly inspect and explore changes at the node and pipe level. The tool is intended to support water utilities in validating, auditing, and managing hydraulic network models. <br/>
+
 - title: "Orchestration Framework for hybrid computing"
   supervisors: ["Alexander Lazovik"]
   available: true
@@ -443,6 +452,7 @@
   type: ["master-project"]
   description: |
     The practice of checking conformance of business process models has revolutionized the industry through the amount of insight it creates into the process flows of businesses. Conformance checking entails matching an event log (which details events of past executions) against a business process model (which details the prescribed process flow) through a so called alignment. Any deviation from the prescribed process flow is detected and reported. Generally, alignments are obtained by matching the so called token replay of process models (e.g., Petri nets) against events in logs. Instead, we would like to investigate comparing event logs against a specification of ordering relations to achieve a significant performance increase. 
+
 
 
 
