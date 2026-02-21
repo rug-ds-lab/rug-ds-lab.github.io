@@ -4,7 +4,7 @@ name: Michel Medema
 bib_names: Medema
 picture: /assets/images/profile/michel_medema.jpg
 level: affiliated
-academic_status: PhD Student
+academic_status: Postdoc
 orcid: https://orcid.org/0000-0003-2243-6529
 research:
     - "Discrete Optimisation Problems"
