@@ -6,7 +6,7 @@ room: 591
 email: andres.tello [at] rug.nl
 picture: /assets/images/profile/andres.jpg
 level: student
-academic_status: PhD Student
+academic_status: Postdoc
 orcid: https://orcid.org/0000-0003-1962-1440
 research:
     - "Knowledge Graphs"
