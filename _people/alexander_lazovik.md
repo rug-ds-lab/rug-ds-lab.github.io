@@ -5,7 +5,7 @@ bib_names: A(lexander|\.)\sLazovik|Lazovik.\sA(lexander|\.)
 room: 0578
 email: a.lazovik@rug.nl
 website: http://www.cs.rug.nl/~lazovik
-picture: /assets/images/profile/alexander_lazovik.jpg
+picture: /assets/images/profile/alexander.png
 role: Chair
 level: faculty
 academic_status: Professor
