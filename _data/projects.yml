@@ -1,3 +1,15 @@
+- title: "Distributed Systems wiki"
+  supervisors: ["Heerko Groefsema", "Dilek Düştegör", "Alexander Lazovik"]
+  available: true
+  date: 2026-04-09
+  type: ["bachelor-internship"]
+  description: |
+    Are you curious about our research group? Would you like to know how we work as a research unit? Do you think that you can improve how we work? If you answered yes to these questions, this internship is perfect for you.
+    During this internship you will set up a wiki for the group and systematically describe how we should work, what resources we have available and how we should use them, who is responsible for what and more.
+    You will do this by trying certain tasks yourself and bothering us with questions, lots of questions.
+    The result should be a wiki that methodically describes everything what a student should know when they join our group or do a project with our group.
+    Meanwhile, you will learn to know our group, learn what tasks are related to research and education, and get a good idea of how research is done.
+
 - title: "Web-Based EPANET Hydraulic Model Comparison Tool"
   supervisors: ["Andrés Tello", "Alexander Lazovik"]
   available: true
