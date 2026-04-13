@@ -245,22 +245,6 @@ title = "Declarative Enhancement Framework for Business Processes"
 }
 
 
-@inproceedings{39dde5353ed3410baacfdad4cdee761d,
-note = "The 8th IEEE International Conference on Service Oriented Computing &amp; Applications Rome, Italy, 19-21 October 2015 ; Conference date: 19-10-2015 Through 21-10-2015",
-publisher = "IEEE (The Institute of Electrical and Electronics Engineers)",
-booktitle = "8th IEEEE International Conference on Service Oriented Computing & Applications (SOCA)",
-pages = "108–115",
-language = "English",
-doi = "10.1109/SOCA.2015.14",
-month = "October",
-year = "2015",
-author = "Heerko Groefsema and {van Beest}, Nick",
-keywords = "Business Process Management, BPMN, Petri net, Kripke models, Verification, Temporal Logic",
-abstract = "In order to improve the flexibility of information systems, an increasing amount of business processes is being automated by implementing tasks as modular services in service compositions. As organizations are required to adhere to laws and regulations, with this increased flexibility there is a demand for automated compliance checking of business processes. Model checking is a technique which exhaustively and automatically verifies system models against specifications of interest, e.g. a finite state machine against a set of logic formulas. When model checking business processes, existing approaches either cause large amounts of overhead, linearize models to such an extent that activity parallelization is lost, offer only checking of runtime execution traces, or introduce new and unknown logics. In order to fully benefit from existing model checking techniques, we propose a mapping from workflow patterns to a class of labeled transition systems known as Kripke structures. With this mapping, we provide pre-runtime compliance checking using well-known branching time temporal logics. The approach is validated on a complex abstract process which includes a deferred choice, parallel branching, and a loop. The process is modeled using the Business Process Model and Notation (BPMN) standard, converted into a colored Petri net using the workflow patterns, and subsequently translated into a Kripke structure, which is then used for verification.",
-title = "Design-time Compliance of Service Compositions in Dynamic Service Environments"
-}
-
-
 @article{261afdb8cc8f4509bfcc54315323a2ff,
 number = "3",
 publisher = "IEEE",
@@ -334,4 +318,20 @@ author = "{Colombo Tosatto}, Silvano and Hannah Burke and {van Beest}, Nick and 
 keywords = "Business process model, Compliance, Data, Symbolic model verification, Symbolic execution, Constraint satisfaction",
 abstract = "State of the art design-time compliance checking techniques are generally limited to verifying control-flow relations. In this paper, we propose an algorithm for verifying design-time compliance of business process models including data. For a faithful resemblance to real-world cases, we include a degree of uncertainty in the outcomes of activities, such that a single execution is not guaranteed to lead to a unique data state. We represent the compliance requirements using conditional obligations. Our proposed approach uses a symbolic representation to compactly represent the possible data states across an execution, and evaluates them as a constraint satisfaction problem to first prune the state space of paths that require no further analysis and finally to evaluate if an execution violates one of the regulatory requirements. The performance of the approach is evaluated against existing algorithms implemented in NuXMV. The results show that our approach significantly outperforms the existing algorithms across the board.",
 title = "A first and fast symbolic approach for data-aware business process compliance checking"
+}
+
+
+@inproceedings{39dde5353ed3410baacfdad4cdee761d,
+note = "The 8th IEEE International Conference on Service Oriented Computing &amp; Applications Rome, Italy, 19-21 October 2015 ; Conference date: 19-10-2015 Through 21-10-2015",
+publisher = "IEEE (The Institute of Electrical and Electronics Engineers)",
+booktitle = "8th IEEEE International Conference on Service Oriented Computing & Applications (SOCA)",
+pages = "108–115",
+language = "English",
+doi = "10.1109/SOCA.2015.14",
+month = "October",
+year = "2015",
+author = "Heerko Groefsema and {van Beest}, Nick",
+keywords = "Business Process Management, BPMN, Petri net, Kripke models, Verification, Temporal Logic",
+abstract = "In order to improve the flexibility of information systems, an increasing amount of business processes is being automated by implementing tasks as modular services in service compositions. As organizations are required to adhere to laws and regulations, with this increased flexibility there is a demand for automated compliance checking of business processes. Model checking is a technique which exhaustively and automatically verifies system models against specifications of interest, e.g. a finite state machine against a set of logic formulas. When model checking business processes, existing approaches either cause large amounts of overhead, linearize models to such an extent that activity parallelization is lost, offer only checking of runtime execution traces, or introduce new and unknown logics. In order to fully benefit from existing model checking techniques, we propose a mapping from workflow patterns to a class of labeled transition systems known as Kripke structures. With this mapping, we provide pre-runtime compliance checking using well-known branching time temporal logics. The approach is validated on a complex abstract process which includes a deferred choice, parallel branching, and a loop. The process is modeled using the Business Process Model and Notation (BPMN) standard, converted into a colored Petri net using the workflow patterns, and subsequently translated into a Kripke structure, which is then used for verification.",
+title = "Design-time Compliance of Service Compositions in Dynamic Service Environments"
 }
