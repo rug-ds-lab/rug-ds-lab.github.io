@@ -1,14 +1,16 @@
-- title: "Distributed Systems wiki"
+- title: "Automated knowledge base"
   supervisors: ["Heerko Groefsema", "Dilek Düştegör", "Alexander Lazovik"]
   available: true
   date: 2026-04-09
-  type: ["bachelor-internship"]
+  type: ["bachelor-internship", "bachelor-project", "master-project", "master-internship"]
   description: |
-    Are you curious about our research group? Would you like to know how we work as a research unit? Do you think that you can improve how we work? If you answered yes to these questions, this internship is perfect for you.
-    During this internship you will set up a wiki for the group and systematically describe how we should work, what resources we have available and how we should use them, who is responsible for what and more.
-    You will do this by trying certain tasks yourself and bothering us with questions, lots of questions.
-    The result should be a wiki that methodically describes everything what a student should know when they join our group or do a project with our group.
-    Meanwhile, you will learn to know our group, learn what tasks are related to research and education, and get a good idea of how research is done.
+    Job hopping is a common practice in the current market.
+    However, as employees come and go, business must train its new employees to work according to their processes and using their systems.
+    Tool to do this is through onboarding and knowledge bases.
+    However, maintaining and updating these knowledge bases is a large amount of work.
+    During this project, you will investigate how the maintaining and updating of knowledge bases can be automated.
+    In doing so, you will take our research group as an example.
+    The result should be an automated knowledge base that methodically describes everything what a student should know when they join our group or do a project with our group.
 
 - title: "Web-Based EPANET Hydraulic Model Comparison Tool"
   supervisors: ["Andrés Tello", "Alexander Lazovik"]
@@ -419,7 +421,7 @@
 
 - title: Model Checking for Environmental Sustainability
   supervisors: ["Heerko Groefsema", "Michel Medema"]
-  available: true
+  available: false
   date: 2025-12-05
   type: ["bachelor-project", "master-project"]
   description: |
@@ -435,7 +437,7 @@
 
 - title: Verification of Security and Privacy concepts in BPMN Choreography diagrams
   supervisors: ["Heerko Groefsema"]
-  available: true
+  available: false
   date: 2025-12-05
   type: ["bachelor-project", "master-project"]
   description: |
