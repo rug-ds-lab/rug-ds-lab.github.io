@@ -652,21 +652,6 @@ title = "基于改进双流卷积递归神经网络的RGB-D物体识别方法"
 }
 
 
-@inproceedings{fb229f6c4e0e4139b7c0a6b21673028e,
-publisher = "IEEE",
-booktitle = "45th IEEE International Conference on Distributed Computing Systems (IEEE ICDCS 2025)",
-isbn = "979-8-3315-1726-7",
-language = "English",
-doi = "10.1109/ICDCSW63273.2025.00033",
-day = "1",
-month = "December",
-year = "2025",
-author = "Bochra Boughzala and Boris Koldehofe and Alexander Lazovik",
-abstract = "Atomic multicast is often utilized by coordination services to provide the required consistency guarantees for faulttolerant cloud applications. It ensures the reliable delivery of messages with the same total order by none or all the replicas. Atomic multicast is more efficient when its implementation is genuine, i.e., only the sender and a subset of the replicas concerned by the message are involved in the ordering decision. However, to be genuine and fault-tolerant, atomic multicast has to be executed among non-intersecting consensus groups, leading to complicated implementations particularly in multicloud environments. Scaling the performance of atomic multicast is a prominent challenge, which can benefit from modern network hardware, e.g., programmable switches which are available in current cloud infrastructures. We propose P4mCast, a novel framework to speed up multiple instances of atomic multicast involving various consensus participants of different replica groups from independent cloud applications. The presented evaluation results are based on an implementation of P4mCast over Tofino switches. P4mCast provides a throughput of billions of messages per second and a latency of only a few microseconds.",
-title = "P4mCast: Accelerating and Scaling Fault-Tolerant Atomic Multicast in Multi-Cloud Environment"
-}
-
-
 @inproceedings{e121cfb63d1241bb8de8df52edb87379,
 publisher = "IEEE (The Institute of Electrical and Electronics Engineers)",
 booktitle = "International Conference on Service Oriented Computing & Applications",
@@ -692,6 +677,21 @@ author = "{Rizky Pratama}, Azka and Alexander Lazovik and Marco Aiello",
 keywords = "Context aware, Occupancy detection, Power meter, Bluetooth Low Energy, Beacon, Office building",
 abstract = "Indoor occupancy provides information about human occupation in the closed space, most notably, office and residential buildings. This information is useful in dwindling unnecessary energy usage, such as consumption in unoccupied spaces or energy-wasting due to unnecessarily active appliances. We present an empirical experiment on office occupancy detection using simple office sensors. We choose generic power meters and mobile phones. First, we classify beacon signals received by mobile phones into a room location. A workspace map is assumed to be available to facilitate the mapping between room locations and the occupancy state of users' workspace. Second, we infer the individual occupancy state utilizing the aggregated electricity consumption of occupant-related devices (i.e., monitors) in shared offices. The later solution helps to keep costs and intrusiveness level low compared to deploying a power meter for each device or user. We experiment in an work environment with two shared offices, a personal office, and a social corner involving five volunteers. Given the acquired data, three techniques based on machine learning, optimization, and probabilistic approach are implemented and compared to evaluate their performance. The results indicate that localization and occupancy based on beaconing works best for three of the five volunteers, reaching 95% F-measure. Further findings shows that occupancy inference based on the aggregated power consumption performs well for the four volunteers when using Decision Tree classification, reaching more than 90% F-measure. Our effort on the fusion of two modalities gives a positive result for all five volunteers, ranging from 92% to 99% F-measure.",
 title = "Office Multi-Occupancy Detection using BLE Beacons and Power Meters"
+}
+
+
+@inproceedings{fb229f6c4e0e4139b7c0a6b21673028e,
+publisher = "IEEE",
+booktitle = "45th IEEE International Conference on Distributed Computing Systems (IEEE ICDCS 2025)",
+isbn = "979-8-3315-1726-7",
+language = "English",
+doi = "10.1109/ICDCSW63273.2025.00033",
+day = "1",
+month = "December",
+year = "2025",
+author = "Bochra Boughzala and Boris Koldehofe and Alexander Lazovik",
+abstract = "Atomic multicast is often utilized by coordination services to provide the required consistency guarantees for faulttolerant cloud applications. It ensures the reliable delivery of messages with the same total order by none or all the replicas. Atomic multicast is more efficient when its implementation is genuine, i.e., only the sender and a subset of the replicas concerned by the message are involved in the ordering decision. However, to be genuine and fault-tolerant, atomic multicast has to be executed among non-intersecting consensus groups, leading to complicated implementations particularly in multicloud environments. Scaling the performance of atomic multicast is a prominent challenge, which can benefit from modern network hardware, e.g., programmable switches which are available in current cloud infrastructures. We propose P4mCast, a novel framework to speed up multiple instances of atomic multicast involving various consensus participants of different replica groups from independent cloud applications. The presented evaluation results are based on an implementation of P4mCast over Tofino switches. P4mCast provides a throughput of billions of messages per second and a latency of only a few microseconds.",
+title = "P4mCast: Accelerating and Scaling Fault-Tolerant Atomic Multicast in Multi-Cloud Environment"
 }
 
 
