@@ -93,20 +93,6 @@ title = "Design-Time Compliance of Service Compositions in Dynamic Service Envir
 }
 
 
-@inproceedings{d8c02281a83e4b10bc1c64afba5be60b,
-note = "Third International Symposium on Business Modeling and Software Design (BMSD 2013) ; Conference date: 08-07-2013 Through 10-07-2013",
-publisher = "SciTePress",
-booktitle = "Proceedings of International Symposium on Business Modeling and Software Design",
-pages = "198–203",
-language = "English",
-year = "2013",
-author = "Heerko Groefsema and Doina Bucur",
-keywords = "Business Process Management, Veriﬁcation, Model Checking, Survey",
-abstract = "Formal verification of business process models is of interest to a number of application areas, including checking for basic process correctness, business compliance, and process variability. A large amount of work on these topics exist, while a comprehensive overview of the field and its directions is lacking. We provide an overview and critical reflections on existing approaches.",
-title = "A survey of formal business process verification: From soundness to variability"
-}
-
-
 @inproceedings{05ef2f6b26d145c980df64c74b85353b,
 note = "5th SIKS/BENAIS Conference on Enterprise Information Systems, EIS 2010 ; Conference date: 16-11-2010 Through 16-11-2010",
 edition = "2010",
@@ -143,26 +129,6 @@ title = "Business Process Variability: a study into process management and verif
 }
 
 
-@inproceedings{a959e880790642b7a75f3c15b555f9a9,
-url = "https://bpm2022.uni-muenster.de/",
-note = "The 20th International Conference on Business Process Management, BPM 2022 ; Conference date: 11-09-2022 Through 15-09-2022",
-booktitle = "Business Process Management Forum",
-editor = "{Di Ciccio}, {Claudio } and Dijkman, {Remco } and {del Río Ortega}, {Adela } and Rinderle-Ma, {Stefanie }",
-pages = "21–37",
-publisher = "Springer",
-series = "Lecture Notes in Business Information Processing",
-isbn = "978-3-031-16170-4",
-language = "English",
-doi = "10.1007/978-3-031-16171-1_2",
-day = "7",
-month = "September",
-year = "2022",
-author = "Heerko Groefsema and {van Beest}, Nick and Guido Governatori",
-abstract = "A wealth of techniques have been developed to help organizations understand their processes, verify correctness against requirements and diagnose potential problems. In general, these verification techniques allow us to check whether a business process conforms or complies with some specification, and each of them is specifically designed to solve a particular business problem at a stage of the BPM lifecycle. However, the terms conformance and compliance are often used as synonyms and their distinct differences in verification goals is blurring. As a result, the terminology used to describe the techniques or the corresponding verification activity does not always match with the precise meaning of the terms as they are defined in the area of verification. Consequently, confusion of these terms may hamper the application of the different techniques and the correct positioning of research. In this position paper, we aim to provide comprehensive definitions and a unified terminology throughout the BPM lifecycle. Moreover, we explore the consequences when these terms are used incorrectly. In doing so, we aim to improve adoption from research to practical applications by clarifying the relation between techniques and the intended verification goals.",
-title = "On the Use of the Conformance and Compliance Keywords During Verification of Business Processes"
-}
-
-
 @misc{aaa90f7e89bc4278905089ab94b79a39,
 note = "WO2021248201",
 type = "Patent",
@@ -191,38 +157,6 @@ author = "{van Beest}, Nick and Heerko Groefsema and Adrian Cryer and Guido Gove
 keywords = "Business process, Event log, Compliance, Regulations, Cross-instance, Instance-spanning, Runtime verification",
 abstract = "Event logs capture the execution of business processes, such that each task is represented by an event and each individual execution is a chronological sequence of events, called an event trace. Event logs allow after-the-act and runtime analysis of deployed business processes to verify whether their execution complies with regulations and business requirements. Checking the compliance of a single sequence of events in a trace is straightforward and a number of approaches have been proposed to address this. However, some regulations or business rules span multiple process instances and a cross-instance analysis is required. In order to check whether such requirements are maintained at all times, multiple traces need to be analysed together, which can result in a combinatorial computational complexity. In this paper, we present a novel approach that efficiently checks runtime regulatory compliance based on event logs, while supporting cross-instance rule evaluation and extensible function evaluation over sequences of attribute data values. The efficiency and applicability of the proposed method is tested in a two-pronged evaluation, showing a significant improvement over existing techniques with respect to capabilities as well as computational complexity. The approach presented in this paper is subject to a patent application, with patent number WO2021/248201.",
 title = "Cross-Instance Regulatory Compliance Checking of Business Process Event Logs"
-}
-
-
-@inproceedings{3cfe6528748a4ab2a2bc8d0ca68767bb,
-publisher = "Springer",
-booktitle = "Service-Oriented Computing",
-pages = "241–242",
-volume = "7221",
-isbn = "978-3-642-31874-0",
-language = "English",
-doi = "10.1007/978-3-642-31875-7_30",
-year = "2012",
-note = "Rights: Springer-Verlag; 9th International Conference on Service-Oriented Computing (ICSOC) ; Conference date: 05-12-2011 Through 08-12-2011",
-author = "P. Bulanov and H. Groefsema and M. Aiello",
-abstract = "To lower both implementation time and cost, many Business Process Management tools use process templates to implement highly recurring processes. However, in order for such templates to be used, a process has to adhere substantially to the template. Therefore, current practice for processes which deviate more than marginally is to either manually implement them at high costs, or for the business to inflexibly comply to the template. In this paper, we describe a tool which demonstrates a variability based solution to process template definition.",
-title = "Business Process Variability: A Tool for Declarative Template Design"
-}
-
-
-@article{73827a320a5546188e45b50bc8e872cb,
-publisher = "ELSEVIER SCIENCE BV",
-issn = "0166-3615",
-journal = "Computers in Industry",
-volume = "115",
-language = "English",
-doi = "10.1016/j.compind.2019.103181",
-month = "February",
-year = "2020",
-author = "Heerko Groefsema and {van Beest}, Nick and Abel Armas-Cervantes",
-keywords = "Business process models, Formal verification, Conditional compliance, Data perspective, Temporal logic",
-abstract = "When checking compliance of business processes against a set of business rules or regulations, the ability to handle and verify conditions in both the model and the rules is essential. Existing design-time verification approaches, however, either completely lack support for the verification of conditions or propose costly verification methods that also consider the full data perspective. This paper proposes a novel light-weight verification method, which is preferable over expensive approaches that include the data perspective when considering structural properties of a business process model. This novel approach generates partial models that capture only relevant execution states to the conditions under investigation. The resulting model can be verified using existing model checking techniques. The computation of such partial models fully abstracts conditions from the full models and specifications, thus avoiding the analysis of the full data perspective. The proposed method is complete with respect to the analyzed execution paths, while significantly reducing the state space complexity by pruning unreachable states given the conditions under investigation. This approach offers the ability to check if a process is compliant with rules and regulations on a much more fine-grained level, and it enables a more precise formulation of the conditions that should and should not hold in the processes. The approach is particularly useful in dynamic environments where processes are constantly changing and efficient conditional compliance checking is a necessity. The approach – implemented in Java and publicly available – is evaluated in terms of performance and practicability, and tested over both synthetic datasets and a real-life case from the Australian telecommunications sector.",
-title = "Efficient conditional compliance checking of business process models"
 }
 
 
@@ -354,4 +288,70 @@ author = "{Colombo Tosatto}, Silvano and Hannah Burke and {van Beest}, {Nick R.T
 keywords = "Alignments, Compliance, Conformance, Online Monitoring, Out-of-Order Event Streams, Process Models",
 abstract = "When monitoring compliance of event streams at runtime, it is usually assumed that the events are received in the order in which they are produced. However, in reality, event data is typically transmitted from distributed sources and may be received out-of-order as a result. This is problematic for the compliance analysis in terms of accuracy, latency and computational efficiency. In this paper, we present an approach to manage these problems by exploiting knowledge of the event sources to identify the reliable prefix of the event stream that is guaranteed to be in order, allowing a reliable analysis on that prefix. Subsequently, we use the prefix alignment of the observed event stream and a process model to quantify its reliability and identify events that might arrive out-of-order, allowing to calculate a confidence score of compliance results. This improves efficiency and provides compliance results with awareness of potential uncertainty, enabling decision makers to respond appropriately to the identified issues.",
 title = "Managing and Anticipating Out-of-Order Events in Online Compliance Monitoring"
+}
+
+
+@inproceedings{d8c02281a83e4b10bc1c64afba5be60b,
+note = "Third International Symposium on Business Modeling and Software Design (BMSD 2013) ; Conference date: 08-07-2013 Through 10-07-2013",
+publisher = "SciTePress",
+booktitle = "Proceedings of International Symposium on Business Modeling and Software Design",
+pages = "198–203",
+language = "English",
+year = "2013",
+author = "Heerko Groefsema and Doina Bucur",
+keywords = "Business Process Management, Veriﬁcation, Model Checking, Survey",
+abstract = "Formal verification of business process models is of interest to a number of application areas, including checking for basic process correctness, business compliance, and process variability. A large amount of work on these topics exist, while a comprehensive overview of the field and its directions is lacking. We provide an overview and critical reflections on existing approaches.",
+title = "A survey of formal business process verification: From soundness to variability"
+}
+
+
+@inproceedings{3cfe6528748a4ab2a2bc8d0ca68767bb,
+publisher = "Springer",
+booktitle = "Service-Oriented Computing",
+pages = "241–242",
+volume = "7221",
+isbn = "978-3-642-31874-0",
+language = "English",
+doi = "10.1007/978-3-642-31875-7_30",
+year = "2012",
+note = "Rights: Springer-Verlag; 9th International Conference on Service-Oriented Computing (ICSOC) ; Conference date: 05-12-2011 Through 08-12-2011",
+author = "P. Bulanov and H. Groefsema and M. Aiello",
+abstract = "To lower both implementation time and cost, many Business Process Management tools use process templates to implement highly recurring processes. However, in order for such templates to be used, a process has to adhere substantially to the template. Therefore, current practice for processes which deviate more than marginally is to either manually implement them at high costs, or for the business to inflexibly comply to the template. In this paper, we describe a tool which demonstrates a variability based solution to process template definition.",
+title = "Business Process Variability: A Tool for Declarative Template Design"
+}
+
+
+@article{73827a320a5546188e45b50bc8e872cb,
+publisher = "ELSEVIER SCIENCE BV",
+issn = "0166-3615",
+journal = "Computers in Industry",
+volume = "115",
+language = "English",
+doi = "10.1016/j.compind.2019.103181",
+month = "February",
+year = "2020",
+author = "Heerko Groefsema and {van Beest}, Nick and Abel Armas-Cervantes",
+keywords = "Business process models, Formal verification, Conditional compliance, Data perspective, Temporal logic",
+abstract = "When checking compliance of business processes against a set of business rules or regulations, the ability to handle and verify conditions in both the model and the rules is essential. Existing design-time verification approaches, however, either completely lack support for the verification of conditions or propose costly verification methods that also consider the full data perspective. This paper proposes a novel light-weight verification method, which is preferable over expensive approaches that include the data perspective when considering structural properties of a business process model. This novel approach generates partial models that capture only relevant execution states to the conditions under investigation. The resulting model can be verified using existing model checking techniques. The computation of such partial models fully abstracts conditions from the full models and specifications, thus avoiding the analysis of the full data perspective. The proposed method is complete with respect to the analyzed execution paths, while significantly reducing the state space complexity by pruning unreachable states given the conditions under investigation. This approach offers the ability to check if a process is compliant with rules and regulations on a much more fine-grained level, and it enables a more precise formulation of the conditions that should and should not hold in the processes. The approach is particularly useful in dynamic environments where processes are constantly changing and efficient conditional compliance checking is a necessity. The approach – implemented in Java and publicly available – is evaluated in terms of performance and practicability, and tested over both synthetic datasets and a real-life case from the Australian telecommunications sector.",
+title = "Efficient conditional compliance checking of business process models"
+}
+
+
+@inproceedings{a959e880790642b7a75f3c15b555f9a9,
+url = "https://bpm2022.uni-muenster.de/",
+note = "The 20th International Conference on Business Process Management, BPM 2022 ; Conference date: 11-09-2022 Through 15-09-2022",
+booktitle = "Business Process Management Forum",
+editor = "{Di Ciccio}, {Claudio } and Dijkman, {Remco } and {del Río Ortega}, {Adela } and Rinderle-Ma, {Stefanie }",
+pages = "21–37",
+publisher = "Springer",
+series = "Lecture Notes in Business Information Processing",
+isbn = "978-3-031-16170-4",
+language = "English",
+doi = "10.1007/978-3-031-16171-1_2",
+day = "7",
+month = "September",
+year = "2022",
+author = "Heerko Groefsema and {van Beest}, Nick and Guido Governatori",
+abstract = "A wealth of techniques have been developed to help organizations understand their processes, verify correctness against requirements and diagnose potential problems. In general, these verification techniques allow us to check whether a business process conforms or complies with some specification, and each of them is specifically designed to solve a particular business problem at a stage of the BPM lifecycle. However, the terms conformance and compliance are often used as synonyms and their distinct differences in verification goals is blurring. As a result, the terminology used to describe the techniques or the corresponding verification activity does not always match with the precise meaning of the terms as they are defined in the area of verification. Consequently, confusion of these terms may hamper the application of the different techniques and the correct positioning of research. In this position paper, we aim to provide comprehensive definitions and a unified terminology throughout the BPM lifecycle. Moreover, we explore the consequences when these terms are used incorrectly. In doing so, we aim to improve adoption from research to practical applications by clarifying the relation between techniques and the intended verification goals.",
+title = "On the Use of the Conformance and Compliance Keywords During Verification of Business Processes"
 }
