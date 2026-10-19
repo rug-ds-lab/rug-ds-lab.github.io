@@ -2,11 +2,9 @@
 layout: person
 name: Bochra Boughzala
 bib_names: Boughzala
-room: 496
-email: b.boughzala [at] rug.nl
 picture: /assets/images/profile/bochra.jpg
-level: student
-academic_status: PhD Student
+level: alumni
+academic_status: PhD Graduate
 orcid: https://orcid.org/0000-0001-9053-488X
 research:
     - "In-Network Computing"
