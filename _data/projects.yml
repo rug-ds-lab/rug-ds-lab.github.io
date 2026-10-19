@@ -1,17 +1,3 @@
-- title: "Automated knowledge base"
-  supervisors: ["Heerko Groefsema", "Dilek Düştegör", "Alexander Lazovik"]
-  available: true
-  date: 2026-04-09
-  type: ["bachelor-internship", "bachelor-project", "master-project", "master-internship"]
-  description: |
-    Job hopping is a common practice in the current market.
-    However, as employees come and go, business must train its new employees to work according to their processes and using their systems.
-    Tool to do this is through onboarding and knowledge bases.
-    However, maintaining and updating these knowledge bases is a large amount of work.
-    During this project, you will investigate how the maintaining and updating of knowledge bases can be automated.
-    In doing so, you will take our research group as an example.
-    The result should be an automated knowledge base that methodically describes everything what a student should know when they join our group or do a project with our group.
-
 - title: "Web-Based EPANET Hydraulic Model Comparison Tool"
   supervisors: ["Andrés Tello", "Alexander Lazovik"]
   available: true
@@ -418,14 +404,6 @@
     <br />References:<br />
     <a href="https://doi.org/10.1145/2882903.2915236">Fei Bi, Lijun Chang, Xuemin Lin, Lu Qin, and Wenjie Zhang. 2016. Efficient Subgraph Matching by Postponing Cartesian Products. In Proceedings of the 2016 International Conference on Management of Data (SIGMOD '16). Association for Computing Machinery, New York, NY, USA, 1199–1214</a>
     <a href="https://www.usenix.org/conference/nsdi23/presentation/lai-fan">Lai, F., Dai, Y., Madhyastha, H. V., & Chowdhury, M. (2023). {ModelKeeper}: Accelerating {DNN} training via automated training warmup. In 20th USENIX Symposium on Networked Systems Design and Implementation (NSDI 23) (pp. 769-785).</a>
-
-- title: Runtime Compliance Checking for Camunda 8
-  supervisors: ["Heerko Groefsema", "Michel Medema"]
-  available: false
-  date: 2025-12-05
-  type: ["bachelor-project", "master-internship", "master-project"]
-  description: |
-    Organisations are increasingly concerned with environmental sustainability for various reasons (e.g., legislative, economic, ecological, or social). Quantifying sustainability performance across different dimensions is necessary for fulfilling legislative requirements and evaluating improvement efforts. In this project you will integrate an existing compliance checking tool into the Camunda 8 platform.
 
 - title: Obtaining Alignments from Transition Graphs
   supervisors: ["Heerko Groefsema"]
