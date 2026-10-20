@@ -2,7 +2,7 @@
 layout: person
 name: Alexander Lazovik
 bib_names: A(lexander|\.)\sLazovik|Lazovik.\sA(lexander|\.)
-room: 0578
+room: 0580
 email: a.lazovik@rug.nl
 website: http://www.cs.rug.nl/~lazovik
 picture: /assets/images/profile/alexander.png
