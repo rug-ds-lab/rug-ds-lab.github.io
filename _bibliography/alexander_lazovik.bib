@@ -13,19 +13,6 @@
   publisher = "Nature Publishing Group",
 }
 
-@inproceedings{d9c34a39543d44698c7fbcf7ed221164,
-  title     = "Towards Context Consistency in a Rule-Based Activity Recognition Architecture",
-  abstract  = "Accurate human activity recognition (AR) is crucial for intelligent pervasive environments, e.g., energy-saving buildings. In order to gain precise and fine-grained AR results, a system must overcome partial observability of the environment and noisy, imprecise, and corrupted sensor data. In this work, we propose a rule-based AR architecture that effectively handles multiple-user, multiple-area situations, recognizing real-time office activities. The proposed solution is based on an ontological approach, using low-cost, binary, wireless sensors. We employ context consistency diagrams (CCD) as a key component for fault correction. A CCD is a data structure that provides a mechanism for probabilistic reasoning about the current situation and determines the most probable current situation in the presence of inconsistencies, conflicts, and ambiguities in sensor readings. The implementation of the system and its evaluation in a living lab environment show that the CCD corrects up to 46.8\% of sensor data faults, improving overall recognition accuracy by up to 11.1\%, thus achieving reliable recognition results from unreliable sensor data.",
-  author    = "Nguyen, \{Tuan Anh\} and Viktoriya Degeler and Rosario Contarino and Alexander Lazovik and Doina Bucur and Marco Aiello",
-  note      = "Relation: http://www.rug.nl/ Rights: University of Groningen, Johann Bernoulli Institute for Mathematics and Computer Science",
-  year      = "2013",
-  doi       = "10.1109/UIC-ATC.2013.97",
-  language  = "English",
-  pages     = "625--630",
-  booktitle = "Ubiquitous Intelligence and Computing, IEEE and International Conference on and 10th International Conference on Autonomic and Trusted Computing",
-  publisher = "IEEE (The Institute of Electrical and Electronics Engineers)",
-}
-
 @article{e71836972ad44932abf07aff7b4fa871,
   title     = "Coordinating the Web of Services for a Smart Home",
   abstract  = "Domotics, concerned with the realization of intelligent home environments, is a novel field which can highly benefit from solutions inspired by service-oriented principles to enhance the convenience and security of modern home residents. In this work, we present an architecture for a smart home, starting from the lower device interconnectivity level up to the higher application layers that undertake the load of complex functionalities and provide a number of services to end-users. We claim that in order for smart homes to exhibit a genuinely intelligent behavior, the ability to compute compositions of individual devices automatically and dynamically is paramount. To this end, we incorporate into the architecture a composition component that employs artificial intelligence domain-independent planning to generate compositions at runtime, in a constantly evolving environment. We have implemented a fully working prototype that realizes such an architecture, and have evaluated it both in terms of performance as well as from the end-user point of view. The results of the evaluation show that the service-oriented architectural design and the support for dynamic compositions is quite efficient from the technical point of view, and that the system succeeds in satisfying the expectations and objectives of the users.",
@@ -641,6 +628,20 @@
   number    = "3",
 }
 
+@article{4ec0f7405a1c44d4a25d04adb67b14d7,
+  title    = "Sensor Drift-Robust GNN Surrogates for Urban Wastewater State Estimation",
+  abstract = "Urban wastewater systems are critical infrastructures whose monitoring is complicated by sparse sensing, stochastic inflows, and complex hydraulic behavior. Physics-based hydraulic models provide accurate simulations but are computationally demanding and unsuitable for real-time operation. We adapt a graph neural network surrogate model GATRes to wastewater networks and train it on synthetic data generated from hydraulic simulations checked against known critical locations. Our main case study is the Heusden wastewater network in the Netherlands, developed in collaboration with the local municipality. The model achieves prediction errors of up to 50 cm for maximum water levels in non-flooding manholes across multiple rainfall scenarios, which aligns with the precision expected by water domain experts, though much tighter tolerances (0-10 cm) are expected at weir locations. To assess generalization, we further evaluate the approach on the open Shunqing stormwater dataset from China. However, sparse-sensing training alone does not make the model robust to biased sensor measurements. We evaluate this failure mode using synthetic additive offsets and random-walk perturbations applied to the observed sensor values. Across three random seeds, a baseline model's error grows erratically under increasing sensor drift, from +16\% to +94\% relative MAE as drift goes from none to total. Injecting synthetic drift perturbations into a subset of sensors during training instead yields small, consistent error growth across all three seeds (+6-8\%), closing most of the gap. Results demonstrate strong overall accuracy under sparse sensing and across unseen rainfall scenarios, while highlighting challenges near hydraulic structures such as pumps, weirs, and outfalls, where errors are higher but remain within acceptable ranges. These findings show that GNN surrogates can provide scalable wastewater state estimation and, with corruption-aware training, improve robustness under the evaluated synthetic sensor-drift conditions.",
+  author   = "\{Imane El Ghabi\}, Imane and Alief, \{Revin Naufal\} and Guy Henckens and Alexander Lazovik and Dilek Dustegor and Victoria Degeler",
+  year     = "2026",
+  month    = sep,
+  doi      = "10.1145/3856766.3856767",
+  language = "English",
+  volume   = "26",
+  pages    = "5--21",
+  journal  = "ACM SIGAPP Applied Computing Review",
+  number   = "3",
+}
+
 @article{a1d46eb33fbf4457b26aaa40ca3a8bf7,
   title     = "Optimizing Energy Costs for Offices Connected to the Smart Grid",
   abstract  = "In addition to providing for a more reliable distribution infrastructure, the smart grid promises to give the end users better pricing and usage information. It is thus interesting for them to be ready to take advantage of features such as dynamic energy pricing and real-time choice of operators. In this work, we propose a system to monitor and control an office environment and to couple it with the smart grid. The idea is to schedule the operation of devices according to policies defined by the users, in order to minimize the cost of operation while leaving unaffected user comfort and productivity. The implementation of the system and its testing in a living lab environment show interesting economic savings of an average of about 35\% and in some cases even overall energy savings in the order of 10\% for a building equipped with renewable generation plants, and economic and energy savings of 20\% and 10\%, respectively, for a building without local renewable installations.",
@@ -656,6 +657,19 @@
   issn      = "1949-3053",
   publisher = "IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC",
   number    = "4",
+}
+
+@inproceedings{d9c34a39543d44698c7fbcf7ed221164,
+  title     = "Towards Context Consistency in a Rule-Based Activity Recognition Architecture",
+  abstract  = "Accurate human activity recognition (AR) is crucial for intelligent pervasive environments, e.g., energy-saving buildings. In order to gain precise and fine-grained AR results, a system must overcome partial observability of the environment and noisy, imprecise, and corrupted sensor data. In this work, we propose a rule-based AR architecture that effectively handles multiple-user, multiple-area situations, recognizing real-time office activities. The proposed solution is based on an ontological approach, using low-cost, binary, wireless sensors. We employ context consistency diagrams (CCD) as a key component for fault correction. A CCD is a data structure that provides a mechanism for probabilistic reasoning about the current situation and determines the most probable current situation in the presence of inconsistencies, conflicts, and ambiguities in sensor readings. The implementation of the system and its evaluation in a living lab environment show that the CCD corrects up to 46.8\% of sensor data faults, improving overall recognition accuracy by up to 11.1\%, thus achieving reliable recognition results from unreliable sensor data.",
+  author    = "Nguyen, \{Tuan Anh\} and Viktoriya Degeler and Rosario Contarino and Alexander Lazovik and Doina Bucur and Marco Aiello",
+  note      = "Relation: http://www.rug.nl/ Rights: University of Groningen, Johann Bernoulli Institute for Mathematics and Computer Science",
+  year      = "2013",
+  doi       = "10.1109/UIC-ATC.2013.97",
+  language  = "English",
+  pages     = "625--630",
+  booktitle = "Ubiquitous Intelligence and Computing, IEEE and International Conference on and 10th International Conference on Autonomic and Trusted Computing",
+  publisher = "IEEE (The Institute of Electrical and Electronics Engineers)",
 }
 
 @inproceedings{d26d22d2e00945e3a5716da738e6c174,

@@ -182,6 +182,20 @@
   number   = "4",
 }
 
+@article{4ec0f7405a1c44d4a25d04adb67b14d7,
+  title    = "Sensor Drift-Robust GNN Surrogates for Urban Wastewater State Estimation",
+  abstract = "Urban wastewater systems are critical infrastructures whose monitoring is complicated by sparse sensing, stochastic inflows, and complex hydraulic behavior. Physics-based hydraulic models provide accurate simulations but are computationally demanding and unsuitable for real-time operation. We adapt a graph neural network surrogate model GATRes to wastewater networks and train it on synthetic data generated from hydraulic simulations checked against known critical locations. Our main case study is the Heusden wastewater network in the Netherlands, developed in collaboration with the local municipality. The model achieves prediction errors of up to 50 cm for maximum water levels in non-flooding manholes across multiple rainfall scenarios, which aligns with the precision expected by water domain experts, though much tighter tolerances (0-10 cm) are expected at weir locations. To assess generalization, we further evaluate the approach on the open Shunqing stormwater dataset from China. However, sparse-sensing training alone does not make the model robust to biased sensor measurements. We evaluate this failure mode using synthetic additive offsets and random-walk perturbations applied to the observed sensor values. Across three random seeds, a baseline model's error grows erratically under increasing sensor drift, from +16\% to +94\% relative MAE as drift goes from none to total. Injecting synthetic drift perturbations into a subset of sensors during training instead yields small, consistent error growth across all three seeds (+6-8\%), closing most of the gap. Results demonstrate strong overall accuracy under sparse sensing and across unseen rainfall scenarios, while highlighting challenges near hydraulic structures such as pumps, weirs, and outfalls, where errors are higher but remain within acceptable ranges. These findings show that GNN surrogates can provide scalable wastewater state estimation and, with corruption-aware training, improve robustness under the evaluated synthetic sensor-drift conditions.",
+  author   = "\{Imane El Ghabi\}, Imane and Alief, \{Revin Naufal\} and Guy Henckens and Alexander Lazovik and Dilek Dustegor and Victoria Degeler",
+  year     = "2026",
+  month    = sep,
+  doi      = "10.1145/3856766.3856767",
+  language = "English",
+  volume   = "26",
+  pages    = "5--21",
+  journal  = "ACM SIGAPP Applied Computing Review",
+  number   = "3",
+}
+
 @inproceedings{136117476f404218b1fc25cbe4088086,
   title     = "Windowed Multivariate LSTM Autoencoder for Leak Detection in Water Distribution Networks",
   author    = "Samer Ahmed and Dilek Dustegor and Alexander Lazovik and W{\"o}rtche, \{Heinrich J.\}",
